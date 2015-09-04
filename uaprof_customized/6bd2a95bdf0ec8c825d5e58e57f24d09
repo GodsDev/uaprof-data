@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#">
+  <rdf:Description rdf:ID="motoxt912-Profile">
+    <prf:component>
+      <rdf:Description rdf:ID="HardwarePlatform">
+        <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+        <prf:Model>xt894</prf:Model>
+        <prf:BitsPerPixel>24</prf:BitsPerPixel> <!-- added from http://www.gsmarena.com/motorola_droid_razr_xt912-4101.php and http://www.gsmarena.com/motorola_droid_4_xt894-4418.php -->
+        <prf:ScreenSize>540x960</prf:ScreenSize>
+        <prf:Vendor>Motorola</prf:Vendor>
+        <prf:InputCharSet>
+	  <rdf:Bag>
+	    <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+	    <rdf:li>UTF-8</rdf:li>
+	  </rdf:Bag>
+	</prf:InputCharSet>
+        <prf:OututCharSet>
+	  <rdf:Bag>
+	    <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+	    <rdf:li>UTF-8</rdf:li>
+	  </rdf:Bag>
+	</prf:OututCharSet>
+        <prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description rdf:ID="BrowserUA">
+        <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+        <prf:BrowserName>Webkit Browser</prf:BrowserName>
+        <prf:BrowserVersion>2.3.4</prf:BrowserVersion>
+        <prf:FramesCapable>Yes</prf:FramesCapable>
+        <prf:HtmlVersion>5.0</prf:HtmlVersion>
+        <prf:JavaAppletEnabled>No</prf:JavaAppletEnabled>
+        <prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled>
+        <prf:JavaScriptVersion>1.7</prf:JavaScriptVersion>
+        <prf:PreferenceForFrames>Yes</prf:PreferenceForFrames>
+        <prf:TablesCapable>Yes</prf:TablesCapable>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description rdf:ID="WapCharacteristics">
+        <prf:DrmClass>
+          <rdf:Bag>
+            <rdf:li>ForwardLock</rdf:li>
+          </rdf:Bag>
+        </prf:DrmClass>
+        <prf:OmaDownload>Yes</prf:OmaDownload>
+        <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+        <prf:WapVersion>2.0</prf:WapVersion>
+      </rdf:Description>
+    </prf:component>
+  </rdf:Description>
+</rdf:RDF>
