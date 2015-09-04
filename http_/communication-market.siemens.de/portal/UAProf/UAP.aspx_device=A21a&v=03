@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY prf-dt  'http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#'>
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#">
+	<rdf:Description rdf:ID="AL21a_Profile">
+		<prf:component>
+			<rdf:Description rdf:ID="HardwarePlatform">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+				<!-- General -->
+				<prf:Vendor rdf:datatype='&prf-dt;Literal'>Siemens</prf:Vendor>
+				<prf:Model rdf:datatype='&prf-dt;Literal'>AL21a</prf:Model>
+
+				<!-- Display -->
+				<prf:BitsPerPixel rdf:datatype='&prf-dt;Number'>16</prf:BitsPerPixel>
+				<prf:ColorCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:ColorCapable>
+				<prf:ImageCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:ImageCapable>
+				<prf:ScreenSize rdf:datatype='&prf-dt;Dimension'>128x128</prf:ScreenSize>
+				<prf:ScreenSizeChar rdf:datatype='&prf-dt;Dimension'>11x3</prf:ScreenSizeChar>
+
+				<!-- Keyboard -->
+				<prf:Keyboard rdf:datatype='&prf-dt;Literal'>PhoneKeypad</prf:Keyboard>
+				<prf:NumberOfSoftKeys rdf:datatype='&prf-dt;Number'>2</prf:NumberOfSoftKeys>
+				<prf:TextInputCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:TextInputCapable>
+
+				<!-- Sound -->
+				<prf:SoundOutputCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:SoundOutputCapable>
+				<prf:VoiceInputCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:VoiceInputCapable>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="SoftwarePlatform">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+				<prf:CcppAccept>
+					<rdf:Bag>
+						<!-- Basic Headers -->
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.wmlc</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.multipart.related</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.phonecom.mmc-wbxml</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>text/css</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/bmp</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/gif</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/jpeg</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/png</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/x-up-wpng</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/xhtml+xml</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>text/html</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/smil</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>audio/midi</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>audio/wav</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>audio/x-wav</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>text/x-vCalendar</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>text/x-vCard</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>image/x-MS-bmp</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>text/vnd.sun.j2me.app-descriptor</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.sic</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.slc</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/vnd.wap.coc</rdf:li>
+
+						<!-- Download Fun Headers -->
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/x-mmc.wallpaper;type=image/bmp;size=8192;w=128;h=128;color=256</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/x-mmc.wallpaper;type=image/gif;size=8192;w=128;h=128;color=256</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/x-mmc.ringtone;type=audio/midi;size=8192;voices=16</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>application/x-mmc.title;charset=us-ascii;size=30</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept>
+				<prf:CcppAccept-Charset>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>utf-8</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Charset>
+				<!-- Java -->
+				<prf:JavaEnabled rdf:datatype='&prf-dt;Boolean'>Yes</prf:JavaEnabled>
+				<prf:JavaPlatform>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>MIDP/1.0-compatible</rdf:li>
+					</rdf:Bag>
+				</prf:JavaPlatform>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="NetworkCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+				<!-- Network Info -->
+				<prf:SecuritySupport>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>WTLS-1</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>WTLS-2</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>signText</rdf:li>
+					</rdf:Bag>
+				</prf:SecuritySupport>
+				<prf:SupportedBearers>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>GPRS</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>CSD</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>SMS</rdf:li>
+					</rdf:Bag>
+				</prf:SupportedBearers>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="BrowserUA">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+
+				<!-- Browser Info -->
+				<prf:BrowserName rdf:datatype='&prf-dt;Literal'>UP.Browser</prf:BrowserName>
+				<prf:BrowserVersion rdf:datatype='&prf-dt;Literal'>6.1</prf:BrowserVersion>
+
+				<!-- Browser Capabilities -->
+				<prf:FramesCapable rdf:datatype='&prf-dt;Boolean'>No</prf:FramesCapable>
+				<prf:JavaAppletEnabled rdf:datatype='&prf-dt;Boolean'>No</prf:JavaAppletEnabled>
+				<prf:JavaScriptEnabled rdf:datatype='&prf-dt;Boolean'>No</prf:JavaScriptEnabled>
+				<prf:HtmlVersion rdf:datatype='&prf-dt;Literal'>4.0</prf:HtmlVersion>
+				<prf:XhtmlVersion rdf:datatype='&prf-dt;Literal'>1.0</prf:XhtmlVersion>
+				<prf:TablesCapable rdf:datatype='&prf-dt;Boolean'>Yes</prf:TablesCapable>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="WapCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+				<!-- Supported WAP version -->
+				<prf:WapVersion rdf:datatype='&prf-dt;Literal'>1.2</prf:WapVersion>
+				<!-- WML capabilities -->
+				<prf:WmlVersion>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.0</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.1</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.2</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.3</rdf:li>
+					</rdf:Bag>
+				</prf:WmlVersion>
+				<prf:WmlScriptVersion>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.0</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.1</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>1.2</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptVersion>
+				<prf:WmlScriptLibraries>
+					<rdf:Bag>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>Dialogs</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>Float</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>Lang</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>String</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>URL</rdf:li>
+						<rdf:li rdf:datatype='&prf-dt;Literal'>WMLBrowser</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptLibraries>
+				<prf:WmlDeckSize rdf:datatype='&prf-dt;Number'>2800</prf:WmlDeckSize>
+				<!-- WTAI -->
+				<prf:WtaiLibraries>
+					<rdf:Bag>
+						<!-- rdf:li>WTAPhoneBook</rdf:li -->
+						<rdf:li rdf:datatype='&prf-dt;Literal'>WTAVoiceCall</rdf:li>
+					</rdf:Bag>
+				</prf:WtaiLibraries>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="PushCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#PushCharacteristics"/>
+				<prf:Push-Accept-AppID>
+					<rdf:Bag>
+						<rdf:li>urn:x-wap-application:push.sia</rdf:li>
+						<rdf:li>urn:x-wap-application:wml.ua</rdf:li>
+						<rdf:li>urn:x-wap-openwave:iota.ua</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-AppID>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="MmsCharacteristics">
+			<rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+				<mms:MmsMaxMessageSize>51200</mms:MmsMaxMessageSize>
+				<mms:MmsMaxImageResolution>640x480</mms:MmsMaxImageResolution>
+				<mms:MmsCcppAccept>
+					<rdf:Bag>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>application/smil</rdf:li>
+						<rdf:li>application/x-sms</rdf:li>
+						<rdf:li>application/vnd.3gpp.sms</rdf:li>
+						<rdf:li>audio/amr</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>text/plain</rdf:li>
+						<rdf:li>text/x-vCard</rdf:li>
+						<rdf:li>text/x-vCalendar</rdf:li>
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAccept>
+				<mms:MmsCcppAcceptCharSet>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAcceptCharSet>
+				<mms:MmsVersion>
+						<rdf:Bag>
+							<rdf:li>1.0</rdf:li>
+						</rdf:Bag>
+				</mms:MmsVersion>
+			</rdf:Description>
+		</prf:component>
+	</rdf:Description>
+</rdf:RDF>

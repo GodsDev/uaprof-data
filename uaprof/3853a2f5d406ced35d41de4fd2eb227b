@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#">
+	<rdf:Description rdf:ID="Profile">
+    	<prf:component>
+			<rdf:Description rdf:ID="HardwarePlatform">
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#HardwarePlatform" />
+        		<prf:Model>MDA Vario</prf:Model>
+        		<prf:Vendor>High Tech Computer Corporation</prf:Vendor>        		
+        		<prf:BitsPerPixel>16</prf:BitsPerPixel>
+        		<prf:ColorCapable>Yes</prf:ColorCapable>
+        		<prf:ScreenSize>240x320</prf:ScreenSize>
+        		<prf:ImageCapable>Yes</prf:ImageCapable>
+        		<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+        		<prf:ScreenSizeChar>16x36</prf:ScreenSizeChar>
+        		<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+        		<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+        		<prf:TextInputCapable>Yes</prf:TextInputCapable>
+        		<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>        		
+        		<prf:InputCharSet>
+          			<rdf:Bag>
+            			<rdf:li>US-ASCII</rdf:li>
+            			<rdf:li>UTF-8</rdf:li>
+	                  	<rdf:li>UTF-16</rdf:li>
+            			<rdf:li>ISO-10646-UCS-2</rdf:li>
+          			</rdf:Bag>
+        		</prf:InputCharSet>
+        		<prf:Keyboard>Qwerty</prf:Keyboard>
+        		<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+        		<prf:OutputCharSet>
+          			<rdf:Bag>
+            			<rdf:li>US-ASCII</rdf:li>
+            			<rdf:li>UTF-8</rdf:li>
+                  		<rdf:li>UTF-16</rdf:li>
+            			<rdf:li>ISO-10646-UCS-2</rdf:li>
+          			</rdf:Bag>
+        		</prf:OutputCharSet>
+        		<prf:BluetoothProfile>
+            		<rdf:Bag>
+	            		<rdf:li>Headset Profile</rdf:li>
+	            		<rdf:li>Handsfree Profile</rdf:li>
+	            		<rdf:li>Dial-up Networking Profile</rdf:li>
+	            		<rdf:li>Object Push Profile</rdf:li>
+	            		<rdf:li>General Access Profile</rdf:li>
+	            		<rdf:li>Serial Port Profile</rdf:li>
+	            		<rdf:li>General Object Exchange Profile</rdf:li>
+	            		<rdf:li>Human Input Device Profile</rdf:li>
+            		</rdf:Bag>
+            	</prf:BluetoothProfile>
+      		</rdf:Description>
+    	</prf:component>
+    	<prf:component>
+			<rdf:Description rdf:ID="SoftwarePlatform">
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#SoftwarePlatform" />
+        		<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+        		<prf:CcppAccept>
+          			<rdf:Bag>
+			            <rdf:li>application/vnd.wap.wbxml</rdf:li>
+			            <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+				  		<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+				  		<rdf:li>application/xhtml+xml</rdf:li>
+				  		<rdf:li>application/vnd.oma.dd+xml</rdf:li>
+				  		<rdf:li>application/vnd.oma.drm.message</rdf:li>
+			    		<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li>
+				  		<rdf:li>application/java</rdf:li>
+            			<rdf:li>application/java-archive</rdf:li>
+                  		<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+ 				  		<rdf:li>audio/3gpp</rdf:li>
+				  		<rdf:li>audio/mid</rdf:li>
+  				  		<rdf:li>audio/midi</rdf:li>
+  				  		<rdf:li>audio/sp-midi</rdf:li>
+				  		<rdf:li>audio/mp3</rdf:li>
+				  		<rdf:li>audio/mp4</rdf:li>
+				  		<rdf:li>audio/mpeg</rdf:li>
+                  		<rdf:li>audio/wav</rdf:li>
+  				  		<rdf:li>audio/x-mp3</rdf:li>
+				  		<rdf:li>audio/x-mpeg</rdf:li>
+				  		<rdf:li>audio/x-mpg</rdf:li>
+				  		<rdf:li>audio/x-ms-wax</rdf:li>
+				  		<rdf:li>audio/x-ms-wma</rdf:li>
+  				  		<rdf:li>audio/x-ms-wav</rdf:li>
+				  		<rdf:li>image/bitmap</rdf:li>
+				  		<rdf:li>image/bmp</rdf:li>
+				  		<rdf:li>image/gif</rdf:li>
+                  		<rdf:li>image/jpeg</rdf:li>
+				  		<rdf:li>image/jpg</rdf:li>
+				  		<rdf:li>image/pjpeg</rdf:li>
+                  		<rdf:li>image/png</rdf:li>
+				  		<rdf:li>image/vnd.wap.wbmp</rdf:li>
+				  		<rdf:li>image/xbm</rdf:li>
+                  		<rdf:li>image/wbmp</rdf:li>
+				  		<rdf:li>image/x-bmp</rdf:li>
+				  		<rdf:li>image/x-png</rdf:li>
+                  		<rdf:li>image/x-windows-bmp</rdf:li>
+				  		<rdf:li>image/x-xbitmap</rdf:li>
+				  		<rdf:li>message/rfc822</rdf:li>
+                  		<rdf:li>text/css</rdf:li>
+                  		<rdf:li>text/html</rdf:li>
+                  		<rdf:li>text/plain</rdf:li>
+                  		<rdf:li>text/vnd.wap.wml</rdf:li>
+                  		<rdf:li>text/x-ical</rdf:li>
+                  		<rdf:li>text/xml</rdf:li>
+                  		<rdf:li>text/xsl</rdf:li>
+                  		<rdf:li>text/x-vcal</rdf:li>
+                  		<rdf:li>video/3gpp</rdf:li>
+                  		<rdf:li>video/avi</rdf:li>
+                  		<rdf:li>video/mp4</rdf:li>
+				  		<rdf:li>video/x-ms-asf</rdf:li>
+                  		<rdf:li>video/x-ms-asx</rdf:li>
+                  		<rdf:li>video/x-ms-wm</rdf:li>
+                  		<rdf:li>video/x-ms-wmp</rdf:li>
+                  		<rdf:li>video/x-ms-wmv</rdf:li>
+                  		<rdf:li>video/x-ms-wmx</rdf:li>
+                  		<rdf:li>video/x-ms-wvx</rdf:li>
+		          	</rdf:Bag>
+		        </prf:CcppAccept>
+        		<prf:CcppAccept-Charset>
+          			<rdf:Bag>
+			            <rdf:li>US-ASCII</rdf:li>
+                  		<rdf:li>ISO-10646-UCS-2</rdf:li>
+			            <rdf:li>ISO-8859-1</rdf:li>
+                  		<rdf:li>ISO-8859-2</rdf:li>
+                  		<rdf:li>ISO-8859-4</rdf:li>
+                  		<rdf:li>ISO-8859-5</rdf:li>
+                  		<rdf:li>ISO-8859-7</rdf:li>
+                  		<rdf:li>ISO-8859-9</rdf:li>
+                  		<rdf:li>Windows-1250</rdf:li>
+                  		<rdf:li>Windows-1252</rdf:li>
+                  		<rdf:li>Windows-1253</rdf:li>
+                  		<rdf:li>Windows-1254</rdf:li>
+                  		<rdf:li>UTF-16</rdf:li>
+                  		<rdf:li>UTF-16be</rdf:li>
+                  		<rdf:li>UTF-16le</rdf:li>
+                  		<rdf:li>UTF-7</rdf:li>
+			            <rdf:li>UTF-8</rdf:li>
+                  		<rdf:li>KOI8-R</rdf:li>
+                  		<rdf:li>csKOI8R</rdf:li>
+          			</rdf:Bag>
+        		</prf:CcppAccept-Charset>
+        		<prf:CcppAccept-Encoding>
+          			<rdf:Bag>
+            			<rdf:li>base64</rdf:li>
+          			</rdf:Bag>
+        		</prf:CcppAccept-Encoding>
+      		</rdf:Description>
+    	</prf:component>
+    	<prf:component>
+			<rdf:Description rdf:ID="NetworkCharacteristics">
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#NetworkCharacteristics" />
+        		<prf:SecuritySupport>
+          			<rdf:Bag>
+			            <rdf:li>WTLS-1</rdf:li>
+			            <rdf:li>WTLS-2</rdf:li>
+			            <rdf:li>SSL</rdf:li>
+					</rdf:Bag>
+        		</prf:SecuritySupport>
+        		<prf:SupportedBearers>
+		          <rdf:Bag>
+		            <rdf:li>GSM_GPRS_IPV4</rdf:li>
+		            <rdf:li>GSM_CSD_IPV4</rdf:li>
+		            <rdf:li>Desktop Passthrough</rdf:li>
+		          </rdf:Bag>
+        		</prf:SupportedBearers>
+      		</rdf:Description>
+    	</prf:component>
+    	<prf:component>
+			<rdf:Description rdf:ID="BrowserUA">
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#BrowserUA" />
+		        <prf:BrowserName>Microsoft Pocket Internet Explorer</prf:BrowserName>
+		        <prf:BrowserVersion>4.0</prf:BrowserVersion>
+		        <prf:HtmlVersion>4.01</prf:HtmlVersion>
+		        <prf:XhtmlVersion>1.1</prf:XhtmlVersion>
+		        <prf:FramesCapable>No</prf:FramesCapable>
+		        <prf:PreferenceForFrames>No</prf:PreferenceForFrames>
+		        <prf:TablesCapable>Yes</prf:TablesCapable>
+      		</rdf:Description>
+    	</prf:component>
+    	<prf:component>
+			<rdf:Description rdf:ID="WapCharacteristics">
+			<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#WapCharacteristics" />
+		        <prf:WapDeviceClass>C</prf:WapDeviceClass>
+		        <prf:WapVersion>2.0</prf:WapVersion>
+		        <prf:WmlDeckSize>3000</prf:WmlDeckSize>
+		        <prf:WmlScriptLibraries>
+					<rdf:Bag>
+			            <rdf:li>Lang</rdf:li>
+			            <rdf:li>Float</rdf:li>
+			            <rdf:li>String</rdf:li>
+			            <rdf:li>URL</rdf:li>
+			            <rdf:li>WMLBrowser</rdf:li>
+			            <rdf:li>Dialogs</rdf:li>
+					</rdf:Bag>
+        		</prf:WmlScriptLibraries>
+        		<prf:WmlScriptVersion>
+          			<rdf:Bag>
+            			<rdf:li>1.2.1/June 2000</rdf:li>
+                  		<rdf:li>1.1</rdf:li>
+          			</rdf:Bag>
+        		</prf:WmlScriptVersion>
+        		<prf:WmlVersion>
+          			<rdf:Bag>
+            			<rdf:li>1.2.1/June 2000</rdf:li>
+            			<rdf:li>1.1</rdf:li>
+          			</rdf:Bag>
+        		</prf:WmlVersion>
+        		<prf:WtaiLibraries>
+          			<rdf:Bag>
+            			<rdf:li>WTA.Public.makeCall</rdf:li>
+                  		<rdf:li>WTA.Public.sendDTMF</rdf:li>
+                  		<rdf:li>WTA.Public.addPBEntry</rdf:li>
+           			</rdf:Bag>
+        		</prf:WtaiLibraries>
+        		<prf:DrmClass>
+          			<rdf:Bag>
+	            		<rdf:li>ForwardLock</rdf:li>
+	            		<rdf:li>CombinedDelivery</rdf:li>
+	          		</rdf:Bag>
+	        	</prf:DrmClass>
+	        	<prf:DrmConstraints>
+	          		<rdf:Bag>
+	            		<rdf:li>datetime</rdf:li>
+	            		<rdf:li>interval</rdf:li>
+	            		<rdf:li>count</rdf:li>
+	          		</rdf:Bag>
+	        	</prf:DrmConstraints>
+	        	<prf:OmaDownload>Yes</prf:OmaDownload>
+      		</rdf:Description>
+    	</prf:component>
+    	<prf:component>
+			<rdf:Description rdf:ID="MMSCharacteristics">
+      		<rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics" /> 
+				<mms:MmsMaxMessageSize>307200</mms:MmsMaxMessageSize>
+				<mms:MmsMaxImageResolution>1280x1280</mms:MmsMaxImageResolution>
+				<mms:MmsCcppAccept>
+          			<rdf:Bag>
+			            <rdf:li>image/bmp</rdf:li> 
+			    		<rdf:li>image/x-bmp</rdf:li> 
+			    		<rdf:li>image/x-ms-bmp</rdf:li> 
+			    		<rdf:li>image/vnd.wap.wbmp</rdf:li> 
+			    		<rdf:li>image/gif</rdf:li> 
+			    		<rdf:li>image/jpeg</rdf:li> 
+			    		<rdf:li>image/jpg</rdf:li> 
+			    		<rdf:li>image/png</rdf:li> 
+			    		<rdf:li>audio/amr</rdf:li> 
+			   		 	<rdf:li>audio/x-amr</rdf:li> 
+			    		<rdf:li>audio/mid</rdf:li> 
+			    		<rdf:li>audio/midi</rdf:li> 
+			    		<rdf:li>audio/sp-midi</rdf:li> 
+			    		<rdf:li>audio/x-mid</rdf:li> 
+			    		<rdf:li>audio/x-midi</rdf:li> 
+			    		<rdf:li>audio/wav</rdf:li> 
+			    		<rdf:li>audio/x-wav</rdf:li> 
+			    		<rdf:li>audio/3gpp</rdf:li> 
+			    		<rdf:li>audio/mp4</rdf:li> 
+			    		<rdf:li>video/3gpp</rdf:li> 
+			    		<rdf:li>video/mp4</rdf:li>
+			    		<rdf:li>text/x-vCalendar</rdf:li> 
+			    		<rdf:li>text/x-vCard</rdf:li> 
+			    		<rdf:li>text/plain</rdf:li> 
+			    		<rdf:li>application/smil</rdf:li>
+			    		<rdf:li>application/vnd.wap.mms-message</rdf:li> 
+			    		<rdf:li>application/vnd.wap.multipart.mixed</rdf:li> 
+			    		<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+			    		<rdf:li>application/vnd.oma.drm.message</rdf:li>
+			    		<!-- 
+			    		<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li> 
+			    		-->
+          			</rdf:Bag>
+				</mms:MmsCcppAccept>
+				<mms:MmsCcppAcceptCharSet>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li> 
+			 			<rdf:li>UTF-8</rdf:li>
+			 			<rdf:li>UTF-16</rdf:li>
+			 			<rdf:li>ISO-10646-UCS-2</rdf:li> 
+			 			<rdf:li>ISO-8859-1</rdf:li>
+		          	</rdf:Bag>
+				</mms:MmsCcppAcceptCharSet>
+				<mms:MmsVersion>
+          			<rdf:Bag>
+            			<rdf:li>1.1</rdf:li>
+          			</rdf:Bag>
+				</mms:MmsVersion>
+      		</rdf:Description>
+    	</prf:component>
+  	</rdf:Description>
+</rdf:RDF>
+
+<!-- Revision History
+===========================================================================
+Date 		: 13Jul05
+Modified By	: Ohm
+
+[MMSCharacteristics]
+- Changed max image resolution to 1280x1280
+
+[SoftwarePlatform]
+- Added application/vnd.oma.drm.rights+xml
+
+===========================================================================
+Date 		: 24Jun05
+Modified By	: Ohm
+
+[General]
+- Initial creation
+
+===========================================================================
+Date 		: 03Oct05
+Modified By	: TyLee
+
+[General]
+- Copy from Wizard-01.xml
+- Modify <prf:Model>Wizard</prf:Model> to <prf:Model>MDA Vario</prf:Model>
+
+===========================================================================
+
+End Revision History -->

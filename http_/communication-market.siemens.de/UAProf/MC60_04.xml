@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<rdf:Description ID="MC60_Profile">
+		<prf:component>
+			<rdf:Description ID="HardwarePlatform">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#HardwarePlatform"/>
+				<!-- General -->
+				<prf:Vendor>Siemens</prf:Vendor>
+				<prf:Model>MC60</prf:Model>
+
+				<!-- Display -->
+				<prf:BitsPerPixel>12</prf:BitsPerPixel>
+				<prf:ColorCapable>Yes</prf:ColorCapable>
+				<prf:ImageCapable>Yes</prf:ImageCapable>
+				<prf:ScreenSize>101x80</prf:ScreenSize>
+				<prf:ScreenSizeChar>11x3</prf:ScreenSizeChar>
+
+				<!-- Keyboard -->
+				<prf:Keyboard>PhoneKeypad</prf:Keyboard>
+				<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+				<prf:TextInputCapable>Yes</prf:TextInputCapable>
+
+				<!-- Sound -->
+				<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+				<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="SoftwarePlatform">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#SoftwarePlatform"/>
+				<prf:CcppAccept>
+					<rdf:Bag>
+						<!-- Basic Headers -->
+						<rdf:li>application/vnd.wap.wmlc</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li>application/vnd.phonecom.mmc-wbxml</rdf:li>
+						<rdf:li>text/css</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>image/x-up-wpng</rdf:li>
+						<rdf:li>application/xhtml+xml;profile="http://www.wapforum.org/xhtml"</rdf:li>
+						<rdf:li>text/html</rdf:li>
+						<rdf:li>application/smil</rdf:li>
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>application/wav</rdf:li>
+						<rdf:li>application/x-wav</rdf:li>
+						<rdf:li>text/x-vCalendar</rdf:li>
+						<rdf:li>text/x-vCard</rdf:li>
+						<rdf:li>image/x-MS-bmp</rdf:li>
+						<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+						<rdf:li>application/vnd.wap.sic</rdf:li>
+						<rdf:li>application/vnd.wap.slc</rdf:li>
+						<rdf:li>application/vnd.wap.coc</rdf:li>
+
+						<!-- Download Fun Headers -->
+						<rdf:li>application/x-mmc.wallpaper;type=image/bmp;size=8192;w=101;h=80;color=256</rdf:li>
+						<rdf:li>application/x-mmc.wallpaper;type=image/gif;size=8192;w=101;h=80;color=256</rdf:li>
+						<rdf:li>application/x-mmc.ringtone;type=audio/midi;size=8192;voices=16</rdf:li>
+						<rdf:li>application/x-mmc.title;charset=us-ascii;size=30</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept>
+				<prf:CcppAccept-Charset>
+					<rdf:Bag>
+						<rdf:li>utf-8</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Charset>
+				<!-- Java -->
+				<prf:JavaEnabled>Yes</prf:JavaEnabled>
+				<prf:JavaPlatform>
+					<rdf:Bag>
+						<rdf:li>MIDP/1.0-compatible</rdf:li>
+					</rdf:Bag>
+				</prf:JavaPlatform>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="NetworkCharacteristics">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#NetworkCharacteristics"/>
+				<!-- Network Info -->
+				<prf:SecuritySupport>
+					<rdf:Bag>
+						<rdf:li>WTLS-1</rdf:li>
+						<rdf:li>WTLS-2</rdf:li>
+						<rdf:li>signText</rdf:li>
+					</rdf:Bag>
+				</prf:SecuritySupport>
+				<prf:SupportedBearers>
+					<rdf:Bag>
+						<rdf:li>GPRS</rdf:li>
+						<rdf:li>CSD</rdf:li>
+						<rdf:li>SMS</rdf:li>
+					</rdf:Bag>
+				</prf:SupportedBearers>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="BrowserUA">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#BrowserUA"/>
+
+				<!-- Browser Info -->
+				<prf:BrowserName>UP.Browser</prf:BrowserName>
+				<prf:BrowserVersion>6.1</prf:BrowserVersion>
+
+				<!-- Browser Capabilities -->
+				<prf:FramesCapable>No</prf:FramesCapable>
+				<prf:JavaAppletEnabled>No</prf:JavaAppletEnabled>
+				<prf:JavaScriptEnabled>No</prf:JavaScriptEnabled>
+				<prf:HtmlVersion>4.0</prf:HtmlVersion>
+				<prf:XhtmlVersion>1.0</prf:XhtmlVersion>
+				<prf:TablesCapable>Yes</prf:TablesCapable>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="WapCharacteristics">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#WapCharacteristics"/>
+				<!-- Supported WAP version -->
+				<prf:WapVersion>1.2</prf:WapVersion>
+				<!-- WML capabilities -->
+				<prf:WmlVersion>
+					<rdf:Bag>
+						<rdf:li>1.0</rdf:li>
+						<rdf:li>1.1</rdf:li>
+						<rdf:li>1.2</rdf:li>
+						<rdf:li>1.3</rdf:li>
+					</rdf:Bag>
+				</prf:WmlVersion>
+				<prf:WmlScriptVersion>
+					<rdf:Bag>
+						<rdf:li>1.0</rdf:li>
+						<rdf:li>1.1</rdf:li>
+						<rdf:li>1.2</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptVersion>
+				<prf:WmlScriptLibraries>
+					<rdf:Bag>
+						<rdf:li>Dialogs</rdf:li>
+						<rdf:li>Float</rdf:li>
+						<rdf:li>Lang</rdf:li>
+						<rdf:li>String</rdf:li>
+						<rdf:li>URL</rdf:li>
+						<rdf:li>WMLBrowser</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptLibraries>
+				<prf:WmlDeckSize>2800</prf:WmlDeckSize>
+				<!-- WTAI -->
+				<prf:WtaiLibraries>
+					<rdf:Bag>
+						<!-- rdf:li>WTAPhoneBook</rdf:li -->
+						<rdf:li>WTAVoiceCall</rdf:li>
+					</rdf:Bag>
+				</prf:WtaiLibraries>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="PushCharacteristics">
+				<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#PushCharacteristics"/>
+				<!-- Accepted Push-Applications -->
+				<prf:Push-Accept-AppID>
+					<rdf:Bag>
+						<rdf:li>urn:x-wap-application:push.sia</rdf:li>
+						<rdf:li>urn:x-wap-application:wml.ua</rdf:li>
+						<rdf:li>urn:x-wap-openwave:iota.ua</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-AppID>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description ID="MmsCharacteristics">
+			<rdf:type resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+				<prf:MmsMaxMessageSize>51200</prf:MmsMaxMessageSize>
+				<prf:MmsMaxImageResolution>640x480</prf:MmsMaxImageResolution>
+				<prf:MmsCcppAccept>
+					<rdf:Bag>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>application/smil</rdf:li>
+						<rdf:li>application/x-sms</rdf:li>
+						<rdf:li>application/vnd.3gpp.sms</rdf:li>
+						<rdf:li>audio/amr</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>text/plain</rdf:li>
+						<rdf:li>text/x-vCard</rdf:li>
+						<rdf:li>text/x-vCalendar</rdf:li>
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+					</rdf:Bag>
+				</prf:MmsCcppAccept>
+				<prf:MmsCcppAcceptCharset>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:MmsCcppAcceptCharset>
+				<prf:MmsVersion>1.0</prf:MmsVersion>
+			</rdf:Description>
+		</prf:component>
+	</rdf:Description>
+</rdf:RDF>

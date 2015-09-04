@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+*********************************************************************
+*	Virgin Mobile 3G handset UA Prof template
+*
+*	Version:		1.7
+*	Created:		1/3/02
+*	Organization:	Customer Equipment
+*	Modified: 		4/12/2007
+*
+*	Note
+*		Elements that are not required by Virgin Mobile have been omitted
+*		from this template. 
+*
+*	Revision History
+*       2007.1.10  wscho  delete <?xml:stylesheet type="text/xsl" href="uaprof.xsl"?>
+*  						  delete java related stuff
+*		0.1	Initial Release
+*
+*		
+*********************************************************************
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#"
+    xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#">
+	<rdf:Description rdf:ID="MyDeviceProfile">
+		<!--********************** Hardware Platform Description ***************************************-->
+		<prf:component>
+			<rdf:Description rdf:ID="HardwarePlatform">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+				<!-- ******** Vendor/model *******-->
+				<!-- Enter the vendor name here.  This must match the vendor name in the EDF -->
+				<prf:Vendor>SAMSUNG</prf:Vendor>
+				<!-- Enter the device model name here.  This must match the model name in the EDF -->
+				<prf:Model>SPH-M910</prf:Model>
+				<!-- Change if different -->
+				<prf:CPU>ARM11</prf:CPU>
+				<!--****** Display ******-->
+				<!-- Enter screen size in pixels here - width x height -->
+				<prf:ScreenSize>240x400</prf:ScreenSize>
+				<!-- "Yes" if device supports color -->
+				<prf:ColorCapable>Yes</prf:ColorCapable>
+				<!-- Enter the color or grayscale depth here -->
+				<prf:BitsPerPixel>16</prf:BitsPerPixel>
+				<!-- Change if not 1:1 -->
+				<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+				<!-- This should always be "Yes" -->
+				<prf:ImageCapable>Yes</prf:ImageCapable>
+				<!-- Enter the screen size in characters here.  Use the default font. -->
+				<prf:ScreenSizeChar>25x21</prf:ScreenSizeChar>
+				<!-- Change the to "No" only if the default font on the device is not proportional -->
+				<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+				<!-- List the supported output character sets here. -->
+				<prf:OutputCharSet>
+					<rdf:Bag>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+					</rdf:Bag>
+				</prf:OutputCharSet>
+				<!-- ******** Input capabilities ******-->
+				<!-- List the supported Input character sets here -->
+				<prf:InputCharSet>
+					<rdf:Bag>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+					</rdf:Bag>
+				</prf:InputCharSet>
+				<!-- This should always be "Yes" -->
+				<prf:TextInputCapable>Yes</prf:TextInputCapable>
+				<!-- This value should only be changed if the device does not use a standard DTMF keypad -->
+				<prf:Keyboard>Qwerty</prf:Keyboard>
+				<!-- Enter the number of softkeys supported by the device -->
+				<prf:NumberOfSoftKeys>0</prf:NumberOfSoftKeys>
+				<!-- ********* Audio **********-->
+				<!-- This should always be "Yes" -->
+				<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+				<!-- This should be "Yes" for all voice capable devices -->
+				<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+				<!--******************************-->
+			</rdf:Description>
+		</prf:component>
+		<!--********************** Software Platform Description ***************************************-->
+		<prf:component>
+			<rdf:Description rdf:ID="SoftwarePlatform">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+				<!-- ***** Basic ******-->
+				<!-- Should be "Yes" for all Java capable devices -->
+				<prf:AcceptDownloadableSoftware>No</prf:AcceptDownloadableSoftware>
+				<!-- Use this for J2ME app support -->
+				<prf:DownloadableSoftwareSupport>
+					<rdf:Bag>
+						<rdf:li>application/java-archive</rdf:li>
+					</rdf:Bag>
+				</prf:DownloadableSoftwareSupport>
+				<!-- Should not change if using Qualcomm software-->
+				<prf:OSName>Google Android; L4</prf:OSName>
+				<!-- Should not change if using Qualcomm software-->
+				<prf:OSVendor>Google; Qualcomm</prf:OSVendor>
+				<!-- Fill in version of DMSS Software base -->
+				<prf:OSVersion>Android 2.1; SBAQ6085BSNACAZ4390</prf:OSVersion>
+				<!-- ********** Java ***********-->
+				<!-- Should be yes for all Java capable products -->
+				<prf:JavaEnabled>Yes</prf:JavaEnabled>
+				<prf:JavaPlatform>
+					<rdf:Bag>
+						<rdf:li>Dalvik</rdf:li>
+					</rdf:Bag>
+				</prf:JavaPlatform>
+				<!-- Indicate the VM vendor/version here -->
+				<prf:JVMVersion>
+					<rdf:Bag>
+						<rdf:li>Dalvik</rdf:li>
+					</rdf:Bag>
+				</prf:JVMVersion>
+				<!-- ********* CCPP accept **********-->
+				<!-- List all accepted MIME types here -->
+				<prf:CcppAccept>
+					<rdf:Bag>
+
+                        <!-- Markup languages -->
+                        <rdf:li>text/html</rdf:li>
+                        <rdf:li>text/plain</rdf:li>
+
+                        <!-- Applications -->
+                        <rdf:li>application/java-archive</rdf:li>
+                        <rdf:li>application/ogg</rdf:li>
+                        <rdf:li>application/vnd.oma.dd+xml</rdf:li>
+                        <rdf:li>application/vnd.oma.drm.message</rdf:li>
+                        <rdf:li>application/vnd.wap.sic</rdf:li>
+                        <rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+                        <rdf:li>application/xhtml+xml</rdf:li>
+
+                        <!-- Images -->
+                        <rdf:li>image/gif</rdf:li> 
+                        <rdf:li>image/jpeg</rdf:li> 
+                        <rdf:li>image/jpg</rdf:li> 
+                        <rdf:li>image/png</rdf:li> 
+
+                        <!-- Audio / Multimedia  -->
+                        <rdf:li>audio/aac</rdf:li> 
+                        <rdf:li>audio/amr</rdf:li> 
+                        <rdf:li>audio/imelody</rdf:li> 
+                        <rdf:li>audio/mid</rdf:li> 
+                        <rdf:li>audio/midi</rdf:li> 
+                        <rdf:li>audio/mp3</rdf:li> 
+                        <rdf:li>audio/mpeg3</rdf:li> 
+                        <rdf:li>audio/mpeg</rdf:li> 
+                        <rdf:li>audio/mpg</rdf:li> 
+                        <rdf:li>audio/x-mid</rdf:li> 
+                        <rdf:li>audio/x-midi</rdf:li> 
+                        <rdf:li>audio/x-mp3</rdf:li> 
+                        <rdf:li>audio/x-mpeg3</rdf:li> 
+                        <rdf:li>audio/x-mpeg</rdf:li> 
+                        <rdf:li>audio/x-mpg</rdf:li> 
+                        
+                        <!-- Video / Multimedia  -->
+                        <rdf:li>video/mpeg4</rdf:li> 
+                        <rdf:li>video/mp4</rdf:li>
+                        <rdf:li>video/3gpp</rdf:li>
+ 
+
+            		
+                        <!-- Other: add other supported types here -->
+		</rdf:Bag>
+				</prf:CcppAccept>
+				<!-- List all accepted character sets here -->
+				<prf:CcppAccept-Charset>
+					<rdf:Bag>
+					<rdf:li>ISO-10646-UCS-2</rdf:li> 
+					<rdf:li>ISO-8859-1</rdf:li> 
+					<rdf:li>US-ASCII</rdf:li> 
+					<rdf:li>UTF-8</rdf:li>						
+						<!-- Enter other items... -->
+					</rdf:Bag>
+				</prf:CcppAccept-Charset>
+				<!-- List all accepted languages here in order of preference -->
+				<prf:CcppAccept-Language>
+					<rdf:Seq>
+						<rdf:li>en-us</rdf:li>
+						<!-- Enter other items... -->
+					</rdf:Seq>
+				</prf:CcppAccept-Language>
+				<!-- List all accepted transfer encodings here -->
+				<!-- Deleted CcppAccept-Encoding K.Hunter in 1.5-->
+				<!-- ******** Input Encoders ******-->
+				<prf:AudioInputEncoder>
+					<rdf:Bag><rdf:li> </rdf:li></rdf:Bag>
+				</prf:AudioInputEncoder>
+				<!--******************************-->
+			</rdf:Description>
+		</prf:component>
+		<!--********************** Network Characteristics Description ***************************************-->
+		<prf:component>
+			<rdf:Description rdf:ID="NetworkCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+				<!-- Indicate support for SSL 3.0 and TLS 1.0 -->
+				<prf:SecuritySupport>
+					<rdf:Bag>
+						<rdf:li>SSL3.0</rdf:li>
+						<rdf:li>TLS</rdf:li>
+					</rdf:Bag>
+				</prf:SecuritySupport>
+				<!-- Indicate support for IS-2000 release 0 packet data bearer -->
+				<!-- May add more detail here in a later rev. -->
+				<prf:SupportedBearers>
+					<rdf:Bag>
+						<rdf:li>IPv4</rdf:li>
+						<rdf:li>IPv6</rdf:li>
+						<rdf:li>HTTP 1.1</rdf:li>
+						<rdf:li>FTP</rdf:li>
+						<rdf:li>file://</rdf:li>
+						<rdf:li>TLS</rdf:li>
+						<rdf:li>SMS</rdf:li>
+					</rdf:Bag>
+				</prf:SupportedBearers>
+			</rdf:Description>
+		</prf:component>
+		<!--********************** Browser UA Description ***************************************-->
+		<prf:component>
+			<rdf:Description rdf:ID="BrowserUA">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+				<!-- ********* Browser Identification ********** -->
+				<!-- Enter the browser vendor/product name here -->
+				<prf:BrowserName>Android Browser</prf:BrowserName>
+				<!-- Enter the browser version here -->
+				<prf:BrowserVersion>0.6</prf:BrowserVersion>
+				<!-- ********** Capabilities *********** -->
+				<!-- Frames are not supported -->
+				<prf:FramesCapable>Yes</prf:FramesCapable>
+				<!-- Basic tables are supported in xhtml-basic -->
+				<prf:TablesCapable>Yes</prf:TablesCapable>
+				<!-- Frames are not supported -->
+				<prf:PreferenceForFrames>No</prf:PreferenceForFrames>
+				<!-- *********** Applet / Script support is not required ********** -->
+				<prf:DownloadableBrowserApps>
+					<rdf:Bag>
+						<rdf:li>No</rdf:li>
+					</rdf:Bag>
+				</prf:DownloadableBrowserApps>
+				<prf:JavaAppletEnabled>No</prf:JavaAppletEnabled>
+				<prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled>
+				<!-- ************* XHTML support - indicate XHTML-Basic 1.0 ************ -->
+				<prf:XhtmlVersion>XHTML-Basic/1.1</prf:XhtmlVersion>
+				<prf:XhtmlModules>
+					<rdf:Bag><rdf:li> </rdf:li></rdf:Bag>
+				</prf:XhtmlModules>
+				<!--******************************-->
+			</rdf:Description>
+		</prf:component>
+		<!--********************** WAP Characteristics Description ***************************************-->
+		<prf:component>
+			<rdf:Description rdf:ID="WapCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+				<!--******** General ***********-->
+				<!-- WAP Device Class defined in http://www1.wapforum.org/tech/documents/PROP-ClassConform-20000211.pdf -->
+				<!-- Values are "A", "B" or "C" -->
+				<prf:WapDeviceClass>C</prf:WapDeviceClass>
+				<prf:WapVersion>1.2.1; 2.0</prf:WapVersion>
+				<!--*********** WML ************-->
+				<!-- If full wml 2.0 is supported, it should be added here -->
+				<prf:WmlVersion>
+					<rdf:Bag>
+						<rdf:li>2.0</rdf:li>
+					</rdf:Bag>
+				</prf:WmlVersion>
+				<!-- Enter the maximum deck size for wml -->
+				<prf:WmlDeckSize>8000000</prf:WmlDeckSize>
+				<!--******************************-->
+			</rdf:Description>
+		</prf:component>
+		<!--********************** Push Characteristics Description ***************************************-->
+		<!-- Note: This entire section is TBD in this revision -->
+		<prf:component>
+			<rdf:Description rdf:ID="PushCharacteristics">
+				<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#PushCharacteristics"/>
+				<prf:Push-Accept>
+					<rdf:Bag>
+						<rdf:li>text/plain</rdf:li> 
+					</rdf:Bag>
+				</prf:Push-Accept>
+				<prf:Push-Accept-Encoding>
+					<rdf:Bag>
+						<rdf:li>base64</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Encoding>
+				<prf:Push-Accept-AppID>
+					<rdf:Bag>
+						<rdf:li> </rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-AppID>
+				<prf:Push-MsgSize>4096</prf:Push-MsgSize>
+				<!-- ********************************-->
+			</rdf:Description>
+		</prf:component>
+
+<!--  ******************************************************************   -->
+        <!--  *****             Component: MMSCharacteristics              *****   -->
+        <!--  ******************************************************************   -->
+        <prf:component>
+            <rdf:Description rdf:ID="MmsCharacteristics">
+                <rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+                <mms:MmsMaxMessageSize>524288</mms:MmsMaxMessageSize>
+                <mms:MmsMaxImageResolution>480x640</mms:MmsMaxImageResolution>
+                <mms:MmsCcppAccept>
+                    <rdf:Bag>
+                        <!-- Applications -->
+                        <rdf:li>application/smil</rdf:li>
+                        <rdf:li>application/vnd.wap.mms-message</rdf:li>
+                        <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+                        <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+                        <rdf:li>application/vnd.oma.drm.message</rdf:li>
+                        <rdf:li>application/vnd.smaf</rdf:li>
+                        <rdf:li>text/plain</rdf:li>
+                        <!-- Images -->
+                        <rdf:li>image/jpeg</rdf:li>
+                        <rdf:li>image/jpg</rdf:li>
+                        <rdf:li>application/x-png</rdf:li>
+                        <rdf:li>image/bmp</rdf:li>
+                        <rdf:li>image/wbmp</rdf:li>                        
+                        <rdf:li>image/gif</rdf:li>
+                        <!-- Audio -->
+                        <rdf:li>audio/midi</rdf:li>
+                        <rdf:li>audio/amr</rdf:li>
+                        <rdf:li>audio/wav</rdf:li>
+                        <rdf:li>audio/mp3</rdf:li> 
+                        <!-- Video / Multimedia  -->
+                        <rdf:li>video/mpeg4</rdf:li> 
+                        <rdf:li>video/mp4</rdf:li>
+                        <rdf:li>video/3gpp</rdf:li>
+                     </rdf:Bag>
+                </mms:MmsCcppAccept>
+                <mms:MmsCcppAcceptCharSet>
+                    <rdf:Bag>
+ 	                <rdf:li>US-ASCII</rdf:li>
+      			<rdf:li>ISO-8859-1</rdf:li>
+      			<rdf:li>UTF-8</rdf:li>
+                    </rdf:Bag>
+                </mms:MmsCcppAcceptCharSet>
+                <mms:MmsCcppAcceptLanguage>
+                    <rdf:Bag>
+                        <rdf:li>en</rdf:li>
+				<rdf:li>es</rdf:li>
+                    </rdf:Bag>
+                </mms:MmsCcppAcceptLanguage>
+                <mms:MmsVersion>
+                    <rdf:Bag>
+                        <rdf:li>1.1</rdf:li>
+                    </rdf:Bag>
+                </mms:MmsVersion>
+            </rdf:Description>
+        </prf:component>
+    </rdf:Description>
+</rdf:RDF>
+

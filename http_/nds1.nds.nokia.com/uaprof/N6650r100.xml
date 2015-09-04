@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns">
+   <rdf:Description rdf:ID="Nokia6650">
+      <prf:component>
+         <rdf:Description rdf:ID="SoftwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#SoftwarePlatform"/>
+            <prf:CcppAccept>
+               <rdf:Seq>
+                  <rdf:li>application/vnd.wap.wmlc</rdf:li>
+                  <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+                  <rdf:li>application/vnd.wap.hashed-certificate</rdf:li>
+                  <rdf:li>application/vnd.wap.signed-certificate</rdf:li>
+                  <rdf:li>application/vnd.wap.cert-response</rdf:li>
+                  <rdf:li>application/x-nokia.settings</rdf:li>
+                  <rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+                  <rdf:li>application/vnd.wap.mms-message</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart-mixed</rdf:li>
+                  <rdf:li>application/vnd.wap.sic</rdf:li>
+                  <rdf:li>application/java</rdf:li>
+                  <rdf:li>application/java-archive</rdf:li>
+                  <rdf:li>application/x-java-archive</rdf:li>
+                  <rdf:li>audio/mid</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/x-mid</rdf:li>
+                  <rdf:li>audio/x-midi</rdf:li>
+                  <rdf:li>audio/sp-midi</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/jpg</rdf:li>
+                  <rdf:li>image/bmp</rdf:li>
+                  <rdf:li>image/vnd.nok-oplogo-color</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd-nok-camera-snap</rdf:li>
+                  <rdf:li>image/vnd-nok-camera-snsp</rdf:li>
+                  <rdf:li>image/vnd.nok-wallpaper</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>text/vnd.wap.si</rdf:li>
+                  <rdf:li>text/vnd.wap.sl</rdf:li>
+                  <rdf:li>text/vnd.wap.wml</rdf:li>
+                  <rdf:li>text/vnd.wap.wmlscript</rdf:li>
+                  <rdf:li>text/x-co-desc</rdf:li>
+                  <rdf:li>text/x-vCalendar</rdf:li>
+                  <rdf:li>text/x-vCard</rdf:li>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+               </rdf:Seq>
+            </prf:CcppAccept>
+            <prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="PushCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#PushCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="BrowserUA">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#BrowserUA"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="NetworkCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#NetworkCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="MmsCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#MmsCharacteristics"/>
+            <prf:MmsMaxMessageSize>100000</prf:MmsMaxMessageSize>
+            <prf:MmsMaxImageResolution>640x480</prf:MmsMaxImageResolution>
+            <prf:MmsCcppAccept>
+               <rdf:Seq>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd.nok-wallpaper</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>image/bmp</rdf:li>
+                  <rdf:li>audio/mid</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/x-mid</rdf:li>
+                  <rdf:li>audio/x-midi</rdf:li>
+                  <rdf:li>audio/sp-midi</rdf:li>
+                  <rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+                  <rdf:li>audio/amr</rdf:li>
+                  <rdf:li>video/3gpp</rdf:li>
+               </rdf:Seq>
+            </prf:MmsCcppAccept>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="WapCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#WapCharacteristics"/>
+            <prf:WmlDeckSize>10000</prf:WmlDeckSize>
+            <prf:WapDeviceClass>C</prf:WapDeviceClass>
+            <prf:WapVersion>1.2.1</prf:WapVersion>
+            <prf:DrmClass>
+               <rdf:Seq>
+                  <rdf:li>ForwardLock</rdf:li>
+               </rdf:Seq>
+            </prf:DrmClass>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="HardwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#HardwarePlatform"/>
+            <prf:ScreenSize>128x160</prf:ScreenSize>
+            <prf:ImageCapable>Yes</prf:ImageCapable>
+            <prf:ColorCapable>Yes</prf:ColorCapable>
+            <prf:Vendor>Nokia</prf:Vendor>
+            <prf:ScreenSizeChar>25x7</prf:ScreenSizeChar>
+         </rdf:Description>
+      </prf:component>
+   </rdf:Description>
+</rdf:RDF>

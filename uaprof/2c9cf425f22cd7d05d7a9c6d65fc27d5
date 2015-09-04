@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!-- ===================================================== -->
+<!--                                                       -->
+<!-- Copyright (c) 2003 Nokia. All rights reserved.        -->
+<!--                                                       -->
+<!-- The contents of this document are provided "as is".   -->
+<!-- No warranties of any kind, either express or implied, -->
+<!-- including, but not limited to, the implied warranties -->
+<!-- of merchantability and fitness for a particular       -->
+<!-- purpose, are made in relation to the accuracy,        -->
+<!-- reliability or contents of this document. Nokia       -->
+<!-- reserves the right to revise this document or         -->
+<!-- withdraw it at any time without prior notice.         -->
+<!--                                                       -->
+<!-- ===================================================== -->
+<!-- ===================================================== -->
+<!--                                                       -->
+<!-- Version 2.3 4rd of Oct  2004 Updated by IOP Operations-->
+<!--                                                       -->
+<!-- ===================================================== -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#"
+	xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#">
+   <rdf:Description rdf:ID="Profile">
+      <prf:component>
+            <rdf:Description rdf:ID="HardwarePlatform">
+           	<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+            <prf:ScreenSize>128x128</prf:ScreenSize>
+            <prf:Model>7250i</prf:Model>
+            <prf:InputCharSet>
+               <rdf:Bag>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>ISO-8859-1</rdf:li>
+                  <rdf:li>ISO-10646-UCS-2</rdf:li>
+               </rdf:Bag>
+            </prf:InputCharSet>
+            <prf:ScreenSizeChar>18x5</prf:ScreenSizeChar>
+            <prf:BitsPerPixel>12</prf:BitsPerPixel>
+            <prf:ColorCapable>Yes</prf:ColorCapable>
+            <prf:TextInputCapable>Yes</prf:TextInputCapable>
+            <prf:ImageCapable>Yes</prf:ImageCapable>
+            <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+            <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+            <prf:Vendor>Nokia</prf:Vendor>
+            <prf:OutputCharSet>
+               <rdf:Bag>
+                  <rdf:li>ISO-8859-1</rdf:li>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>ISO-10646-UCS-2</rdf:li>
+               </rdf:Bag>
+            </prf:OutputCharSet>
+            <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+            <prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+            <prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+        		<rdf:Description rdf:ID="SoftwarePlatform">
+           		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+            <prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+            <prf:CcppAccept>
+               <rdf:Bag>
+                  <rdf:li>application/java-archive</rdf:li>
+                  <rdf:li>application/java</rdf:li>
+                  <rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+                  <rdf:li>application/vnd.oma.drm.message</rdf:li>
+                  <rdf:li>application/vnd.wap.cert-response</rdf:li>
+                  <rdf:li>application/vnd.wap.hashed-certificate</rdf:li>
+                  <rdf:li>application/vnd.wap.mms-message</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart-mixed</rdf:li>
+                  <rdf:li>application/vnd.wap.sic</rdf:li>
+                  <rdf:li>application/vnd.wap.signed-certificate</rdf:li>
+                  <rdf:li>application/vnd.wap.slc</rdf:li>
+                  <rdf:li>application/vnd.wap.wbxml</rdf:li>
+                  <rdf:li>application/vnd.wap.wmlc</rdf:li>
+                  <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+                  <rdf:li>application/vnd.wap.wtls-ca-certificate</rdf:li>
+                  <rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+                  <rdf:li>application/wml+xml</rdf:li>
+                  <rdf:li>application/x-java-archive</rdf:li>
+                  <rdf:li>application/x-nokia.settings</rdf:li>
+                  <rdf:li>application/x-wap-prov.browser-bookmarks</rdf:li>
+                  <rdf:li>application/x-wap-prov.browser-settings</rdf:li>
+                  <rdf:li>application/xhtml+xml</rdf:li>
+                  <rdf:li>audio/mid</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/sp-midi</rdf:li>
+                  <rdf:li>audio/x-mid</rdf:li>
+                  <rdf:li>audio/x-midi</rdf:li>
+                  <rdf:li>image/bmp</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/jpg</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd-nok-camera-snap</rdf:li>
+                  <rdf:li>image/vnd-nok-camera-snsp</rdf:li>
+                  <rdf:li>image/vnd.nok-oplogo-color</rdf:li>
+                  <rdf:li>image/vnd.nok-wallpaper</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>text/css</rdf:li>
+                  <rdf:li>text/html</rdf:li>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+                  <rdf:li>text/vnd.wap.wml</rdf:li>
+                  <rdf:li>text/x-co-desc</rdf:li>
+                  <rdf:li>text/x-vCalendar</rdf:li>
+                  <rdf:li>text/x-vCard</rdf:li>
+               </rdf:Bag>
+            </prf:CcppAccept>
+            <prf:CcppAccept-Charset>
+               <rdf:Bag>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>ISO-8859-1</rdf:li>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>ISO-10646-UCS-2</rdf:li>
+               </rdf:Bag>
+            </prf:CcppAccept-Charset>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+        	<rdf:Description rdf:ID="NetworkCharacteristics">
+           	 <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+           		<prf:SecuritySupport>
+              		    <rdf:Bag>
+                 		<rdf:li>WTLS-2</rdf:li>
+              		    </rdf:Bag>
+            		</prf:SecuritySupport>
+            <prf:SupportedBearers>
+               <rdf:Bag>
+                  <rdf:li>GPRS</rdf:li>
+                  <rdf:li>CSD</rdf:li>
+               </rdf:Bag>
+            </prf:SupportedBearers>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+        		<rdf:Description rdf:ID="BrowserUA">
+           		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+            <prf:BrowserName>Nokia</prf:BrowserName>
+            <prf:FramesCapable>No</prf:FramesCapable>
+            <prf:TablesCapable>Yes</prf:TablesCapable>
+            <prf:XhtmlVersion>basic 1.0</prf:XhtmlVersion>
+            <prf:XhtmlModules>
+		<rdf:Bag>
+			<rdf:li>xhtml-basic10</rdf:li>
+		</rdf:Bag>
+	    </prf:XhtmlModules>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+        	<rdf:Description rdf:ID="WapCharacteristics">
+           	<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+            <prf:WapDeviceClass>C</prf:WapDeviceClass>
+            <prf:WapVersion>1.2.1</prf:WapVersion>
+            <prf:WmlVersion>
+               <rdf:Bag>
+                  <rdf:li>1.2.1</rdf:li>
+                  <rdf:li>1.1</rdf:li>
+               </rdf:Bag>
+            </prf:WmlVersion>
+            <prf:WmlDeckSize>5600</prf:WmlDeckSize>
+            <prf:WmlScriptVersion>
+               <rdf:Bag>
+                  <rdf:li>1.2.1</rdf:li>
+                  <rdf:li>1.1</rdf:li>
+               </rdf:Bag>
+            </prf:WmlScriptVersion>
+            <prf:WmlScriptLibraries>
+               <rdf:Bag>
+                  <rdf:li>Lang</rdf:li>
+                  <rdf:li>Float</rdf:li>
+                  <rdf:li>String</rdf:li>
+                  <rdf:li>URL</rdf:li>
+                  <rdf:li>WMLBrowser</rdf:li>
+                  <rdf:li>Dialogs</rdf:li>
+               </rdf:Bag>
+            </prf:WmlScriptLibraries>
+            <prf:WtaiLibraries>
+               <rdf:Bag>
+                  <rdf:li>WTA.Public.makeCall</rdf:li>
+                  <rdf:li>WTA.Public.sendDTMF</rdf:li>
+                  <rdf:li>WTA.Public.addPBEntry</rdf:li>
+               </rdf:Bag>
+            </prf:WtaiLibraries>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+        	<rdf:Description rdf:ID="MmsCharacteristics">
+           	  <rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+            <mms:MmsMaxMessageSize>45000</mms:MmsMaxMessageSize>
+            <mms:MmsMaxImageResolution>640x480</mms:MmsMaxImageResolution>
+            <mms:MmsCcppAccept>
+               <rdf:Bag>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd.nok-wallpaper</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>image/bmp</rdf:li>
+                  <rdf:li>audio/mid</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/x-mid</rdf:li>
+                  <rdf:li>audio/x-midi</rdf:li>
+                  <rdf:li>audio/sp-midi</rdf:li>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>application/vnd.nokia.ringing-tone</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+               </rdf:Bag>
+            </mms:MmsCcppAccept>
+            <mms:MmsCcppAcceptCharSet>
+               <rdf:Bag>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>ISO-8859-1</rdf:li>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>ISO-10646-UCS-2</rdf:li>
+               </rdf:Bag>
+            </mms:MmsCcppAcceptCharSet>
+            <mms:MmsVersion>
+		<rdf:Bag>
+			<rdf:li>1.0</rdf:li>
+		</rdf:Bag>
+	    </mms:MmsVersion>
+         </rdf:Description>
+      </prf:component>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" 
+
+href="http://device.sprintpcs.com/uaprof1.xsl"?>
+<!--
+***********************************************************************************************************************
+*	UA Prof template
+*
+*	Version:		2.3.1
+*	Created:		1/3/2002
+*	Organization:	Customer Equipment
+*	Modified: 		4/18/2012
+*
+*	Copyright 2012 Sprint
+*
+*	Note:
+*		Elements that are not required have been omitted from this template.
+*
+*	Revision History:
+*		1.0.0  Initial Release
+*
+*		1.2.0  2003.01.06 Updated for Multimedia.
+*
+*		1.3.0  2004.10.21 Updated FOTA Components, OTA Diagnostics Components, Multimedia Component to include 
+*                  MultimediaEncoderDisplaySize and WapDeviceClass with documentation.
+*
+*		1.4.0  2005.06.29 Added for Browser Portal Version, IOTA Protocol Version and DateNetworkType in the Sprint
+*                  Extensions.
+*
+*		1.5.0  2005.09.08 Deleted CcppAccept-Encoding from SoftwarePlatform section.
+*                  Note:  If the CcppAccept-Encoding is include in the rdf with a Multimedia device, then this will
+*                  prohibit the device from streaming multimedia content.
+*
+*		1.5.1  2005.10.27 Updated profie to validate with MAG.
+*
+*		1.5.2  2005.11.10 Changed units of measure on the Multimedia Maximum Bit Rate for Streaming and for Encoding
+*                  from fps to kbps.
+*
+*		1.6.0  2006.01.06 Added for Sprint On Demand, Capable and Version, MI-UI, Capable and Version in the Sprint
+*                  Extensions.  Added x-pcs/od.content and x-pcs/theme to CcppAccept.
+*
+*		1.7.0  2016.12.05 Added # to the xpcs namespace URL.
+*
+*       1.8.0  2017.02.28 Added GLMS attributes.
+*
+*       2.0.0  2008.01.21 Added WiMAX attributes.
+*
+*		2.1.0  2010.07.29 Added support for PSS, 3GPP, MmsCharacteristics Component. Added to Sprint Extensions: 
+*                  FMRadioTransmitCapable, FMRadioReceiveCapable and DLNACapable.
+*			       Removed: IOTAProtocolVersion, FotaProtocolVersion, MI-UICapable, MI-UIVersion, AdvertisingCapable,
+*                  DiagnosticsProtocolVersion, DiagnosticsClientVersion, DiagnosticsClientVendor, BrowserPortalVersion,
+*                  OnDemandVersion, CommerceCapable, EmailCapable, FixedVoIPCapable, GamingCapable, VoiceChatCapable, 
+*                  IMVideoCallingCapable, IntelligentSearchCapable, MobileTVORVODCapable, RadioCapable, DeviceType, 
+*                  HardwareVersion, ManufacturerWiMAXRadioModule, FirmwareVersionWiMAXRadioModule, VOIPAnalogJacks, 
+*                  ModelWiMAXRadioModule, OMADMCapable, OMADMVendor, ConnectionManagerVendor, ConnectionManagerVersion,
+*                  EmbeddedApplicationsCapable, DownStreamBufferSize, UpStreamBufferSize, AntiVirus, AntiVirusVendor, 
+*                  AntiSpam, and AntiSpamVendor
+*
+*       2.1.1  2011.09.23 Capitalized the P in BluetoothProfile.
+*
+*		2.2.0  2011.10.26 Removed SprintMcdVersion, no longer supported.
+*
+*		2.3.0  2012.01.26 Added DSS ClientVersion value to the UAProf Extensions.
+*
+*       2.3.1  2012.04.18 Changed model name to model number in documentation.
+*		
+***********************************************************************************************************************
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#" xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:pss6="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#" xmlns:xpcs="http://device.sprintpcs.com/sprint-schema-xpcs#">
+	<rdf:Description rdf:ID="MyDeviceProfile">
+		<!-- ************************************************* -->
+		<!-- ***** Component: HardwarePlatform ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="HardwarePlatform">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#HardwarePlatform"/>
+				<!-- Enter the vendor name as in the EDF -->
+				<prf:Vendor>LG</prf:Vendor>
+				<!-- Enter device model number as in the EDF -->
+				<prf:Model>LS980</prf:Model>
+				<prf:CPU>Krait</prf:CPU>
+				<!-- Enter screen size in pixels here - width x height -->
+				<prf:ScreenSize>1080x1920</prf:ScreenSize>
+				<!-- Yes or No -->
+				<prf:ColorCapable>Yes</prf:ColorCapable>
+				<!-- Enter the color or grayscale depth here -->
+				<prf:BitsPerPixel>24</prf:BitsPerPixel>
+				<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+				<prf:ImageCapable>Yes</prf:ImageCapable>
+				<!-- Enter the screen size in characters here.  Use the default font. -->
+				<prf:ScreenSizeChar>25x21</prf:ScreenSizeChar>
+				<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+				<!-- List the supported output character sets here. -->
+				<prf:OutputCharSet>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:OutputCharSet>
+				<!-- List the supported Input character sets here -->
+				<prf:InputCharSet>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:InputCharSet>
+				<prf:TextInputCapable>Yes</prf:TextInputCapable>
+				<prf:Keyboard>TouchKeypad</prf:Keyboard>
+				<prf:NumberOfSoftKeys>0</prf:NumberOfSoftKeys>
+				<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+				<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+				<prf:BluetoothProfile>
+					<rdf:Bag>
+						<rdf:li>Headset Profile</rdf:li>
+						<rdf:li>Handsfree Profile</rdf:li>
+						<rdf:li>Advanced Audio Distribution Profile</rdf:li>
+						<rdf:li>Audio/Video Remote Control Profile</rdf:li>
+						<rdf:li>Object Push Profile</rdf:li>
+						<rdf:li>File Transfer Profile</rdf:li>
+						<rdf:li>Serial Port Profile</rdf:li>
+						<rdf:li>Phone Book Access Profile</rdf:li>
+						<rdf:li>Message Access Profile</rdf:li>
+						<rdf:li>Human Interface Device Profile</rdf:li>
+						<rdf:li>Personal Area Networking Profile</rdf:li>
+					</rdf:Bag>
+				</prf:BluetoothProfile>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: SoftwarePlatform ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="SoftwarePlatform">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#SoftwarePlatform"/>
+				<!-- Should be "Yes" for all Java capable devices -->
+				<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+				<!-- Use this for J2ME app support -->
+				<prf:DownloadableSoftwareSupport>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:DownloadableSoftwareSupport>
+				<!-- Enter the software version number that matches the version reported via IOTA-->
+				<prf:SoftwareNumber>LS980ZVC</prf:SoftwareNumber>
+				<prf:OSName>Google Android</prf:OSName>
+				<prf:OSVendor>Google / Qualcomm</prf:OSVendor>
+				<prf:OSVersion>Android 4.4.2 / M8974AAAAANLYD1311326.1</prf:OSVersion>
+				<prf:JavaEnabled>Yes</prf:JavaEnabled>
+				<!-- Indicate MIDP + Sprint Extension profile support -->
+				<prf:JavaPlatform>
+					<rdf:Bag>
+						<rdf:li>Android</rdf:li>
+					</rdf:Bag>
+				</prf:JavaPlatform>
+				<!-- Indicate the VM vendor/version here -->
+				<prf:JVMVersion>
+					<rdf:Bag>
+						<rdf:li>Dalvik</rdf:li>
+					</rdf:Bag>
+				</prf:JVMVersion>
+				<!-- List all accepted MIME types here -->
+				<prf:CcppAccept>
+					<rdf:Bag>
+					<!-- Markup languages -->
+					<rdf:li>text/html</rdf:li>
+					<rdf:li>text/plain</rdf:li>
+					<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+					<rdf:li>application/xhtml+xml</rdf:li>				
+					<rdf:li>text/css</rdf:li>	
+					<!--  DRM -->
+					<rdf:li>application/vnd.oma.drm.message</rdf:li> 
+					<rdf:li>application/vnd.oma.drm.content</rdf:li> 
+					<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li> 
+					<rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li> 
+					<rdf:li>application/vnd.oma.dd+xml</rdf:li> 
+					<!-- MMS -->
+					<rdf:li>application/smil</rdf:li>
+					<rdf:li>application/vnd.wap.mms-message</rdf:li>
+					<rdf:li>application/vnd.wap.mms-generic</rdf:li>
+					<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+					<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+					<rdf:li>application/x-pcs-mcd+xml</rdf:li>
+					<rdf:li>application/sdp</rdf:li>
+					<!-- Images -->
+					<rdf:li>image/gif</rdf:li>
+					<rdf:li>image/jpeg</rdf:li>
+					<rdf:li>image/jpg</rdf:li>
+					<rdf:li>image/png</rdf:li>
+					<rdf:li>image/vnd.wap.wbmp</rdf:li>
+					<rdf:li>image/x-ms-bmp</rdf:li>
+					<rdf:li>image/bmp</rdf:li>
+					<!-- Audio / Multimedia -->
+					<rdf:li>audio/qcelp</rdf:li>
+					<rdf:li>audio/aac</rdf:li>
+					<rdf:li>audio/amr</rdf:li>
+					<rdf:li>audio/imelody</rdf:li>
+					<rdf:li>audio/mid</rdf:li>
+					<rdf:li>audio/midi</rdf:li>
+					<rdf:li>audio/mp3</rdf:li>
+					<rdf:li>audio/mp4</rdf:li>
+					<rdf:li>audio/mpeg3</rdf:li>
+					<rdf:li>audio/mpeg</rdf:li>
+					<rdf:li>audio/mpg</rdf:li>
+					<rdf:li>audio/x-mpeg3</rdf:li>
+					<rdf:li>audio/x-mpeg</rdf:li>
+					<rdf:li>audio/x-mpg</rdf:li>
+					<rdf:li>audio/x-mid</rdf:li>
+					<rdf:li>audio/x-midi</rdf:li>
+					<rdf:li>audio/x-mp3</rdf:li>
+					<rdf:li>audio/x-ms-wma</rdf:li>
+					<rdf:li>audio/3gpp</rdf:li>
+					<rdf:li>video/mpeg4</rdf:li>
+					<rdf:li>video/mp4</rdf:li>
+					<rdf:li>video/3gpp</rdf:li>
+					<rdf:li>video/x-ms-wmv</rdf:li>
+					<!-- Other: add other supported types here -->
+					<rdf:li>application/ogg</rdf:li>
+				<!-- Enter other items... -->
+					</rdf:Bag>
+				</prf:CcppAccept>
+				<!-- List all accepted character sets here -->
+				<prf:CcppAccept-Charset>
+					<rdf:Bag>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Charset>
+				<!-- List all accepted languages here in order of preference -->
+				<prf:CcppAccept-Language>
+					<rdf:Seq>
+						<rdf:li>en-us</rdf:li>
+						<rdf:li>es-us</rdf:li>
+					</rdf:Seq>
+				</prf:CcppAccept-Language>
+				<prf:AudioInputEncoder>
+					<rdf:Bag>
+						<rdf:li>AMR</rdf:li>
+						<rdf:li>AAC</rdf:li>
+					</rdf:Bag>
+				</prf:AudioInputEncoder>
+				<prf:VideoInputEncoder>
+					<rdf:Bag>
+						<rdf:li>MPEG-4</rdf:li>
+						<rdf:li>H.264</rdf:li>
+					</rdf:Bag>
+				</prf:VideoInputEncoder>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: NetworkCharacteristics ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="NetworkCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#NetworkCharacteristics"/>
+				<prf:SupportedBluetoothVersion>4.0</prf:SupportedBluetoothVersion>
+				<!-- Indicate support for SSL 3.0 and TLS 1.0 -->
+				<prf:SecuritySupport>
+					<rdf:Bag>
+						<rdf:li>SSL-3.0</rdf:li>
+						<rdf:li>TLS-1.0</rdf:li>
+					</rdf:Bag>
+				</prf:SecuritySupport>
+				<!-- Indicate support for IS-2000 release 0 packet data bearer -->
+				<prf:SupportedBearers>
+					<rdf:Bag>
+						<rdf:li>IS2000/rel0</rdf:li>
+						<rdf:li>3GPP_GPRS_IPV4</rdf:li>
+					</rdf:Bag>
+				</prf:SupportedBearers>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: BrowserUA ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="BrowserUA">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#BrowserUA"/>
+				<!-- Enter the browser vendor/product name here -->
+				<prf:BrowserName>LG Browser</prf:BrowserName>
+				<!-- Enter the browser version here -->
+				<prf:BrowserVersion>AppleWebkit 537.36</prf:BrowserVersion>
+				<prf:FramesCapable>Yes</prf:FramesCapable>
+				<prf:TablesCapable>Yes</prf:TablesCapable>
+				<prf:PreferenceForFrames>Yes</prf:PreferenceForFrames>
+				<prf:DownloadableBrowserApps>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:DownloadableBrowserApps>
+				<prf:JavaAppletEnabled>No</prf:JavaAppletEnabled>
+				<prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled>
+				<prf:JavaScriptVersion>V8</prf:JavaScriptVersion>
+				<prf:HtmlVersion>4.0.1</prf:HtmlVersion>
+				<prf:XhtmlVersion>xHTML 1.1 xHTML 1.0 xHTML Basic 1.1</prf:XhtmlVersion>
+				<prf:XhtmlModules>
+					<rdf:Bag>
+						<rdf:li>XHTML 1.0 Strict</rdf:li>
+						<rdf:li>XHTML 1.0 Transitional</rdf:li>
+						<rdf:li>XHTML 1.1</rdf:li>
+						<rdf:li>XHTML Basic 1.0</rdf:li>
+						<rdf:li>XHTML Frameset 1.0</rdf:li>
+					</rdf:Bag>
+				</prf:XhtmlModules>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: WapCharacteristics ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="WapCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#WapCharacteristics"/>
+				<prf:WapDeviceClass>n/a</prf:WapDeviceClass>
+				<prf:WapVersion>n/a</prf:WapVersion>
+				<!--   DRM Begin --> 
+				<prf:DrmClass>
+					<rdf:Bag>
+						<rdf:li>ForwardLock</rdf:li> 
+						<rdf:li>CombinedDelivery</rdf:li> 
+						<rdf:li>SeparateDelivery</rdf:li> 
+					</rdf:Bag>
+				</prf:DrmClass>
+				<prf:DrmConstraints>
+					<rdf:Bag>
+						<rdf:li>count</rdf:li> 
+						<rdf:li>datetime</rdf:li> 
+						<rdf:li>interval</rdf:li> 
+					</rdf:Bag>
+				</prf:DrmConstraints>
+				<!--   DRM End  --> 
+				<prf:WmlVersion>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:WmlVersion>
+				<!-- Enter the maximum deck size for wml -->
+				<prf:WmlDeckSize>0</prf:WmlDeckSize>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: PushCharacteristics ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="PushCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#PushCharacteristics"/>
+				<prf:Push-Accept>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept>
+				<prf:Push-Accept-Encoding>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Encoding>
+				<prf:Push-Accept-AppID>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-AppID>
+				<prf:Push-MsgSize>0</prf:Push-MsgSize>
+				<prf:Push-Accept-Charset>
+					<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Charset>
+				<prf:Push-Accept-Language>
+					<rdf:Seq>
+						<rdf:li>n/a</rdf:li>
+					</rdf:Seq>
+				</prf:Push-Accept-Language>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: MmsCharacteristics ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="MmsCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+				<mms:MmsMaxMessageSize>2097152</mms:MmsMaxMessageSize>
+				<mms:MmsMaxImageResolution>1920x1080</mms:MmsMaxImageResolution>
+				<mms:MmsCcppAccept>
+					<rdf:Bag>
+						<rdf:li>text/plain</rdf:li>
+						<rdf:li>text/x-vCard</rdf:li>
+						<rdf:li>text/x-vcard</rdf:li>
+						<rdf:li>text/x-vCalendar</rdf:li>
+						<rdf:li>text/x-vcalendar</rdf:li>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/jpg</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/x-ms-bmp</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>audio/qcelp</rdf:li>
+						<rdf:li>audio/aac</rdf:li>
+						<rdf:li>audio/imelody</rdf:li>
+						<rdf:li>audio/mid</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>audio/mp3</rdf:li>
+						<rdf:li>audio/mp4</rdf:li>
+						<rdf:li>audio/x-wav</rdf:li>
+						<rdf:li>audio/amr</rdf:li>
+						<rdf:li>audio/qcp</rdf:li>
+						<rdf:li>audio/mpeg</rdf:li>
+						<rdf:li>audio/x-ms-wma</rdf:li>
+						<rdf:li>video/3gpp</rdf:li>
+						<rdf:li>video/mp4</rdf:li>
+						<rdf:li>application/ogg</rdf:li>
+						<rdf:li>application/smil</rdf:li>
+						<rdf:li>application/vnd.oma.drm.message</rdf:li>
+						<rdf:li>application/vnd.oma.drm.content</rdf:li> 
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.alternative</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+						<rdf:li>application/x-pcs-mcd+xml</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAccept>
+				<mms:MmsCcppAcceptCharSet>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAcceptCharSet>
+				<mms:MmsCcppAcceptLanguage>
+					<rdf:Bag>
+						<rdf:li>en-us</rdf:li>
+						<rdf:li>es-us</rdf:li>
+						<rdf:li>ko</rdf:li>
+						<rdf:li>zh-TW</rdf:li>
+						<rdf:li>zh-CN</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAcceptLanguage>
+				<mms:MmsCcppAcceptEncoding>
+					<rdf:Bag>
+						<rdf:li>base64</rdf:li>
+						<rdf:li>quoted-printable</rdf:li>
+					</rdf:Bag>
+				</mms:MmsCcppAcceptEncoding>
+				<mms:MmsVersion>
+					<rdf:Bag>
+						<rdf:li>1.2</rdf:li>
+					</rdf:Bag>
+				</mms:MmsVersion>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** Component: PssCommon ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="PssCommon">
+				<rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS6#PssCommon"/>
+				<pss6:PssVersion>3GPP-R6</pss6:PssVersion>
+			</rdf:Description>
+		</prf:component>
+		<!-- ************************************************* -->
+		<!-- ***** UA Prof Extensions ***** -->
+		<prf:component>
+			<rdf:Description rdf:ID="SprintExtensions">
+				<rdf:type rdf:resource="http://device.sprintpcs.com/sprint-schema-xpcs#SprintExtensions"/>
+				<!-- MultimediaPlayback support -->
+				<xpcs:MultimediaPlaybackSupport>Yes</xpcs:MultimediaPlaybackSupport>
+				<!-- Multimedia Streaming Support -->
+				<xpcs:MultimediaStreamingSupport>Yes</xpcs:MultimediaStreamingSupport>
+				<!-- Multimedia Encoding Support -->
+				<xpcs:MultimediaEncodingSupport>Yes</xpcs:MultimediaEncodingSupport>
+				<!-- Type and version of MM player supported -->
+				<xpcs:MultimediaPlayer>StageFright/1.2 NexPlayer</xpcs:MultimediaPlayer>
+				<!-- Type and version of MM encoder supported -->
+				<xpcs:MultimediaEncoder>Qualcomm QCamcorder/2.4</xpcs:MultimediaEncoder>
+				<!-- Multimedia Encoder Supported Display Size(s) -->
+				<xpcs:MultimediaEncoderDisplaySize>
+					<rdf:Bag>
+						<rdf:li>1920x1080</rdf:li>
+						<rdf:li>1280x720</rdf:li>
+						<rdf:li>320x240</rdf:li>
+						<rdf:li>176x144</rdf:li>
+					</rdf:Bag>
+				</xpcs:MultimediaEncoderDisplaySize>
+				<!-- File Format the decoder supports -->
+				<xpcs:MultimediaFileFormatForDecoder>
+					<rdf:Bag>
+						<rdf:li>MP4</rdf:li>
+						<rdf:li>M4V</rdf:li>
+						<rdf:li>M4A</rdf:li>						
+						<rdf:li>3GP</rdf:li>
+						<rdf:li>3G2</rdf:li>
+						<rdf:li>AAC</rdf:li>
+						<rdf:li>AMR</rdf:li>
+						<rdf:li>MIDI</rdf:li>
+						<rdf:li>MP3</rdf:li>
+						<rdf:li>WMA</rdf:li>
+						<rdf:li>WMV</rdf:li>
+						<rdf:li>OGG</rdf:li>
+						<rdf:li>WAV</rdf:li>
+						<rdf:li>AVI</rdf:li>
+					</rdf:Bag>
+				</xpcs:MultimediaFileFormatForDecoder>
+				<!-- File Format the encoder supports -->
+				<xpcs:MultimediaFileFormatForEncoder>
+					<rdf:Bag>
+						<rdf:li>Mpeg4</rdf:li>
+						<rdf:li>AAC</rdf:li>
+					</rdf:Bag>
+				</xpcs:MultimediaFileFormatForEncoder>
+				<!-- Display size the Multimedia player supports -->
+				<xpcs:MultimediaVideoDisplaySize>
+					<rdf:Bag>
+						<rdf:li>800x480</rdf:li>
+					</rdf:Bag>
+				</xpcs:MultimediaVideoDisplaySize>
+				<!-- Maximum frame rate the device supports when playing local files -->
+				<xpcs:MultimediaMaximumFrameRateForPlayback>30fps</xpcs:MultimediaMaximumFrameRateForPlayback>
+				<!-- Maximum frame rate the device supports when streaming content -->
+				<xpcs:MultimediaMaximumFrameRateForStreaming>30fps</xpcs:MultimediaMaximumFrameRateForStreaming>
+				<!-- Maximum frame rate the device supports when encoding content -->
+				<xpcs:MultimediaMaximumFrameRateForEncoding>30fps</xpcs:MultimediaMaximumFrameRateForEncoding>
+				<!-- Maximum bit rate the Multimedia player supports when playing local files -->
+				<xpcs:MultimediaMaximumBitRateForPlayback>14Mbps</xpcs:MultimediaMaximumBitRateForPlayback>
+				<!-- Maximum bit rate the device supports when streaming content -->
+				<xpcs:MultimediaMaximumBitRateForStreaming>2Mbps</xpcs:MultimediaMaximumBitRateForStreaming>
+				<!-- Maximum bit rate the device supports when encoding content -->
+				<xpcs:MultimediaMaximumBitRateForEncoding>10Mbps</xpcs:MultimediaMaximumBitRateForEncoding>
+				<!-- List all supported video codecs for decoding here -->
+				<xpcs:VideoCodecsForDecoding>
+					<rdf:Bag>
+						<rdf:li>MPEG4</rdf:li>
+						<rdf:li>H.263</rdf:li>
+						<rdf:li>H.264</rdf:li>
+						<rdf:li>WMV7/8/9</rdf:li>
+						<rdf:li>VC-1</rdf:li>
+						<rdf:li>DivX</rdf:li>
+						<rdf:li>XviD</rdf:li>
+					</rdf:Bag>
+				</xpcs:VideoCodecsForDecoding>
+				<!-- List all supported video codecs for encoding here -->
+				<xpcs:VideoCodecsForEncoding>
+					<rdf:Bag>
+						<rdf:li>Mpeg4</rdf:li>
+						<rdf:li>H.264</rdf:li>
+					</rdf:Bag>
+				</xpcs:VideoCodecsForEncoding>
+				<!-- List all supported audio codecs here -->
+				<xpcs:AudioCodecsForDecoding>
+					<rdf:Bag>
+						<rdf:li>WMA</rdf:li>
+						<rdf:li>Vorbis</rdf:li>
+						<rdf:li>QCELP</rdf:li>
+						<rdf:li>EVRC</rdf:li>
+						<rdf:li>AAC</rdf:li>
+						<rdf:li>AAC+</rdf:li>
+						<rdf:li>eAAC+</rdf:li>
+						<rdf:li>MP3</rdf:li>
+						<rdf:li>AMR-NB</rdf:li>
+						<rdf:li>AMR-WB</rdf:li>
+						<rdf:li>MIDI</rdf:li>
+					</rdf:Bag>
+				</xpcs:AudioCodecsForDecoding>
+				<!-- List all supported audio codecs here -->
+				<xpcs:AudioCodecsForEncoding>
+					<rdf:Bag>
+						<rdf:li>QCELP</rdf:li>
+						<rdf:li>AAC</rdf:li>
+						<rdf:li>AMR</rdf:li>
+					</rdf:Bag>
+				</xpcs:AudioCodecsForEncoding>
+				<!-- PictureMailSupport -->
+				<xpcs:PictureMailSupport>No</xpcs:PictureMailSupport>
+				<!-- VideoMailSupport -->
+				<xpcs:VideoMailSupport>No</xpcs:VideoMailSupport>
+				<xpcs:MobileOriginatedSmsSupport>Yes</xpcs:MobileOriginatedSmsSupport>
+				<!-- Sprint Device Data Network Types -->
+				<xpcs:DataNetworkTypes>
+					<rdf:Bag>
+						<rdf:li>IS2000</rdf:li>
+						<rdf:li>EVDO</rdf:li>
+						<rdf:li>DOrA</rdf:li>
+						<rdf:li>LTE</rdf:li>
+						<rdf:li>WIFI</rdf:li>
+					</rdf:Bag>
+				</xpcs:DataNetworkTypes>
+				<!-- Sprint GLMS -->
+				<xpcs:GLMSClientVendor>AcmeVindor1</xpcs:GLMSClientVendor>
+				<xpcs:GLMSProtocolVersion>1.0</xpcs:GLMSProtocolVersion>
+				<xpcs:GLMSClientVersion>1.1</xpcs:GLMSClientVersion>
+				<!-- FM Radio -->
+				<xpcs:FMRadioTransmitCapable>No</xpcs:FMRadioTransmitCapable>
+				<xpcs:FMRadioReceiveCapable>Yes</xpcs:FMRadioReceiveCapable>
+				<!-- Key Pad support -->
+				<xpcs:NavigationKeyPadSupport>
+				<rdf:Bag>
+						<rdf:li>n/a</rdf:li>
+				</rdf:Bag>
+				</xpcs:NavigationKeyPadSupport>
+				<xpcs:SupportedApplications>
+					<!-- example -->
+					<rdf:Bag>
+						<rdf:li>LG Backup</rdf:li>
+						<rdf:li>Streaming Player</rdf:li>
+						<rdf:li>SmartShare</rdf:li>
+						<rdf:li>Alarm/Clock</rdf:li>
+						<rdf:li>Task Manager</rdf:li>
+						<rdf:li>Internet</rdf:li>
+						<rdf:li>Calendar</rdf:li>
+						<rdf:li>Call Logs</rdf:li>
+						<rdf:li>Camera</rdf:li>
+						<rdf:li>Contact</rdf:li>
+						<rdf:li>Dialer</rdf:li>
+						<rdf:li>E-mail</rdf:li>
+						<rdf:li>Gallery</rdf:li>
+						<rdf:li>IME</rdf:li>
+						<rdf:li>Home</rdf:li>
+						<rdf:li>Live Wallpaper-Picker</rdf:li>
+						<rdf:li>Lockscreen</rdf:li>
+						<rdf:li>Messaging</rdf:li>
+						<rdf:li>Music</rdf:li>
+						<rdf:li>Memo</rdf:li>
+						<rdf:li>Settings</rdf:li>
+						<rdf:li>Startup Wizard</rdf:li>
+						<rdf:li>Video Editor</rdf:li>
+						<rdf:li>Videos</rdf:li>
+						<rdf:li>Voice call</rdf:li>
+						<rdf:li>Voice Recorder</rdf:li>
+						<rdf:li>Weather</rdf:li>
+						<rdf:li>Calculator</rdf:li>
+						<rdf:li>Task Manager(W)</rdf:li>
+						<rdf:li>Calendar(W)</rdf:li>
+						<rdf:li>Music(W)</rdf:li>
+						<rdf:li>Weather(W)</rdf:li>
+						<rdf:li>Bookmarks(W)</rdf:li>
+						<rdf:li>World Clock(W)</rdf:li>
+						<rdf:li>E-mail(W)</rdf:li>
+						<rdf:li>Memo(W)</rdf:li>
+						<rdf:li>Voice Dialer</rdf:li>
+						<rdf:li>File Manager</rdf:li>
+						<rdf:li>Photo Album(W)</rdf:li>
+						<rdf:li>Contacts(W)</rdf:li>
+						<rdf:li>Dictionary</rdf:li>
+						<rdf:li>Downloads</rdf:li>
+						<rdf:li>Update Center</rdf:li>
+						<rdf:li>VidClip</rdf:li>
+						<rdf:li>LGDefaultAccount</rdf:li>
+						<rdf:li>Calendar Sync </rdf:li>
+						<rdf:li>Contact Sync </rdf:li>
+						<rdf:li>Google Backup Transport</rdf:li>
+						<rdf:li>Google Feedback</rdf:li>
+						<rdf:li>Google Login Service</rdf:li>
+						<rdf:li>Google Partner Setup</rdf:li>
+						<rdf:li>GSF(GoogleServiceFramework)</rdf:li>
+						<rdf:li>Media Uploader</rdf:li>
+						<rdf:li>NLP(NetworkLocationProvider)</rdf:li>
+						<rdf:li>Play Store</rdf:li>
+						<rdf:li>Play Books</rdf:li>
+						<rdf:li>Gmail</rdf:li>
+						<rdf:li>Google+</rdf:li>
+						<rdf:li>Hangouts (Talk)</rdf:li>
+						<rdf:li>Maps</rdf:li>
+						<rdf:li>Play Music</rdf:li>
+						<rdf:li>Search</rdf:li>
+						<rdf:li>Voice Search</rdf:li>
+						<rdf:li>StreetView</rdf:li>
+						<rdf:li>Talk</rdf:li>
+						<rdf:li>Play Movies and TV</rdf:li>
+						<rdf:li>YouTube</rdf:li>
+						<rdf:li>Photos</rdf:li>						
+						<rdf:li>Config Updater</rdf:li>						
+						<rdf:li>Google Drive</rdf:li>												
+						<rdf:li>ChromeBookmarksSyncAdapter</rdf:li>
+						<rdf:li>TalkBack</rdf:li>
+						<rdf:li>FaceUnlock</rdf:li>
+						<rdf:li>Google Tag</rdf:li>
+						<rdf:li>QVoice</rdf:li>
+						<rdf:li>Notebook</rdf:li>
+						<rdf:li>QMemo</rdf:li>
+						<rdf:li>Tasks</rdf:li>
+						<rdf:li>QTranslator</rdf:li>
+						<rdf:li>Mobile Print</rdf:li>
+						<rdf:li>Chrome</rdf:li>
+						<rdf:li>PartnerBookmarksProvider</rdf:li>
+						<rdf:li>QRemote</rdf:li>
+						<rdf:li>Google Settings</rdf:li>
+						<rdf:li>Play  Newsstand</rdf:li>
+						<rdf:li>Cloud Print</rdf:li>						
+						<rdf:li>Accessibility Package</rdf:li>
+						<rdf:li>VuTalk</rdf:li>
+						<rdf:li>Wireless Storage</rdf:li>
+						<rdf:li>Polaris Office Viewer</rdf:li>
+						<rdf:li>Miracast</rdf:li>
+						<rdf:li>Direct Beam</rdf:li>
+						<rdf:li>SmartShare Beam</rdf:li>
+						<rdf:li>Flashlight(W)</rdf:li>
+						<rdf:li>LG TTS</rdf:li>
+						<rdf:li>Text Link</rdf:li>
+						<rdf:li>Life Square</rdf:li>
+						<rdf:li>Smart Screen </rdf:li>
+						<rdf:li>Slide Aside</rdf:li>
+						<rdf:li>Plug and Pop</rdf:li>
+						<rdf:li>Clock(W)</rdf:li>
+						<rdf:li>Tasks(W)</rdf:li>
+						<rdf:li>Notebook(W)</rdf:li>
+						<rdf:li>QTranslator-Text Translator </rdf:li>
+						<rdf:li>Live Wallpaper-Multiphoto</rdf:li>
+						<rdf:li>Live Wallpaper-Polar Bear</rdf:li>
+						<rdf:li>Live Wallpaper-Prince</rdf:li>
+						<rdf:li>Live Wallpaper-Feather</rdf:li>
+						<rdf:li>Home-Theme (Marshmallow)</rdf:li>
+						<rdf:li>Home-Theme(Optimus)</rdf:li>
+						<rdf:li>Google Japanese IME</rdf:li>
+						<rdf:li>SmartShare Pull</rdf:li>
+						<rdf:li>SmartShare Push</rdf:li>
+						<rdf:li>SmartShare Cloud - Public Cloud</rdf:li>
+						<rdf:li>Box</rdf:li>						
+						<rdf:li>Sprint Zone</rdf:li>
+						<rdf:li>Sprint ID/PrefAct</rdf:li>
+						<rdf:li>DSS</rdf:li>
+						<rdf:li>Sprint Installer(No app in Tray)</rdf:li>
+						<rdf:li>Sprint Touch</rdf:li>
+						<rdf:li>Visual Voicemail</rdf:li>
+						<rdf:li>Smart Device Mgr</rdf:li>
+						<rdf:li>WiFi Offloader</rdf:li>
+						<rdf:li>Lumen</rdf:li>                        
+					</rdf:Bag>
+				</xpcs:SupportedApplications>
+				<xpcs:TotalDeviceMemory>2G RAM</xpcs:TotalDeviceMemory>
+				<xpcs:TotalDeviceFlash>32GB ROM</xpcs:TotalDeviceFlash>
+				<xpcs:ExternalMemorySlot>No</xpcs:ExternalMemorySlot>
+				<xpcs:ExternalMemoryMaxSize>0</xpcs:ExternalMemoryMaxSize>
+				<xpcs:AudioJack>
+					<rdf:Bag>
+						<rdf:li>3.5mm</rdf:li>
+						<rdf:li>Stereo</rdf:li>
+					</rdf:Bag>
+				</xpcs:AudioJack>
+				<xpcs:VideoJack>n/a</xpcs:VideoJack>
+				<xpcs:DLNACapable>Yes</xpcs:DLNACapable>
+				<!-- Camera / Camcorder support -->
+				<xpcs:FrontCameraMegaPixels>2.1M</xpcs:FrontCameraMegaPixels>
+				<xpcs:FrontCameraHighestImageResolution>1920x1080</xpcs:FrontCameraHighestImageResolution>
+				<xpcs:FrontCameraZoomCapable>No</xpcs:FrontCameraZoomCapable>
+				<xpcs:FrontCameraBuiltInFlash>No</xpcs:FrontCameraBuiltInFlash>
+				<xpcs:FrontCamcorderResolution>1920x1080</xpcs:FrontCamcorderResolution>
+				<xpcs:FrontCamcorderZoomCapable>No</xpcs:FrontCamcorderZoomCapable>
+ 				<xpcs:BackCameraMegaPixels>13M</xpcs:BackCameraMegaPixels>
+				<xpcs:BackCameraHighestImageResolution>4160x3120</xpcs:BackCameraHighestImageResolution>
+				<xpcs:BackCameraZoomCapable>Yes</xpcs:BackCameraZoomCapable>
+				<xpcs:BackCameraBuiltInFlash>Yes</xpcs:BackCameraBuiltInFlash>
+				<xpcs:BackCamcorderResolution>1920x1080</xpcs:BackCamcorderResolution>
+				<xpcs:BackCamcorderZoomCapable>Yes</xpcs:BackCamcorderZoomCapable>
+				<!-- Enter the DSS client version value -->
+				<xpcs:DSSClientVersion>SZ_5.2.00</xpcs:DSSClientVersion>
+			</rdf:Description>
+		</prf:component>
+	</rdf:Description>
+</rdf:RDF>

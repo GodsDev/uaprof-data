@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<!--
+*********************************************************************
+*  SAMSUNG GSM/GPRS Handset UA Prof
+*
+*  Version:  0.1
+*  Created:  18/11/2003
+*  Author :  Yongdae Kwon(yongdae.kwon@samsung.com)
+*  Organization:  R&D Group 3 Software Lab. SEC
+*
+*  Copyright 2003 SAMSUNG
+*
+*  Revision History
+*     0.1  Initial Release
+*
+*********************************************************************
+-->	 
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description ID="MyDeviceProfile">
+
+<!--********************** Hardware Platform Description ***************************************-->
+<prf:component>
+	<rdf:Description ID="HardwarePlatform">
+		<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#HardwarePlatform"/>
+
+		<prf:Vendor>SAMSUNG</prf:Vendor>
+		<prf:Model>SGH-D410</prf:Model>
+	
+		<prf:ScreenSize>176x220</prf:ScreenSize>
+		<prf:ColorCapable>Yes</prf:ColorCapable>
+		<prf:BitsPerPixel>16</prf:BitsPerPixel>
+		<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+		<prf:ImageCapable>Yes</prf:ImageCapable>
+		<prf:ScreenSizeChar>17x6</prf:ScreenSizeChar>
+		<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+		<prf:OutputCharSet>
+			<rdf:Bag>
+				<rdf:li>ISO-8859-1</rdf:li>
+				<rdf:li>US-ASCII</rdf:li>
+				<rdf:li>UTF-8</rdf:li>
+				<rdf:li>ISO-10646-UCS-2</rdf:li>
+			</rdf:Bag>
+		</prf:OutputCharSet>
+		<prf:InputCharSet>
+			<rdf:Bag>
+				<rdf:li>ISO-8859-1</rdf:li>
+				<rdf:li>US-ASCII</rdf:li>
+				<rdf:li>ISO-10646-UCS-2</rdf:li>
+			</rdf:Bag>
+		</prf:InputCharSet>
+		<prf:TextInputCapable>Yes</prf:TextInputCapable>
+		<prf:Keyboard>PhoneKeypad</prf:Keyboard>
+		<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+		<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+	</rdf:Description>
+</prf:component>
+
+
+<!--********************** Software Platform Description ***************************************-->
+<prf:component>
+	<rdf:Description ID="SoftwarePlatform">
+	<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#SoftwarePlatform"/>
+
+<!-- ********** Java ***********-->
+	<prf:JavaEnabled>Yes</prf:JavaEnabled>
+	<prf:JavaPlatform>
+		<rdf:Bag>
+			<rdf:li>MIDP-2.0</rdf:li>
+		</rdf:Bag>
+	</prf:JavaPlatform>
+	<prf:JVMVersion>SunKVM/1.0.4</prf:JVMVersion>
+
+<!-- ********* CCPP accept **********-->
+	<prf:CcppAccept>
+		<rdf:Bag>
+			<!-- Markup languages -->
+			<rdf:li>text/vnd.wap.wml</rdf:li>
+			<rdf:li>text/vnd.wap.wmlscript</rdf:li>
+			<rdf:li>application/vnd.wap.wmlc</rdf:li>
+			<rdf:li>application/vnd.wap.wbxml</rdf:li>
+			<rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+			<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+			
+			<!-- Images -->
+			<rdf:li>image/vnd.wap.wbmp</rdf:li>
+			<rdf:li>image/gif</rdf:li>
+                        <rdf:li>image/jpeg</rdf:li>
+			
+			<!-- Audio / Multimedia  -->
+                        <rdf:li>audio/mid</rdf:li>
+                        <rdf:li>audio/midi</rdf:li> 
+			<rdf:li>application/vnd.smaf</rdf:li>
+                        <rdf:li>text/x-iMelody</rdf:li>                  
+ 
+                        <!-- Nokia OTA Provisioning -->
+                        <rdf:li>application/x-nokia.settings</rdf:li>
+                        <rdf:li>application/x-wap-prov.browser-settings</rdf:li>
+                          
+                        <!-- Java -->
+                        <rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+		</rdf:Bag>
+	</prf:CcppAccept>
+	<prf:CcppAccept-Charset>
+		<rdf:Bag>
+			<rdf:li>ISO-8859-1</rdf:li>
+			<rdf:li>US-ASCII</rdf:li>
+			<rdf:li>UTF-8</rdf:li>
+                        <rdf:li>ISO-10646-UCS-2</rdf:li>
+		</rdf:Bag>
+	</prf:CcppAccept-Charset>
+        </rdf:Description>
+</prf:component>
+
+<!--********************** Network Characteristics Description ***************************************-->
+	<prf:component>
+	<rdf:Description ID="NetworkCharacteristics">
+	<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#NetworkCharacteristics"/>
+	<prf:SecuritySupport>
+		<rdf:Bag>
+			<rdf:li>WTLS-1</rdf:li>
+			<rdf:li>WTLS-2</rdf:li>
+		</rdf:Bag>
+	</prf:SecuritySupport>
+	<prf:SupportedBearers>
+		<rdf:Bag>
+			<rdf:li>CSD</rdf:li>
+			<rdf:li>GPRS</rdf:li>
+			<rdf:li>SMS</rdf:li>
+		</rdf:Bag>
+	</prf:SupportedBearers>
+	</rdf:Description>
+</prf:component>
+
+<!--********************** Browser UA Description ***************************************-->
+
+<prf:component>
+	<rdf:Description ID="BrowserUA">
+	<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#BrowserUA"/>
+	<prf:BrowserName>Nokia</prf:BrowserName>
+	<prf:BrowserVersion>3.0</prf:BrowserVersion>
+	<prf:FramesCapable>No</prf:FramesCapable>
+	<prf:TablesCapable>Yes</prf:TablesCapable>
+	</rdf:Description>
+</prf:component>
+
+<!--********************** WAP Characteristics Description ***************************************-->
+
+<prf:component>
+	<rdf:Description ID="WapCharacteristics">
+	<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#WapCharacteristics"/>
+
+	<prf:WapVersion>1.2.1</prf:WapVersion>
+	<prf:WmlVersion>
+		<rdf:Bag>
+			<rdf:li>1.2.1</rdf:li>
+			<rdf:li>1.1</rdf:li>
+		</rdf:Bag>
+	</prf:WmlVersion>
+	<prf:WmlDeckSize>1400</prf:WmlDeckSize>
+        <prf:WmlScriptVersion>
+                <rdf:Bag>
+			<rdf:li>1.2.1</rdf:li>
+			<rdf:li>1.1</rdf:li>
+		</rdf:Bag>
+        </prf:WmlScriptVersion>
+
+<!--*********** WMLSCRIPT LIBRARY ************-->
+        <prf:WmlScriptLibraries>
+		<rdf:Bag>
+			<rdf:li>Lang</rdf:li>
+			<rdf:li>Float</rdf:li>
+			<rdf:li>String</rdf:li>
+			<rdf:li>URL</rdf:li>
+			<rdf:li>WMLBrowser</rdf:li>
+			<rdf:li>Dialogs</rdf:li>
+		</rdf:Bag>
+        </prf:WmlScriptLibraries>  
+
+<!--*********** WTAI LIBRARY ************-->
+        <prf:WtaiLibraries>
+		<rdf:Bag>
+			<rdf:li>WTA.Public.makeCall</rdf:li>
+			<rdf:li>WTA.Public.sendDTMF</rdf:li>
+		</rdf:Bag>
+        </prf:WtaiLibraries>  
+	</rdf:Description>
+</prf:component>
+
+<!--********************** Push Characteristics Description ***************************************-->
+<prf:component>
+	<rdf:Description ID="PushCharacteristics">
+	<rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#PushCharacteristics"/>
+
+	<prf:Push-Accept>
+		<rdf:Bag>
+			<rdf:li>text/vnd.wap.si</rdf:li>
+		</rdf:Bag>
+	</prf:Push-Accept>
+	<prf:Push-Accept-AppID>
+		<rdf:Bag>
+                        <rdf:li>x-wap-application:push.sia</rdf:li> 
+		</rdf:Bag>
+	</prf:Push-Accept-AppID>
+	<prf:Push-MsgSize>700</prf:Push-MsgSize>
+	</rdf:Description>
+</prf:component>
+
+<prf:component>
+         <rdf:Description ID="MMSCharacteristics">
+            <rdf:type resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+            <prf:MmsMaxMessageSize>102400</prf:MmsMaxMessageSize>
+            <prf:MmsMaxImageResolution>176x220</prf:MmsMaxImageResolution>
+            <prf:MmsCcppAccept>
+               <rdf:Bag>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>text/x-iMelody</rdf:li>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/wbmp</rdf:li>
+                  <rdf:li>audio/mid</rdf:li> 
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/amr</rdf:li>                    
+                  <rdf:li>application/vnd.smaf</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+               </rdf:Bag>
+            </prf:MmsCcppAccept>
+            <prf:MmsCcppAcceptCharSet>
+               <rdf:Bag>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>ISO-8859-1</rdf:li>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>ISO-10646-UCS-2</rdf:li>
+               </rdf:Bag>
+            </prf:MmsCcppAcceptCharSet>
+            <prf:MmsVersion>1.0</prf:MmsVersion>
+         </rdf:Description>
+      </prf:component>
+</rdf:Description>
+</rdf:RDF>
+

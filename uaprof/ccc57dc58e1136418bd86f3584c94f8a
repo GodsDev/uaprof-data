@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#">
+
+	<rdf:Description rdf:ID="Profiles">
+
+		<prf:component>
+			<rdf:Description rdf:ID="HardwarePlatform">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#HardwarePlatform"/>
+				<prf:BitsPerPixel>16</prf:BitsPerPixel>
+				<prf:ColorCapable>Yes</prf:ColorCapable>
+				<prf:ImageCapable>Yes</prf:ImageCapable>
+				<prf:InputCharSet>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:InputCharSet>
+				<prf:Keyboard>PhoneKeypad</prf:Keyboard>
+				<prf:Model>LG-L1100</prf:Model>
+				<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+				<prf:OutputCharSet>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:OutputCharSet>
+				<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+				<prf:PointingResolution>Pixel</prf:PointingResolution>
+				<prf:ScreenSize>128x127</prf:ScreenSize>
+				<prf:ScreenSizeChar>8x16</prf:ScreenSizeChar>
+				<prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+				<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+				<prf:TextInputCapable>Yes</prf:TextInputCapable>
+				<prf:Vendor>LGE</prf:Vendor>
+				<prf:VoiceInputCapable>No</prf:VoiceInputCapable>
+			</rdf:Description>
+		</prf:component>
+
+		<prf:component>
+			<rdf:Description rdf:ID="SoftwarePlatform">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#SoftwarePlatform"/>
+				<prf:AcceptDownloadableSoftware>No</prf:AcceptDownloadableSoftware>
+				<prf:DrmMode>1</prf:DrmMode>
+				<prf:CcppAccept>
+					<rdf:Bag>
+						<rdf:li>application/vnd.wap.wmlc</rdf:li>
+						<rdf:li>application/vnd.wap.wbxml</rdf:li>
+						<rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+						<rdf:li>application/vnd.smaf</rdf:li>
+						<rdf:li>application/vnd.oma.drm.message</rdf:li>
+						<rdf:li>text/vnd.wap.wml</rdf:li>
+						<rdf:li>text/vnd.wap.wmlscript</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>text/x-imelody</rdf:li>
+						<rdf:li>text/x-iMelody</rdf:li>
+						<rdf:li>text/X-iMelody</rdf:li>
+						<rdf:li>audio/imelody</rdf:li>
+						<rdf:li>audio/iMelody</rdf:li>
+						<rdf:li>audio/mid</rdf:li>
+						<rdf:li>audio/sp-midi</rdf:li>
+						<rdf:li>audio/x-midi</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>audio/amr</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept>
+				<prf:CcppAccept-Charset>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Charset>
+				<prf:CcppAccept-Encoding>
+					<rdf:Bag>
+						<rdf:li>base64</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Encoding>
+				<prf:CcppAccept-Language>
+					<rdf:Bag>
+						<rdf:li>en</rdf:li>
+						<rdf:li>fr</rdf:li>
+						<rdf:li>de</rdf:li>
+						<rdf:li>it</rdf:li>
+						<rdf:li>es</rdf:li>
+						<rdf:li>pt</rdf:li>
+						<rdf:li>zh-CN</rdf:li>
+					</rdf:Bag>
+				</prf:CcppAccept-Language>
+				<prf:JavaEnabled>Yes</prf:JavaEnabled>
+				<prf:Email-URI-Schemes>
+					<rdf:Bag>
+						<rdf:li>http</rdf:li>
+					</rdf:Bag>
+				</prf:Email-URI-Schemes>
+			</rdf:Description>
+		</prf:component>
+
+		<prf:component>
+			<rdf:Description rdf:ID="NetworkCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#NetworkCharacteristics"/>
+				<prf:CurrentBearerService>
+					<rdf:Bag>
+						<rdf:li>SMS</rdf:li>
+						<rdf:li>CSD</rdf:li>
+						<rdf:li>GPRS</rdf:li>
+					</rdf:Bag>
+				</prf:CurrentBearerService>
+				<prf:SecuritySupport>
+					<rdf:Bag>
+						<rdf:li>WTLS-2</rdf:li>
+					</rdf:Bag>
+				</prf:SecuritySupport>
+				<prf:SupportedBearers>
+					<rdf:Bag>
+						<rdf:li>SMS</rdf:li>
+						<rdf:li>CSD</rdf:li>
+						<rdf:li>GPRS</rdf:li>
+					</rdf:Bag>
+				</prf:SupportedBearers>
+			</rdf:Description>
+		</prf:component>
+
+		<prf:component>
+			<rdf:Description rdf:ID="BrowserUA">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#BrowserUA"/>
+				<prf:BrowserName>Openwave</prf:BrowserName>
+				<prf:BrowserVersion>6.2</prf:BrowserVersion>
+				<prf:FramesCapable>No</prf:FramesCapable>
+				<prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled>
+				<prf:TablesCapable>Yes</prf:TablesCapable>
+			</rdf:Description>
+		</prf:component>
+
+		<prf:component>
+			<rdf:Description rdf:ID="WapCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#WapCharacteristics"/>
+				<prf:WapDeviceClass>C</prf:WapDeviceClass>
+				<prf:WapVersion>2.0</prf:WapVersion>
+				<prf:WmlDeckSize>4096</prf:WmlDeckSize>
+				<prf:WmlScriptLibraries>
+					<rdf:Bag>
+						<rdf:li>Lang</rdf:li>
+						<rdf:li>String</rdf:li>
+						<rdf:li>URL</rdf:li>
+						<rdf:li>Dialogs</rdf:li>
+						<rdf:li>WMLBrowser</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptLibraries>
+				<prf:WmlScriptVersion>
+					<rdf:Bag>
+						<rdf:li>1.1</rdf:li>
+					</rdf:Bag>
+				</prf:WmlScriptVersion>
+				<prf:WmlVersion>
+					<rdf:Bag>
+						<rdf:li>2.0</rdf:li>
+					</rdf:Bag>
+				</prf:WmlVersion>
+				<prf:WtaiLibraries>
+					<rdf:Bag>
+						<rdf:li>WTA.Public.makeCall</rdf:li>
+						<rdf:li>WTA.Public.sendDTMF</rdf:li>
+						<rdf:li>WTA.Public.addPBEntry</rdf:li>
+					</rdf:Bag>
+				</prf:WtaiLibraries>
+				<prf:WtaVersion>1.1</prf:WtaVersion>
+				<prf:OmaDownload>No</prf:OmaDownload>
+			</rdf:Description>
+		</prf:component>
+
+		<prf:component>
+			<rdf:Description rdf:ID="PushCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#PushCharacteristics"/>
+				<prf:Push-Accept>
+					<rdf:Bag>
+						<rdf:li>application/wml+xml</rdf:li>
+						<rdf:li>text/html</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept>
+				<prf:Push-Accept-Charset>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Charset>
+				<prf:Push-Accept-Encoding>
+					<rdf:Bag>
+						<rdf:li>base64</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Encoding>
+				<prf:Push-Accept-Language>
+					<rdf:Bag>
+						<rdf:li>en</rdf:li>
+						<rdf:li>fr</rdf:li>
+						<rdf:li>de</rdf:li>
+						<rdf:li>it</rdf:li>
+						<rdf:li>es</rdf:li>
+						<rdf:li>pt</rdf:li>
+						<rdf:li>zh-CN</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-Language>
+				<prf:Push-Accept-AppID>
+					<rdf:Bag>
+						<rdf:li>x-wap-application:wml.ua</rdf:li>
+						<rdf:li>*</rdf:li>
+					</rdf:Bag>
+				</prf:Push-Accept-AppID>
+				<prf:Push-MsgSize>1400</prf:Push-MsgSize>
+				<prf:Push-MaxPushReq>5</prf:Push-MaxPushReq>
+			</rdf:Description>
+		</prf:component>
+		<prf:component>
+			<rdf:Description rdf:ID="MMSCharacteristics">
+				<rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics"/>
+				<prf:MmsMaxMessageSize>64000</prf:MmsMaxMessageSize>
+				<prf:MmsMaxImageResolution>640X480</prf:MmsMaxImageResolution>
+				<prf:MmsCcppAccept>
+					<rdf:Bag>
+						<rdf:li>image/jpeg</rdf:li>
+						<rdf:li>image/gif</rdf:li>
+						<rdf:li>image/png</rdf:li>
+						<rdf:li>image/bmp</rdf:li>
+						<rdf:li>image/vnd.wap.wbmp</rdf:li>
+						<rdf:li>application/smil</rdf:li>
+						<rdf:li>text/plain</rdf:li>
+						<rdf:li>text/x-imelody</rdf:li>
+						<rdf:li>text/x-iMelody</rdf:li>
+						<rdf:li>text/X-iMelody</rdf:li>
+						<rdf:li>application/vnd.smaf</rdf:li>
+						<rdf:li>audio/imelody</rdf:li>
+						<rdf:li>audio/iMelody</rdf:li>
+						<rdf:li>audio/mid</rdf:li>
+						<rdf:li>audio/sp-midi</rdf:li>
+						<rdf:li>audio/x-midi</rdf:li>
+						<rdf:li>audio/midi</rdf:li>
+						<rdf:li>audio/amr</rdf:li>
+						<rdf:li>application/vnd.wap.mms-message</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+						<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+					</rdf:Bag>
+				</prf:MmsCcppAccept>
+				<prf:MmsCcppAccept-Charset>
+					<rdf:Bag>
+						<rdf:li>ISO-8859-1</rdf:li>
+						<rdf:li>US-ASCII</rdf:li>
+						<rdf:li>UTF-8</rdf:li>
+						<rdf:li>UTF-16</rdf:li>
+						<rdf:li>ISO-10646-UCS-2</rdf:li>
+					</rdf:Bag>
+				</prf:MmsCcppAccept-Charset>
+				<prf:MmsVersion>1.0</prf:MmsVersion>
+			</rdf:Description>
+		</prf:component>
+
+	</rdf:Description>
+
+</RDF>
+
+
+				
+
+
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns">
+   <rdf:Description rdf:ID="SagemMC940">
+      <prf:component>
+         <rdf:Description rdf:ID="SoftwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#SoftwarePlatform"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="PushCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#PushCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="BrowserUA">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#BrowserUA"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="NetworkCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#NetworkCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="MmsCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#MmsCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="WapCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#WapCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="HardwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#HardwarePlatform"/>
+         </rdf:Description>
+      </prf:component>
+   </rdf:Description>
+</rdf:RDF>

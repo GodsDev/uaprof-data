@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.wapforum.org/UAPROF/ccppschema-20000405#">
+<!--  This RDF document contains the User Agent Profile for an Alcatel mobile telecommunications equipment handset:  the BH4, or One Touch 535.  This "comments" section contains the version and date of the RDF document.  -->
+<!--  Version published Date        -->
+<!--  Version 0.1  -  21 March 2003 -->
+<!--  Version 1.0  -  26 May 2003   -->
+<!--  Version 1.1  -  11 July 2003  -->
+  <rdf:Description ID="AlcatelOT535">
+    <prf:component>
+      <rdf:Description ID="HardwarePlatform">
+        <rdf:type resource="http://www.wapforum.org/UAPROF/ccppschema-20000405#HardwarePlatform" />
+        <prf:ScreenSize>128x128</prf:ScreenSize>
+        <prf:Model>OneTouch535</prf:Model>
+        <prf:ScreenSizeChar>15x6</prf:ScreenSizeChar>
+        <prf:ColorCapable>Yes</prf:ColorCapable>
+        <prf:BitsPerPixel>12</prf:BitsPerPixel>
+        <prf:TextInputCapable>Yes</prf:TextInputCapable>
+        <prf:ImageCapable>Yes</prf:ImageCapable>
+        <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+        <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+	<prf:Vendor>Alcatel</prf:Vendor>
+        <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+        <prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+        <prf:PixelsAspectRatio>1x1</prf:PixelsAspectRatio>
+        <prf:OutputCharSet>
+          <rdf:Bag>
+            <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>UTF-8</rdf:li>
+            <rdf:li>ISO-10646-UCS-2</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+           </rdf:Bag>
+        </prf:OutputCharSet>
+        <prf:InputCharSet>
+          <rdf:Bag>
+            <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>UTF-8</rdf:li>
+            <rdf:li>ISO-10646-UCS-2</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+          </rdf:Bag>
+        </prf:InputCharSet>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description ID="SoftwarePlatform">
+        <rdf:type resource="http://www.wapforum.org/UAPROF/ccppschema-20000405#SoftwarePlatform" />
+        <prf:JavaEnabled>No</prf:JavaEnabled>
+        <prf:AcceptDownloadableSoftware>No</prf:AcceptDownloadableSoftware>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description ID="NetworkCharacteristics">
+        <rdf:type resource="http://www.wapforum.org/UAPROF/ccppschema-20000405#NetworkCharacteristics" /> 
+        <prf:SecuritySupport>
+          <rdf:Bag>
+            <rdf:li>WTLS-1</rdf:li>
+            <rdf:li>WTLS-2</rdf:li>
+          </rdf:Bag>
+        </prf:SecuritySupport>
+        <prf:SupportedBearers>
+          <rdf:Bag>
+            <rdf:li>GPRS</rdf:li>
+            <rdf:li>CSD</rdf:li>
+          </rdf:Bag>
+        </prf:SupportedBearers>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description ID="BrowserUA">
+        <rdf:type resource="http://www.wapforum.org/UAPROF/ccppschema-20000405#BrowserUA" /> 
+        <prf:BrowserName>Openwave</prf:BrowserName>
+        <prf:BrowserVersion>6.2</prf:BrowserVersion>
+        <prf:FramesCapable>No</prf:FramesCapable>
+        <prf:TablesCapable>Yes</prf:TablesCapable>
+        <prf:CcppAccept>
+          <rdf:Bag>
+            <rdf:li>application/vnd.wap.wmlc</rdf:li> 
+            <rdf:li>application/vnd.wap.wbxml</rdf:li>
+            <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+            <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+            <rdf:li>audio/sp-midi</rdf:li> 
+            <rdf:li>audio/midi</rdf:li> 
+            <rdf:li>audio/x-midi</rdf:li> 
+            <rdf:li>audio/amr</rdf:li> 
+            <rdf:li>audio/x-amr</rdf:li> 
+            <rdf:li>audio/iMelody</rdf:li> 
+            <rdf:li>image/vnd.wap.wbmp</rdf:li> 
+            <rdf:li>image/jpeg</rdf:li> 
+            <rdf:li>image/gif</rdf:li> 
+            <rdf:li>image/png</rdf:li> 
+            <rdf:li>image/bmp</rdf:li> 
+            <rdf:li>application/vnd.wap.sic</rdf:li> 
+            <rdf:li>application/vnd.wap.sia</rdf:li> 
+            <rdf:li>application/vnd.3gpp.pic-bw-small</rdf:li> 
+            <rdf:li>application/vnd.3gpp.pic-bw-var</rdf:li> 
+            <rdf:li>application/vnd.3gpp.pic-bw-large</rdf:li> 
+            <rdf:li>application/vnd.3gpp.ani-bw-small</rdf:li> 
+            <rdf:li>application/vnd.3gpp.ani-bw-large</rdf:li> 
+            <rdf:li>text/xhtml</rdf:li> 
+            <rdf:li>text/html</rdf:li> 
+            <rdf:li>text/wml</rdf:li> 
+            <rdf:li>text/css</rdf:li> 
+            <rdf:li>text/x-vcard</rdf:li> 
+            <rdf:li>text/x-vcalendar</rdf:li> 
+          </rdf:Bag>
+        </prf:CcppAccept>
+        <prf:CcppAccept-Charset>
+          <rdf:Bag>
+            <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>UTF-8</rdf:li>
+            <rdf:li>ISO-10646-UCS-2</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+          </rdf:Bag>
+        </prf:CcppAccept-Charset>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description ID="WapCharacteristics">
+        <rdf:type resource="http://www.wapforum.org/UAPROF/ccppschema-20000405#WapCharacteristics" /> 
+        <prf:WapDeviceClass>C</prf:WapDeviceClass>
+        <prf:WapPushMsgSize>1024</prf:WapPushMsgSize>
+        <prf:WapVersion>2.0</prf:WapVersion>
+        <prf:WmlDeckSize>6656</prf:WmlDeckSize>
+        <prf:WmlVersion>
+          <rdf:Bag>
+            <rdf:li>1.2.1</rdf:li>
+            <rdf:li>June/2000</rdf:li>
+            <rdf:li>1.1</rdf:li>
+          </rdf:Bag>
+        </prf:WmlVersion>
+        <prf:WmlScriptVersion>
+          <rdf:Bag>
+            <rdf:li>1.2.1</rdf:li>
+            <rdf:li>June/2000</rdf:li>
+            <rdf:li>1.1</rdf:li>
+          </rdf:Bag>
+        </prf:WmlScriptVersion>
+        <prf:WmlScriptLibraries>
+          <rdf:Bag>
+            <rdf:li>Lang</rdf:li>
+            <rdf:li>Float</rdf:li>
+            <rdf:li>String</rdf:li>
+            <rdf:li>URL</rdf:li>
+            <rdf:li>WMLBrowser</rdf:li>
+            <rdf:li>Dialogs</rdf:li>
+          </rdf:Bag>
+        </prf:WmlScriptLibraries>
+        <prf:WtaiLibraries>
+          <rdf:Bag>
+            <rdf:li>WTA.Public.makeCall</rdf:li>
+          </rdf:Bag>
+        </prf:WtaiLibraries>
+      </rdf:Description>
+    </prf:component>
+    <prf:component>
+      <rdf:Description ID="MMSCharacteristics">
+        <rdf:type resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MMSCharacteristics" /> 
+        <prf:MmsMaxMessageSize>51200</prf:MmsMaxMessageSize>
+        <prf:MmsMaxImageResolution>640x480</prf:MmsMaxImageResolution>
+        <prf:MmsVersion>1.0</prf:MmsVersion>
+        <prf:MmsCcppAccept>
+          <rdf:Bag>
+            <rdf:li>image/jpeg</rdf:li>
+            <rdf:li>image/gif</rdf:li>
+            <rdf:li>image/png</rdf:li>
+            <rdf:li>image/vnd.wap.wbmp</rdf:li>
+            <rdf:li>image/x-bmp</rdf:li>
+            <rdf:li>audio/amr</rdf:li>
+            <rdf:li>audio/x-amr</rdf:li>
+            <rdf:li>audio/midi</rdf:li>
+            <rdf:li>audio/x-midi</rdf:li>
+            <rdf:li>audio/sp-midi</rdf:li>
+            <rdf:li>text/plain</rdf:li>
+            <rdf:li>text/xhtml</rdf:li>
+            <rdf:li>text/html</rdf:li>
+            <rdf:li>application/smil</rdf:li>
+          </rdf:Bag>
+        </prf:MmsCcppAccept>
+        <prf:MmsCcppAcceptCharSet>
+          <rdf:Bag>
+            <rdf:li>US-ASCII</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+            <rdf:li>ISO-8859-2</rdf:li>
+            <rdf:li>UTF-8</rdf:li>
+            <rdf:li>UTF-16</rdf:li>
+            <rdf:li>ISO-10646-UCS-2</rdf:li>
+          </rdf:Bag>
+        </prf:MmsCcppAcceptCharSet>
+      </rdf:Description>
+    </prf:component>
+  </rdf:Description>
+</RDF>

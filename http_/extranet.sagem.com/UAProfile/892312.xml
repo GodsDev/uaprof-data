@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns">
+   <rdf:Description rdf:ID="Profile">
+      <prf:component>
+         <rdf:Description rdf:ID="SoftwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#SoftwarePlatform"/>
+            <prf:CcppAccept-Charset>
+               <rdf:Seq>
+                  <rdf:li>UTF-8</rdf:li>
+               </rdf:Seq>
+            </prf:CcppAccept-Charset>
+            <prf:JavaEnabled>Yes</prf:JavaEnabled>
+            <prf:DownloadableSoftwareSupport>
+               <rdf:Seq>
+                  <rdf:li>application/java-archive</rdf:li>
+                  <rdf:li>application/java</rdf:li>
+                  <rdf:li>application/x-java-archive</rdf:li>
+               </rdf:Seq>
+            </prf:DownloadableSoftwareSupport>
+            <prf:CcppAccept>
+               <rdf:Seq>
+                  <rdf:li>application/vnd.wap.wmlc</rdf:li>
+                  <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+                  <rdf:li>application/vnd.phonecom.mmc-wbxml</rdf:li>
+                  <rdf:li>application/octet-stream</rdf:li>
+                  <rdf:li>application/vnd.oma.drm.message</rdf:li>
+                  <rdf:li>application/vnd.wap.sic</rdf:li>
+                  <rdf:li>application/vnd.wap.slc</rdf:li>
+                  <rdf:li>application/vnd.wap.coc</rdf:li>
+                  <rdf:li>application/vnd.wap.connectivity-wbxml</rdf:li>
+                  <rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+                  <rdf:li>application/xhtml+xml</rdf:li>
+                  <rdf:li>application/vnd.uplanet.bearer-choice-wbxml</rdf:li>
+                  <rdf:li>application/java</rdf:li>
+                  <rdf:li>application/java-archive</rdf:li>
+                  <rdf:li>application/x-jam</rdf:li>
+                  <rdf:li>audio/amr</rdf:li>
+                  <rdf:li>audio/iMelody</rdf:li>
+                  <rdf:li>audio/mid</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/x-mid</rdf:li>
+                  <rdf:li>audio/x-midi</rdf:li>
+                  <rdf:li>audio/x-cmid</rdf:li>
+                  <rdf:li>audio/x-sagem1.0</rdf:li>
+                  <rdf:li>audio/x-sagem2.0</rdf:li>
+                  <rdf:li>audio/x-wav</rdf:li>
+                  <rdf:li>audio/wav</rdf:li>
+                  <rdf:li>image/bmp</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>image/wbmp</rdf:li>
+                  <rdf:li>text/css</rdf:li>
+                  <rdf:li>text/html</rdf:li>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+                  <rdf:li>text/x-vCard</rdf:li>
+                  <rdf:li>text/x-vCalendar</rdf:li>
+                  <rdf:li>text/x-iMelody</rdf:li>
+               </rdf:Seq>
+            </prf:CcppAccept>
+            <prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="PushCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#PushCharacteristics"/>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="BrowserUA">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#BrowserUA"/>
+            <prf:TablesCapable>Yes</prf:TablesCapable>
+            <prf:BrowserVersion>6.2.3.3</prf:BrowserVersion>
+            <prf:BrowserName>Openwave Mobile Browser</prf:BrowserName>
+            <prf:XhtmlVersion>1.0</prf:XhtmlVersion>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="NetworkCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#NetworkCharacteristics"/>
+            <prf:SecuritySupport>
+               <rdf:Seq>
+                  <rdf:li>WTLS-1</rdf:li>
+                  <rdf:li>WTLS-2</rdf:li>
+               </rdf:Seq>
+            </prf:SecuritySupport>
+            <prf:SupportedBearers>
+               <rdf:Seq>
+                  <rdf:li>OneWaySMS</rdf:li>
+                  <rdf:li>CSD</rdf:li>
+                  <rdf:li>GPRS</rdf:li>
+               </rdf:Seq>
+            </prf:SupportedBearers>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="MMSCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#MmsCharacteristics"/>
+            <prf:MmsMaxMessageSize>102400</prf:MmsMaxMessageSize>
+            <prf:MmsVersion>
+               <rdf:Seq>
+                  <rdf:li>1.0</rdf:li>
+               </rdf:Seq>
+            </prf:MmsVersion>
+            <prf:MmsCcppAcceptCharSet>
+               <rdf:Seq>
+                  <rdf:li>US-ASCII</rdf:li>
+                  <rdf:li>UTF-8</rdf:li>
+                  <rdf:li>UTF-16</rdf:li>
+               </rdf:Seq>
+            </prf:MmsCcppAcceptCharSet>
+            <prf:MmsMaxImageResolution>640x640</prf:MmsMaxImageResolution>
+            <prf:MmsCcppAccept>
+               <rdf:Seq>
+                  <rdf:li>application/smil</rdf:li>
+                  <rdf:li>application/vnd.wap.mms-message</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.alternative</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+                  <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+                  <rdf:li>application/vnd.oma.drm.message</rdf:li>
+                  <rdf:li>audio/amr</rdf:li>
+                  <rdf:li>audio/iMelody</rdf:li>
+                  <rdf:li>audio/midi</rdf:li>
+                  <rdf:li>audio/wav</rdf:li>
+                  <rdf:li>image/gif</rdf:li>
+                  <rdf:li>image/jpeg</rdf:li>
+                  <rdf:li>image/png</rdf:li>
+                  <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                  <rdf:li>text/plain</rdf:li>
+                  <rdf:li>text/x-iMelody</rdf:li>
+                  <rdf:li>text/x-vCard</rdf:li>
+                  <rdf:li>text/x-vCalendar</rdf:li>
+               </rdf:Seq>
+            </prf:MmsCcppAccept>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="WapCharacteristics">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#WapCharacteristics"/>
+            <prf:WtaiLibraries>
+               <rdf:Seq>
+                  <rdf:li>WTA.Public.makeCall</rdf:li>
+               </rdf:Seq>
+            </prf:WtaiLibraries>
+            <prf:WapDeviceClass>C</prf:WapDeviceClass>
+            <prf:WapVersion>2.0</prf:WapVersion>
+            <prf:DrmClass>
+               <rdf:Seq>
+                  <rdf:li>ForwardLock</rdf:li>
+               </rdf:Seq>
+            </prf:DrmClass>
+         </rdf:Description>
+      </prf:component>
+      <prf:component>
+         <rdf:Description rdf:ID="HardwarePlatform">
+            <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-2002121#HardwarePlatform"/>
+            <prf:ScreenSize>128x160</prf:ScreenSize>
+            <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+            <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+            <prf:ColorCapable>Yes</prf:ColorCapable>
+            <prf:Vendor>Sagem</prf:Vendor>
+            <prf:BitsPerPixel>16</prf:BitsPerPixel>
+            <prf:Model>SAGEM-myZ-55/1.0</prf:Model>
+            <prf:OutputCharSet>
+               <rdf:Seq>
+                  <rdf:li>UTF-8</rdf:li>
+               </rdf:Seq>
+            </prf:OutputCharSet>
+            <prf:TextInputCapable>Yes</prf:TextInputCapable>
+            <prf:ImageCapable>Yes</prf:ImageCapable>
+            <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+         </rdf:Description>
+      </prf:component>
+   </rdf:Description>
+</rdf:RDF>
