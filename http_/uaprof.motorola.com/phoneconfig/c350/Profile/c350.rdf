@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!-- This RDF describes the Motorola C350 with Motorola Browser 2.0
+
+==============================================================================
+                        Motorola Confidential Proprietary
+              (c) Copyright Motorola 2002, All Rights Reserved
+
+Version number : C350/RDF/V0.2
+
+=============================================================================
+Notes:
+
+1. This device advertises the following user-agent string for EMEA builds:
+     MOT-c350M/g_xx.xx.xxx MIB/2.0
+   This device advertises the following user-agent string for Asian builds:
+     MOT-c350M/as_g_xx.xx.xxx MIB/2.0
+
+     where xx.xx.xxx is a any combination of digits.
+   
+2. This RDF is an early access version of the RDF being made available
+   for purposes of interoperability testing.
+   
+3. This Document is based of
+
+   WAP-174, User Agent Profiling Specification  WAP-174-UAProf-19991110-a.pdf 
+   WAP-174_003, User Agent Profiling SIN  WAP-174_003-UAProf-20010208-a.pdf 
+   WAP-174_004, User Agent Profiling SIN WAP-174_004-UAProf-20010208-a.pdf 
+   WAP-174_006, User Agent Profiling SIN WAP-174_006-UAProf-20011002-a.pdf 
+   WAP-174_100, User Agent Profiling SIN WAP-174_100-UAProf-20000621-a.pdf 
+
+
+-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20000405#">
+<rdf:Description ID="C350-Profile">
+  <prf:component>
+    <rdf:Description ID="HardwarePlatform">
+        <prf:ScreenSize>96x65</prf:ScreenSize>
+        <prf:Model>C350</prf:Model>
+        <prf:InputCharSet>
+          <rdf:Bag>
+            <rdf:li>UCS-2</rdf:li>
+          </rdf:Bag>
+        </prf:InputCharSet>
+        <prf:ScreenSizeChar>14x7</prf:ScreenSizeChar> <!-- for a single page excluding the title -->
+        <prf:BitsPerPixel>12</prf:BitsPerPixel>
+        <prf:ColorCapable>Yes</prf:ColorCapable>
+        <prf:TextInputCapable>Yes</prf:TextInputCapable>
+        <prf:ImageCapable>Yes</prf:ImageCapable>
+        <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+        <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+	<prf:PointingResolution>None</prf:PointingResolution>
+	<prf:CPU>ARM7TDMI-S</prf:CPU>
+        <prf:Vendor>Motorola</prf:Vendor>
+        <prf:PixelAspectRatio>237x1000</prf:PixelAspectRatio> <!-- being verified with marketing  -->
+        <prf:OutputCharSet>
+          <rdf:Bag>
+            <rdf:li>UCS-2</rdf:li>
+          </rdf:Bag>
+        </prf:OutputCharSet>
+        <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+        <prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+	<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable>
+     </rdf:Description>
+  </prf:component>
+
+  <prf:component>
+    <rdf:Description ID="SoftwarePlatform">
+      	<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+	<prf:AudioInputEncoder>
+	 <rdf:Bag>
+	   <rdf:li>None</rdf:li>
+         </rdf:Bag>
+        </prf:AudioInputEncoder>
+	<prf:DownloadableSoftwareSupport>
+         <rdf:Bag>
+           <rdf:li>None</rdf:li>
+         </rdf:Bag>
+        </prf:DownloadableSoftwareSupport>
+	<prf:JVMVersion>
+	 <rdf:Bag>
+	   <rdf:li>None</rdf:li>
+         </rdf:Bag>
+	</prf:JVMVersion>
+        <prf:MexeClassmark>None</prf:MexeClassmark>
+	<prf:MexeSpec>None</prf:MexeSpec>
+	<prf:OSName>VRTXmc</prf:OSName>
+	<prf:OSVersion>SUAPI_C_2.0.11_R_ADS1.1</prf:OSVersion>
+	<prf:OSVendor>Mentor Graphics</prf:OSVendor>
+	<prf:RecipientAppAgent>BrowserUA</prf:RecipientAppAgent>
+	<prf:SoftwareNumber>2</prf:SoftwareNumber>
+	<prf:VideoInputEncoder>
+	 <rdf:Bag>
+	   <rdf:li>None</rdf:li>
+	 </rdf:Bag>
+	</prf:VideoInputEncoder>	 
+    </rdf:Description>
+  </prf:component>
+
+  <prf:component>
+    <rdf:Description ID="NetworkCharacteristics">
+	<prf:SecuritySupport>
+         <rdf:Bag>
+           <rdf:li>WTLS-1</rdf:li>
+           <rdf:li>WTLS-2</rdf:li>
+         </rdf:Bag>
+        </prf:SecuritySupport>
+        <prf:SupportedBearers>
+         <rdf:Bag>
+           <rdf:li>SMS</rdf:li>
+           <rdf:li>CSD</rdf:li>
+           <rdf:li>GPRS</rdf:li>
+         </rdf:Bag>
+       </prf:SupportedBearers>
+       <prf:CurrentBearerService>GSM_GPRS_IPV4_UDP</prf:CurrentBearerService>
+    </rdf:Description>
+   </prf:component>
+
+   <prf:component>
+    <rdf:Description ID="BrowserUA">
+	<prf:BrowserName>MIB/2.0</prf:BrowserName>
+	<prf:BrowserVersion>2.0</prf:BrowserVersion>
+	<prf:FramesCapable>No</prf:FramesCapable>
+      	<prf:TablesCapable>Yes</prf:TablesCapable>
+	<prf:CcppAccept>
+         <rdf:Bag>
+           <rdf:li>application/vnd.wap.wmlc</rdf:li>
+           <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+           <rdf:li>text/html</rdf:li>
+           <rdf:li>application/xhtml+xml</rdf:li>
+           <rdf:li>image/vnd.wap.wbmp</rdf:li>
+           <rdf:li>image/gif</rdf:li>
+           <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+           <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+           <rdf:li>application/vnd.iota.mmp-mmc</rdf:li>
+           <rdf:li>application/vnd.phonecom.mmc-xml</rdf:li>
+           <rdf:li>application/vnd.phonecom.mmc-wbxml</rdf:li>
+           <rdf:li>application/octet-stream</rdf:li>
+           <rdf:li>audio/imelody</rdf:li>
+           <rdf:li>image/ems.userdefined.picture</rdf:li>
+           <rdf:li>image/ems.userdefined.animation</rdf:li>
+           <rdf:li>image/ems.predefined.animation</rdf:li>
+           <rdf:li>audio/midi</rdf:li>
+           <rdf:li>audio/mid</rdf:li>
+           <rdf:li>application/java-archive</rdf:li>
+           <rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li>
+         </rdf:Bag>
+        </prf:CcppAccept>
+        <prf:CcppAccept-Charset>
+         <rdf:Bag>
+           <rdf:li>utf-8</rdf:li>
+         </rdf:Bag>
+        </prf:CcppAccept-Charset>
+        <prf:CcppAccept-Encoding>
+          <rdf:Bag>
+            <rdf:li>None</rdf:li>
+          </rdf:Bag>
+        </prf:CcppAccept-Encoding>
+        <prf:CcppAccept-Language>
+          <rdf:Seq>
+<!-- The Languages changes depending on the Language Packages available on the device and also with Market Requirements  -->
+            <rdf:li>en</rdf:li> 
+            <rdf:li>fr</rdf:li>
+            <rdf:li>es</rdf:li>
+            <rdf:li>pt</rdf:li>
+          </rdf:Seq>
+        </prf:CcppAccept-Language>
+        <prf:DownloadableBrowserApps>
+          <rdf:Bag>
+            <rdf:li>None</rdf:li>
+          </rdf:Bag>
+        </prf:DownloadableBrowserApps>
+	<prf:HtmlVersion>None</prf:HtmlVersion>
+	<prf:JavaScriptVersion>None</prf:JavaScriptVersion>
+	<prf:PreferenceForFrames>No</prf:PreferenceForFrames>
+	<prf:XhtmlVersion>1.1</prf:XhtmlVersion>
+	<prf:XhtmlModules>
+	  <rdf:Bag>
+	    <rdf:li>Structure Module</rdf:li>
+	    <rdf:li>Text Module</rdf:li>
+	    <rdf:li>Hypertext Module</rdf:li>
+	    <rdf:li>List Module</rdf:li>
+	    <rdf:li>Basic Forms Module</rdf:li>
+	    <rdf:li>Basic Tables Module</rdf:li>
+	    <rdf:li>Image Module</rdf:li>
+	    <rdf:li>Base Module</rdf:li>
+	  </rdf:Bag>
+	</prf:XhtmlModules>
+    </rdf:Description>
+   </prf:component>
+
+   <prf:component>
+    <rdf:Description ID="WapCharacteristics">
+	<prf:WapDeviceClass>C</prf:WapDeviceClass>
+	<prf:WapPushMsgPriority>all</prf:WapPushMsgPriority> <!-- "all" means messages of all messages are accepted -->
+      	<prf:WapPushMsgSize>336</prf:WapPushMsgSize> <!-- Size of Max Push message -->
+	<prf:WapVersion>1.2.1</prf:WapVersion>
+      	<prf:WmlVersion>
+       	  <rdf:Bag>
+            <rdf:li>1.1</rdf:li>
+            <rdf:li>1.2</rdf:li>
+            <rdf:li>1.3</rdf:li>
+          </rdf:Bag>
+        </prf:WmlVersion>
+      	<prf:WmlDeckSize>7700</prf:WmlDeckSize>
+      	<prf:WmlScriptVersion>
+          <rdf:Bag>
+            <rdf:li>1.1</rdf:li>
+            <rdf:li>1.2.1</rdf:li>
+       	  </rdf:Bag>
+      	</prf:WmlScriptVersion>
+      	<prf:WmlScriptLibraries>
+          <rdf:Bag>
+            <rdf:li>Lang</rdf:li>
+            <rdf:li>Float</rdf:li>
+            <rdf:li>String</rdf:li>
+            <rdf:li>URL</rdf:li>
+            <rdf:li>WMLBrowser</rdf:li>
+            <rdf:li>Dialog</rdf:li>
+       	  </rdf:Bag>
+      	</prf:WmlScriptLibraries>
+      	<prf:WtaiLibraries>
+          <rdf:Bag>
+            <rdf:li>WTA.Public </rdf:li> <!-- Motorola supports only makecall -->
+          </rdf:Bag>
+      	</prf:WtaiLibraries>
+	<prf:wtaVersion>1.1</prf:wtaVersion>
+    </rdf:Description>
+   </prf:component>
+ </rdf:Description>
+</RDF>

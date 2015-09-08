@@ -1,0 +1,104 @@
+<?xml version="1.0" ?> 
+<!-- 
+ Samsung common MMS UAprof
+--> 
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20070511#" xmlns:mms="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#">
+<rdf:Description rdf:ID="Profile">
+
+<!--   MMS Characteristics Description  
+--> 
+<prf:component>
+<rdf:Description rdf:ID="MmsCharacteristics">
+<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#MmsCharacteristics" /> 
+<mms:MmsMaxMessageSize>307200</mms:MmsMaxMessageSize> 
+<mms:MmsMaxImageResolution>640x480</mms:MmsMaxImageResolution> 
+<mms:MmsCcppAccept>
+<rdf:Bag>
+<!--    Other MIME type   
+--> 
+<rdf:li>application/smil</rdf:li> 
+<rdf:li>application/vnd.oma.drm.message</rdf:li> 
+<rdf:li>application/vnd.wap.mms-message</rdf:li> 
+<rdf:li>application/vnd.wap.multipart.alternative</rdf:li> 
+<rdf:li>application/vnd.wap.multipart.mixed</rdf:li> 
+<rdf:li>application/vnd.wap.multipart.related</rdf:li> 
+<!--    Audio  
+--> 
+<rdf:li>audio/amr</rdf:li> 
+<rdf:li>audio/aac</rdf:li> 
+<rdf:li>audio/imy</rdf:li> 
+<rdf:li>audio/mid</rdf:li> 
+<rdf:li>audio/midi</rdf:li> 
+<rdf:li>audio/x-mid</rdf:li> 
+<rdf:li>audio/x-midi</rdf:li> 
+<rdf:li>audio/mp3</rdf:li> 
+<rdf:li>audio/mpeg3</rdf:li> 
+<rdf:li>audio/mpeg</rdf:li> 
+<rdf:li>audio/mpg</rdf:li> 
+<rdf:li>audio/x-mp3</rdf:li> 
+<rdf:li>audio/x-mpeg3</rdf:li> 
+<rdf:li>audio/wav</rdf:li> 
+<rdf:li>audio/x-wav</rdf:li> 
+<rdf:li>audio/wave</rdf:li> 
+<rdf:li>audio/ogg</rdf:li> 
+<rdf:li>application/ogg</rdf:li> 
+<rdf:li>audio/3gpp</rdf:li> 
+<rdf:li>audio/mp4</rdf:li> 
+<!--    Image   
+--> 
+<rdf:li>image/gif</rdf:li> 
+<rdf:li>image/jpeg</rdf:li> 
+<rdf:li>image/jpg</rdf:li> 
+<rdf:li>image/png</rdf:li> 
+<rdf:li>image/bmp</rdf:li> 
+<rdf:li>image/vnd.wap.wbmp</rdf:li> 
+<!--    Video  
+--> 
+<rdf:li>video/mpeg4</rdf:li> 
+<rdf:li>video/mp4</rdf:li> 
+<rdf:li>video/mpeg</rdf:li> 
+<rdf:li>video/3gpp</rdf:li> 
+<rdf:li>video/3gp</rdf:li> 
+<rdf:li>video/h263</rdf:li> 
+<rdf:li>video/3gpp2</rdf:li> 
+<!--    Text  
+--> 
+<rdf:li>text/plain</rdf:li> 
+<rdf:li>text/x-vCard</rdf:li> 
+<rdf:li>text/x-vCalendar</rdf:li> 
+<rdf:li>text/x-vtodo</rdf:li> 
+</rdf:Bag>
+</mms:MmsCcppAccept>
+<mms:MmsCcppAcceptCharSet>
+<rdf:Bag>
+<rdf:li>US-ASCII</rdf:li> 
+<rdf:li>ISO-8859-1</rdf:li> 
+<rdf:li>ISO-8859-2</rdf:li> 
+<rdf:li>UTF-8</rdf:li> 
+</rdf:Bag>
+</mms:MmsCcppAcceptCharSet>
+<mms:MmsContentClass>
+<rdf:Bag>
+<rdf:li>TX</rdf:li> 
+<rdf:li>IR</rdf:li> 
+<rdf:li>IB</rdf:li> 
+<rdf:li>VB</rdf:li> 
+<rdf:li>VR</rdf:li> 
+</rdf:Bag>
+</mms:MmsContentClass>
+<mms:MmsVersion>
+<rdf:Bag>
+<rdf:li>1.2</rdf:li> 
+</rdf:Bag>
+</mms:MmsVersion>
+<mms:MmsCcppAcceptEncoding>
+<rdf:Bag>
+<rdf:li>base64</rdf:li> 
+</rdf:Bag>
+</mms:MmsCcppAcceptEncoding>
+<mms:MmsCcppStreamingCapable>No</mms:MmsCcppStreamingCapable> 
+</rdf:Description>
+</prf:component>
+
+</rdf:Description>
+</rdf:RDF>

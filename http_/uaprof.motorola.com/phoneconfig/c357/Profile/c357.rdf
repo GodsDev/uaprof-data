@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!-- This RDF describes the Motorola C357 CDMA 
+
+==============================================================================
+                        Motorola Confidential Proprietary
+              (c) Copyright Motorola 2003, All Rights Reserved
+
+Version number : C357/RDF/V0.1
+
+=============================================================================
+Notes:
+
+ 
+1. This RDF is an early access version of the RDF being made available
+   for purposes of interoperability testing.
+   
+2. This version is based off WAP-248-UAProf-20011020-a.pdf 
+
+-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:prf="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#">
+<rdf:Description ID="C357-MMS-Profile">
+  <prf:component>
+    <rdf:Description ID="HardwarePlatform">
+       <rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#HardwarePlatform" />
+        <prf:ScreenSize>96x65</prf:ScreenSize>
+        <prf:Model>C357</prf:Model>
+        <prf:InputCharSet>
+          <rdf:Bag>
+            <rdf:li>UCS-2</rdf:li>
+          </rdf:Bag>
+        </prf:InputCharSet>
+        <prf:ScreenSizeChar>14x7</prf:ScreenSizeChar> <!-- for a single page excluding the title -->
+        <prf:BitsPerPixel>12</prf:BitsPerPixel>
+        <prf:ColorCapable>Yes</prf:ColorCapable>
+        <prf:TextInputCapable>Yes</prf:TextInputCapable>
+        <prf:ImageCapable>Yes</prf:ImageCapable>
+        <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+        <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+        <prf:Vendor>Motorola</prf:Vendor>
+        <prf:PixelAspectRatio>237x1000</prf:PixelAspectRatio>
+        <prf:OutputCharSet>
+          <rdf:Bag>
+            <rdf:li>UCS-2</rdf:li>
+          </rdf:Bag>
+        </prf:OutputCharSet>
+        <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+        <prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+     </rdf:Description>
+  </prf:component>
+
+  <prf:component>
+    <rdf:Description ID="SoftwarePlatform">
+      <rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#SoftwarePlatform" />
+        <prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+    </rdf:Description>
+  </prf:component>
+
+  <prf:component>
+    <rdf:Description ID="NetworkCharacteristics">
+      <rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#NetworkCharacteristics" />
+        <prf:SecuritySupport>
+         <rdf:Bag>
+           <rdf:li>WTLS-1</rdf:li>
+           <rdf:li>WTLS-2</rdf:li>
+         </rdf:Bag>
+        </prf:SecuritySupport>
+        <prf:SupportedBearers>
+         <rdf:Bag>
+           <rdf:li>CDMA</rdf:li>
+           <rdf:li>SMS</rdf:li>
+           <rdf:li>CSD</rdf:li>
+         </rdf:Bag>
+       </prf:SupportedBearers>
+    </rdf:Description>
+   </prf:component>
+
+   <prf:component>
+   <rdf:Description ID="BrowserUA">
+     <rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#BrowserUA" />
+     <prf:BrowserName>Openwave/6.2.2.1</prf:BrowserName>
+      <prf:FramesCapable>No</prf:FramesCapable>
+      <prf:TablesCapable>Yes</prf:TablesCapable>
+      <prf:CcppAccept>
+        <rdf:Bag>
+          <rdf:li>application/vnd.iota.mmp-wbxml</rdf:li>
+          <rdf:li>application/x-mmc.wallpaper;type=image/gif</rdf:li>
+          <rdf:li>application/x-mmc.wallpaper;type=image/bmp</rdf:li>
+          <rdf:li>application/x-mmc.ringtone;type=audio/midi</rdf:li>
+          <rdf:li>application/x-mmc.*;type=image/vnd.wap.wbmp</rdf:li>
+          <rdf:li>application/x-mmc.title;charset=us-ascii;size=30</rdf:li>
+          <rdf:li>text/vnd.wap.wml</rdf:li>
+          <rdf:li>application/vnd.wap.wmlc</rdf:li>
+          <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+          <rdf:li>application/vnd.oma.dd+xml</rdf:li>
+          <rdf:li>application/vnd.phonecom.mmc-xml</rdf:li>
+          <rdf:li>application/vnd.phonecom.mmc-wbxml</rdf:li>
+          <rdf:li>text/html</rdf:li>
+          <rdf:li>image/vnd.wap.wbmp</rdf:li>
+          <rdf:li>image/gif</rdf:li>
+          <rdf:li>image/png</rdf:li>
+          <rdf:li>image/jpeg</rdf:li>
+          <rdf:li>image/jpg</rdf:li>
+          <rdf:li>image/bmp</rdf:li>
+          <rdf:li>image/wbmp</rdf:li>
+          <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+          <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+          <rdf:li>application/octet-stream</rdf:li>
+          <rdf:li>image/ems.userdefined.picture</rdf:li>
+          <rdf:li>image/ems.userdefined.animation</rdf:li>
+          <rdf:li>image/ems.predefined.animation</rdf:li>
+          <rdf:li>audio/midi</rdf:li>
+          <rdf:li>audio/mid</rdf:li>
+          <rdf:li>audio/imelody</rdf:li>
+       </rdf:Bag>
+      </prf:CcppAccept>
+      <prf:MmcRingtone>
+       <rdf:Bag>
+        <rdf:li>phone:ringtone</rdf:li>
+       </rdf:Bag>
+      </prf:MmcRingtone>
+      <prf:MmcWallpaper>
+       <rdf:Bag>
+        <rdf:li>phone:wallpaper</rdf:li>
+       </rdf:Bag>
+      </prf:MmcWallpaper>
+      <prf:CcppAccept-Charset>
+       <rdf:Bag>
+        <rdf:li>UTF-8</rdf:li> 
+        <rdf:li>ISO-8859-1</rdf:li> 
+        <rdf:li>US-ASCII</rdf:li> 
+        <rdf:li>ISO-10646-UCS-2</rdf:li> 
+       </rdf:Bag>
+      </prf:CcppAccept-Charset>
+      <prf:CcppAccept-Encoding>
+       <rdf:Bag>
+        <rdf:li>None</rdf:li>
+       </rdf:Bag>
+      </prf:CcppAccept-Encoding>
+      <prf:CcppAccept-Language>
+       <rdf:Seq>
+        <rdf:li>en</rdf:li> 
+        <rdf:li>pt</rdf:li>
+        <rdf:li>sp</rdf:li>
+       </rdf:Seq>
+      </prf:CcppAccept-Language>
+    </rdf:Description>
+   </prf:component>
+
+   <prf:component>
+    <rdf:Description ID="WapCharacteristics">
+      <rdf:type resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20010330#WapCharacteristics" />
+      <prf:WapDeviceClass>C</prf:WapDeviceClass>
+      <prf:WapPushMsgSize>160</prf:WapPushMsgSize> <!-- Size of Max Push message -->
+      <prf:WapVersion>2.0</prf:WapVersion>
+      <prf:WmlVersion>
+       <rdf:Bag>
+        <rdf:li>1.1</rdf:li>
+        <rdf:li>1.2</rdf:li>
+        <rdf:li>1.3</rdf:li>
+       </rdf:Bag>
+      </prf:WmlVersion>
+      <prf:WmlDeckSize>7700</prf:WmlDeckSize>
+      <prf:WmlScriptVersion>
+       <rdf:Bag>
+        <rdf:li>1.1</rdf:li>
+        <rdf:li>1.2.1</rdf:li>
+       </rdf:Bag>
+      </prf:WmlScriptVersion>
+      <prf:WmlScriptLibraries>
+       <rdf:Bag>
+        <rdf:li>Lang</rdf:li>
+        <rdf:li>Float</rdf:li>
+        <rdf:li>String</rdf:li>
+        <rdf:li>URL</rdf:li>
+        <rdf:li>WMLBrowser</rdf:li>
+        <rdf:li>Dialog</rdf:li>
+       </rdf:Bag>
+      </prf:WmlScriptLibraries>
+      <prf:WtaiLibraries>
+       <rdf:Bag>
+         <rdf:li>WTA.Public </rdf:li> <!-- Motorola supports only makecall -->
+       </rdf:Bag>
+      </prf:WtaiLibraries>
+    </rdf:Description>
+   </prf:component>
+
+   <prf:component>
+    <rdf:Description ID="MMSCharacteristics">
+     <rdf:type resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MMSCharacteristics" /> 
+      <prf:MmsMaxMessageSize>30720</prf:MmsMaxMessageSize> 
+      <prf:MmsMaxImageResolution>160x120</prf:MmsMaxImageResolution> 
+      <prf:MmsCcppAccept>
+       <rdf:Bag>
+        <rdf:li>application/smil</rdf:li>
+        <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+        <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+        <rdf:li>audio/mid</rdf:li>
+        <rdf:li>audio/midi</rdf:li>
+        <rdf:li>audio/imelody</rdf:li>
+        <rdf:li>image/png</rdf:li>
+        <rdf:li>image/bmp</rdf:li>
+        <rdf:li>image/wbmp</rdf:li>
+        <rdf:li>image/gif</rdf:li>
+        <rdf:li>image/jpeg</rdf:li>           
+        <rdf:li>image/jpg</rdf:li>            
+        <rdf:li>text/plain</rdf:li>
+       </rdf:Bag>
+      </prf:MmsCcppAccept>
+      <prf:MmsCcppAcceptCharSet>
+       <rdf:Bag>
+        <rdf:li>UTF-8</rdf:li> 
+        <rdf:li>ISO-8859-1</rdf:li> 
+        <rdf:li>US-ASCII</rdf:li> 
+        <rdf:li>ISO-10646-UCS-2</rdf:li> 
+      </rdf:Bag>
+     </prf:MmsCcppAcceptCharSet>
+     <prf:MmsVersion>1.0</prf:MmsVersion> 
+   </rdf:Description>
+  </prf:component>
+ </rdf:Description>
+</RDF>

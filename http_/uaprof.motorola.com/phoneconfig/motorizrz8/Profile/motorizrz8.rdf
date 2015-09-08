@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<!-- ############################################################################### -->
+<!--                                                                                 -->
+<!-- Copyright (c) 2007 Motorola Mobile Devices Ltd. All rights reserved. 			 -->
+<!--                                                                                 -->
+<!-- The contents of this document are provided "as is". No warranties of any kind,  -->
+<!-- either express or implied, including, but not limited to, the implied           -->
+<!-- warranties of merchantability and fitness for a particular purpose, are made    -->
+<!-- in relation to the accuracy, reliability or contents of this document.          -->
+<!-- Motorola Ltd reserves the right to revise this document or withdraw it at any   -->
+<!-- time without prior notice.                                                      -->
+<!--                                                                                 -->
+<!-- ############################################################################### -->
+<!-- This RDF describes the Motorola MOTORIZR-Z8 Device with Opera Browser 8.65		 -->
+<!-- ############################################################################### -->
+<!--                                                                                 -->
+<!-- Revision history:                                                               -->
+<!--   Version V0.1 - Initial Draft							   		                 -->
+<!--   Version V0.2 - 01 June 2007							   		                 -->
+<!--   Version V0.3 - 06 June 2007							   		                 -->
+<!-- ############################################################################### -->
+
+<rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+          xmlns:mms="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#" 
+          xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#">
+
+<rdf:Description rdf:ID="MOTORIZR-Z8-Profile">
+
+    <!-- ***************************** -->
+    <!-- Hardware Platform Description -->
+    <!-- ***************************** -->
+    
+    <prf:component>
+        <rdf:Description rdf:ID="HardwarePlatform">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#HardwarePlatform" />
+            <!-- Vendor/model -->
+            <prf:Vendor rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Motorola Mobile Devices Ltd</prf:Vendor>
+            <prf:Model rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">MOTORIZR-Z8</prf:Model>						
+			<prf:CPU rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">TI-OMAP</prf:CPU>							
+			
+            <!-- Display -->
+            <prf:ScreenSize rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Dimension">240x320</prf:ScreenSize>
+            <prf:ColorCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:ColorCapable>
+            <prf:BitsPerPixel rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">24</prf:BitsPerPixel>
+            <prf:PixelAspectRatio rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Dimension">1x1</prf:PixelAspectRatio>
+            <prf:ImageCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:ImageCapable>
+            <prf:ScreenSizeChar rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Dimension">18x10</prf:ScreenSizeChar>	
+			<prf:StandardFontProportional rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:StandardFontProportional>
+            
+            <prf:OutputCharSet>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-1</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-2</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-5</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-7</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-9</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1252</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">US-ASCII</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-8</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-10646-UCS-2</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16be</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16le</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-7</rdf:li>
+                </rdf:Bag>
+            </prf:OutputCharSet>
+            
+            <!-- Input capabilities -->
+            <prf:InputCharSet>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-1</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-2</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-5</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-7</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-9</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1252</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">US-ASCII</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-8</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-10646-UCS-2</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16be</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16le</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-7</rdf:li>
+                </rdf:Bag>
+            </prf:InputCharSet>
+            <prf:TextInputCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:TextInputCapable>
+            <prf:Keyboard rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">PhoneKeyPad</prf:Keyboard>	
+            <prf:NumberOfSoftKeys rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">3</prf:NumberOfSoftKeys>
+
+            <!--  Audio -->
+            <prf:SoundOutputCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:SoundOutputCapable>
+            <prf:VoiceInputCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:VoiceInputCapable>
+            <prf:BluetoothProfile>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Headset</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Handsfree</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Advanced Audio Distribution Profile</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Personal Area Networking GN Profile</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Personal Area Networking User Profile</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ObjectPush</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">DialUpNetworking</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">FileTransfer</rdf:li>
+                </rdf:Bag>
+            </prf:BluetoothProfile>
+		</rdf:Description>
+    </prf:component>
+    
+    
+    <!-- ***************************** -->
+    <!-- Software Platform Description -->
+    <!-- ***************************** -->
+    <prf:component>
+        <rdf:Description rdf:ID="SoftwarePlatform">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#SoftwarePlatform" />
+
+            <!--  Basic -->
+            <prf:AudioInputEncoder>
+                <rdf:Bag> 
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WAV</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">AMR-NB</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">SBC</rdf:li>
+                </rdf:Bag>
+            </prf:AudioInputEncoder>
+
+            <!--  Java -->
+            <prf:JavaEnabled rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:JavaEnabled>
+            <prf:JavaPlatform>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">CLDC</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">MIDP</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">MIDP/1.0-compatible</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Profile/MIDP-2.0</rdf:li>                    
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Configuration/CLDC-1.0</rdf:li>
+					<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Configuration/CLDC-1.1</rdf:li>
+                </rdf:Bag>
+            </prf:JavaPlatform>
+            <prf:JavaPackage>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">jsr-120</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">jsr-135</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">jsr-184</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">jsr-185</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">vscl-2.0</rdf:li>
+                </rdf:Bag>
+            </prf:JavaPackage>
+            <prf:JVMVersion>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Motorola Enhanced VM</rdf:li>
+                </rdf:Bag>
+            </prf:JVMVersion>
+            
+
+            <!--  CCPP accept -->
+            <prf:CcppAccept>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java-archive</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.uiq.thm</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/x-vCalendar</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/x-vCard</rdf:li> 
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.oma.drm.message</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.oma.drm.content</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.oma.dd+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.wap.xhtml+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/xhtml+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-vnd.wv.csp-prov.ota+wbxml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-vnd.wv.csp-prov.ota+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-x509-ca-cert</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-x509-user-cert</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/wav</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/bmp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/gif</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/jpeg</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/png</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/vnd.wap.wbmp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">image/svg+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/css</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/html</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/plain</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-image/gif</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-image/jpeg</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-image/bmp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-image/png</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-image/vnd.wap.wbmp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-video/mp4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-video/3gpp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/aac</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/amr</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/wav</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/midi</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/mpeg</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-caf-audio/aacp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">video/mp4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">video/3gpp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">video/mpeg4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">video/h263</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/aac</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/amr</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/midi</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/mid</rdf:li>           
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/mpeg</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/mp4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/x-wav</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/x-mid</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/sp-midi</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/3gpp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">audio/aacp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-sdp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-rtsp</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.oma.drm.rights+xml</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.oma.drm.rights+wbxml</rdf:li>
+                </rdf:Bag>
+            </prf:CcppAccept>
+            <prf:CcppAccept-Charset>
+                <rdf:Bag>
+         	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">US-ASCII</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-1</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-2</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-4</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-5</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-7</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-8859-9</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1250</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1252</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1253</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WINDOWS-1254</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">KOI8-R</rdf:li>
+            	    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-8</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-10646-UCS-2</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">csKOI8R</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16be</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16le</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-7</rdf:li>
+                </rdf:Bag>
+            </prf:CcppAccept-Charset>
+            <prf:CcppAccept-Language>
+          		<rdf:Seq>
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">en</rdf:li>
+	  			</rdf:Seq>
+        	</prf:CcppAccept-Language>
+            <prf:CcppAccept-Encoding>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">base64</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">unicode</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">quoted-printable</rdf:li>
+                </rdf:Bag>
+            </prf:CcppAccept-Encoding>
+            
+         	<prf:AcceptDownloadableSoftware rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:AcceptDownloadableSoftware>
+         	<prf:DownloadableSoftwareSupport>
+         		<rdf:Bag>
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java-archive</rdf:li> 
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java</rdf:li> 
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-java-archive</rdf:li>
+           			<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.symbian.install</rdf:li>
+         		</rdf:Bag>
+        	</prf:DownloadableSoftwareSupport>
+			<prf:OSName rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Symbian</prf:OSName>
+			<prf:OSVendor rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Symbian</prf:OSVendor>
+			<prf:OSVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">9.2</prf:OSVersion>
+			<prf:VideoInputEncoder>
+	 			<rdf:Bag>
+	   				<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">MPEG-4</rdf:li>
+	   				<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">H.263</rdf:li>
+	 			</rdf:Bag>
+			</prf:VideoInputEncoder>
+        </rdf:Description>
+    </prf:component>
+    
+    
+    <!-- *********************************** -->
+    <!-- Network Characteristics Description -->
+    <!-- *********************************** -->
+    <prf:component>
+        <rdf:Description rdf:ID="NetworkCharacteristics">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#NetworkCharacteristics" />
+
+            <prf:SecuritySupport>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTLS-1</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTLS-2</rdf:li>
+	            	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTLS-3</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">signText</rdf:li>
+                </rdf:Bag>
+            </prf:SecuritySupport>
+            <prf:CurrentBearerService rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">3GPP_WCDMA_IPV4</prf:CurrentBearerService>
+            <prf:SupportedBearers>
+                <rdf:Bag>
+                	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">3GPP_WCDMA_IPV4</rdf:li>
+                	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">3GPP_GPRS_IPV4</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">GSM_GPRS_IPV4</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">GSM_CSD_IPV4</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">GPRS</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">CSD</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">USSD</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">HSCSD</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">EDGE</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">EGPRS</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">SMS</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">OneWaySMS</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">TwoWaySMS</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">OneWayPacket</rdf:li>
+          	    	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">HSDPA</rdf:li>
+                </rdf:Bag>
+            </prf:SupportedBearers>
+            <prf:SupportedBluetoothVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">2.0+EDR</prf:SupportedBluetoothVersion>
+
+        </rdf:Description>
+    </prf:component>
+    
+    
+    <!-- ********************** -->
+    <!-- Browser UA Description -->
+    <!-- ********************** -->
+    <prf:component>
+        <rdf:Description rdf:ID="BrowserUA">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#BrowserUA" />
+
+            <!--  Browser Identification -->
+            <prf:BrowserName rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">Opera</prf:BrowserName>
+            <prf:BrowserVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">8.6</prf:BrowserVersion>
+            <prf:DownloadableBrowserApps>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java</rdf:li>
+                    <rdf:li  rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/java-archive</rdf:li>
+                </rdf:Bag>
+            </prf:DownloadableBrowserApps>
+
+            <!-- Capabilities -->
+            <prf:FramesCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:FramesCapable>
+            <prf:HtmlVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">4</prf:HtmlVersion>
+            <prf:TablesCapable rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:TablesCapable>
+            <prf:PreferenceForFrames rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:PreferenceForFrames>
+            <prf:XhtmlVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">1.1</prf:XhtmlVersion>
+
+            <!--  Applet / Script -->
+            <prf:JavaAppletEnabled rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">No</prf:JavaAppletEnabled>
+            <prf:JavaScriptEnabled rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:JavaScriptEnabled>
+            <prf:JavaScriptVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">1.3</prf:JavaScriptVersion>
+
+        </rdf:Description>
+    </prf:component>
+
+    <!-- ******************************* -->
+    <!-- WAP Characteristics Description -->
+    <!-- ******************************* -->
+    <prf:component>
+        <rdf:Description rdf:ID="WapCharacteristics">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#WapCharacteristics" />
+
+            <!-- General -->
+            <prf:WapDeviceClass rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">C</prf:WapDeviceClass>
+            <prf:WapVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">2.0</prf:WapVersion>
+
+            <!-- WML -->
+            <prf:WmlVersion>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">1.3</rdf:li>
+                </rdf:Bag>
+            </prf:WmlVersion>
+            <prf:WmlDeckSize rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">60000</prf:WmlDeckSize>
+
+            <!-- WMLSCRIPT -->
+            <prf:WmlScriptVersion>
+            	<rdf:Bag>
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">None</rdf:li>
+            	</rdf:Bag>
+            </prf:WmlScriptVersion>
+
+            <!-- WMLSCRIPT LIBRARY -->
+            <prf:WmlScriptLibraries>
+            	<rdf:Bag>
+            		<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">None</rdf:li>
+            	</rdf:Bag>
+            </prf:WmlScriptLibraries>
+
+            <!-- WTAI LIBRARY -->
+            <prf:WtaVersion rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">1.1</prf:WtaVersion>
+            <prf:WtaiLibraries>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTA.Public.makeCall</rdf:li>
+                  	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTA.Public.sendDTMF</rdf:li>
+                  	<rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">WTA.Public.addPBEntry</rdf:li>
+                </rdf:Bag>
+            </prf:WtaiLibraries>
+
+
+            <!-- DRM -->
+            <prf:DrmClass>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ForwardLock</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">CombinedDelivery</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">SeparateDelivery</rdf:li>
+                </rdf:Bag>
+            </prf:DrmClass>
+
+            <prf:DrmConstraints>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">datetime</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">interval</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">accumulated</rdf:li>
+                </rdf:Bag>
+            </prf:DrmConstraints>
+
+            <prf:OmaDownload rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Boolean">Yes</prf:OmaDownload>
+
+        </rdf:Description>
+    </prf:component>
+    
+    
+    <!-- ******************************** -->
+    <!-- Push Characteristics Description -->
+    <!-- ******************************** -->
+    <prf:component>
+        <rdf:Description rdf:ID="PushCharacteristics">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#PushCharacteristics" />
+
+            <prf:Push-Accept>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/vnd.wap.si</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.wap.sic</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">text/vnd.wap.sl</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.wap.slc</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/vnd.wap.mms-message</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">application/x-wap-prov.browser-settings</rdf:li>
+                </rdf:Bag>
+            </prf:Push-Accept>
+            <prf:Push-Accept-Charset>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-16</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">UTF-8</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">ISO-10646-1-UCS-2</rdf:li>
+                </rdf:Bag>
+            </prf:Push-Accept-Charset>
+            <prf:Push-Accept-Encoding>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">base64</rdf:li>
+                </rdf:Bag>
+            </prf:Push-Accept-Encoding>
+
+            <prf:Push-Accept-AppID>
+                <rdf:Bag>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-wap-application:wml.ua</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">x-wap-application:mms.ua</rdf:li>
+                    <rdf:li rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">*</rdf:li>
+                </rdf:Bag>
+            </prf:Push-Accept-AppID>
+
+            <prf:Push-MaxPushReq rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">1</prf:Push-MaxPushReq>
+            <prf:Push-MsgSize rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">3000</prf:Push-MsgSize>
+        </rdf:Description>
+    </prf:component>
+    
+    
+    <!-- ******************************* -->
+    <!-- MMS Characteristics Description --> 
+    <!-- ******************************* -->
+    <prf:component>
+        <rdf:Description rdf:ID="MMSCharacteristics">
+            <rdf:type resource="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#MmsCharacteristics" />
+
+            <mms:MmsMaxMessageSize rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Number">300000</mms:MmsMaxMessageSize>
+            <mms:MmsMaxImageResolution rdf:datatype="http://www.openmobilealliance.org/tech/profiles/UAPROF/xmlschema-20030226#Literal">640x480</mms:MmsMaxImageResolution>
+            <mms:MmsCcppAccept>
+                <rdf:Bag>
+                	<rdf:li>application/java</rdf:li>
+                	<rdf:li>application/java-archive</rdf:li>
+                	<rdf:li>application/vnd.uiq.thm</rdf:li>
+                	<rdf:li>text/x-vCalendar</rdf:li>
+                	<rdf:li>text/x-vCard</rdf:li>
+                	<rdf:li>text/x-css</rdf:li>
+                	<rdf:li>text/plain</rdf:li>
+                	<rdf:li>text/html</rdf:li>
+                	<rdf:li>application/vnd.oma.drm.message</rdf:li>
+                	<rdf:li>application/vnd.oma.drm.content</rdf:li>
+                	<rdf:li>application/vnd.oma.dd+xml</rdf:li>
+                	<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+                	<rdf:li>application/xhtml+xml</rdf:li>
+                	<rdf:li>application/x-vnd.wv.csp-prov.ota+wbxml</rdf:li>
+                	<rdf:li>application/x-vnd.wv.csp-prov.ota+xml</rdf:li>
+                	<rdf:li>application/x-x509-ca-cert</rdf:li>
+                	<rdf:li>application/x-x509-user-cert</rdf:li>
+                	<rdf:li>application/smil</rdf:li>
+                	<rdf:li>audio/wav</rdf:li>
+                	<rdf:li>audio/amr</rdf:li>
+                	<rdf:li>audio/midi</rdf:li>
+                    <rdf:li>audio/mid</rdf:li>
+                    <rdf:li>audio/x-mid</rdf:li>
+                    <rdf:li>audio/3gpp</rdf:li>
+                    <rdf:li>x-caf-audio/midi</rdf:li>
+                    <rdf:li>x-caf-audio/amr</rdf:li>
+                	<rdf:li>image/bmp</rdf:li>
+                	<rdf:li>image/gif</rdf:li>
+                	<rdf:li>image/jpeg</rdf:li>
+                    <rdf:li>image/png</rdf:li>
+                    <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                    <rdf:li>image/svg+xml</rdf:li>
+                    <rdf:li>x-caf-image/gif</rdf:li>
+                    <rdf:li>x-caf-image/jpeg</rdf:li>
+                    <rdf:li>x-caf-image/vnd.wap.wbmp</rdf:li>
+                    <rdf:li>video/3gpp</rdf:li>
+                    <rdf:li>x-caf-video/3gpp</rdf:li>
+               </rdf:Bag>
+            </mms:MmsCcppAccept>
+            <mms:MmsCcppAcceptCharSet>
+                <rdf:Bag>
+                      <rdf:li>US-ASCII</rdf:li>
+            	      <rdf:li>ISO-8859-1</rdf:li>
+            	      <rdf:li>ISO-8859-2</rdf:li>
+            	      <rdf:li>ISO-8859-4</rdf:li>
+            	      <rdf:li>ISO-8859-5</rdf:li>
+            	      <rdf:li>ISO-8859-7</rdf:li>
+            	      <rdf:li>ISO-8859-8</rdf:li>
+            	      <rdf:li>UTF-8</rdf:li>
+            	      <rdf:li>UTF-16</rdf:li>
+            	      <rdf:li>ISO-10646-UCS-2</rdf:li>
+                </rdf:Bag>
+            </mms:MmsCcppAcceptCharSet>
+			<mms:MmsCcppAcceptEncoding>
+      			<rdf:Bag>
+       				<rdf:li>7bit</rdf:li>
+       				<rdf:li>8bit</rdf:li>
+       				<rdf:li>binary</rdf:li>
+       				<rdf:li>quoted-printable</rdf:li>
+       				<rdf:li>base64</rdf:li>
+      			</rdf:Bag>
+     		</mms:MmsCcppAcceptEncoding>
+            <mms:MmsVersion>
+                <rdf:Bag>
+                    <rdf:li>1.2</rdf:li>
+                </rdf:Bag>
+		        </mms:MmsVersion>
+			<mms:MmsCcppAcceptLanguage>
+      			<rdf:Bag>
+       				<rdf:li>en</rdf:li>
+      			</rdf:Bag>
+     		</mms:MmsCcppAcceptLanguage>
+		        <mms:MmsContentClass>
+          	    <rdf:Bag>
+            	      <rdf:li>TX</rdf:li>
+            	      <rdf:li>IR</rdf:li>
+            	      <rdf:li>IB</rdf:li>
+            	      <rdf:li>VB</rdf:li>
+            	      <rdf:li>VR</rdf:li>
+          	    </rdf:Bag>
+        	</mms:MmsContentClass>
+        </rdf:Description>
+    </prf:component>
+
+</rdf:Description>
+</rdf:RDF>

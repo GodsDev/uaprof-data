@@ -1,0 +1,884 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="d2KQsfs2A2uqw85Uy9XyDo5Zz1T__hS4weNtudwJ1g8" />
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+<title>"Fly" - смартфоны, телефоны, планшеты | Fly-phone.ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1251" />
+<meta name="description" content="Каталог сотовых телефонов, смартфонов и планшетов Fly. Адреса отделов продаж и центров сервисного обслуживания. Уникальные статьи о новинках мобильного мира. Только самая актуальная информация." />
+<link href="/bitrix/js/main/core/css/core.css?14260882885336" type="text/css"  rel="stylesheet" />
+<link href="/new_sliding_2/css/slide.css?14249805161955" type="text/css"  rel="stylesheet" />
+<link href="/new_sliding_2/css/style.css?142498051710961" type="text/css"  rel="stylesheet" />
+<link href="/bitrix_personal/templates/testemp/components/bitrix/menu/top_menu/style.css?14249788644598" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix_personal/templates/testemp/styles.css?1431445585783" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix_personal/templates/testemp/template_styles.css?143144558524065" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','USER_ID':'','SERVER_TIME':'1441685844','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'19f06101c4ddd6c3a82a89d40bca8009'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?142608827797612"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.js?142608828110954"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ajax.js?142608827935278"></script>
+<script type="text/javascript" src="/bitrix/js/main/json/json2.min.js?14249667563467"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.js?142608828210330"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?142496674216537"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.js?142608828214187"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" src="/bitrix_personal/templates/testemp/components/bitrix/menu/top_menu/script.js?1424978864472"></script>
+<script type="text/javascript" src="/new_sliding_2/js/jquery.mousewheel.js?14249805197349"></script>
+<script type="text/javascript" src="/new_sliding_2/js/jquery.stellar.min.js?142498051912636"></script>
+<script type="text/javascript" src="/new_sliding_2/js/slider.js?14249805193451"></script>
+<script type="text/javascript" src="/new_sliding_2/js/init.js?1424980518122"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "f5819ea2f0fa25423ce2873171e057ca"]); _ba.push(["host", "www.fly-phone.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<link href="/bitrix_personal/templates/testemp/my_style.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/js/fancy/source/jquery.fancybox.css?v=2.1.4" media="screen" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<!-- import jquery and openapi lib -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<!--<script type="text/javascript" src="http://userapi.com/js/api/openapi.js?45"></script>-->
+<!-- End of import -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?105"></script>
+<script type="text/javascript">
+  VK.init({
+    apiId: 2694293,
+    onlyWidgets: true
+  });
+</script>
+
+	<div id="wrapper">
+		<div class="header">
+			<a href="/">
+				<div class="logo">
+				   <img  src="/bitrix_personal/templates/testemp/images/logo.jpg" />
+				</div>
+			</a>
+			<div class="center">
+        <div style="
+            width: 144px;
+            height: 19px;
+            position: absolute;
+            margin-top: 12px;
+            margin-left: 55px;
+        "><a target="_blank" href="http://lk.fly-phone.ru/login?password=XKtfW9BFnGwC0AE0v8FiyFjbqYDu5wH8RcxGuAEut"><img src="/upload/lk.png"></a></div>
+				<img src="http://vkontakte.ru/rtrg?r=KCOCmyGJHw4HFxCJGuOAii3v2zZKFHtAPqhBjWvRLTKDZRb7tTCBlKgWNBiYNo1f0CmIpm2TNDXfD4B7ziXhe8PoZEztTtTxHwtoRCTNuO5aRmpApY6mp5r/6mULFdrl0TH4/lwRWC7vxcIYkrDFcbca1aT6wVsFVwok1E8OZdw-" width="1" height="1" border="0">
+				<div class="social">
+					<div class="networks">
+						<ul>
+							<li class="sep"><a href="http://www.facebook.com/pages/Fly/157673844243895?v=wall"><img src="/bitrix_personal/templates/testemp/images/facebook.jpg" onmouseover="this.src='/bitrix_personal/templates/testemp/images/facebook_hover.jpg'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/facebook.jpg'"/></a></li>
+							<li class="sep"><a href="http://twitter.com/Fly_club"><img src="/bitrix_personal/templates/testemp/images/twitter.jpg" onmouseover="this.src='/bitrix_personal/templates/testemp/images/twitter_hover.jpg'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/twitter.jpg'"/></a></li>
+							<li class="sep"><a href="http://vkontakte.ru/club20017255"><img src="/bitrix_personal/templates/testemp/images/vkontakte.jpg" onmouseover="this.src='/bitrix_personal/templates/testemp/images/vkontakte_hover.jpg'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/vkontakte.jpg'"/></a></li>
+							<li class="sep"><a href="http://www.youtube.com/user/FlyPhonesRussia"><img src="/bitrix_personal/templates/testemp/images/youtube.jpg" onmouseover="this.src='/bitrix_personal/templates/testemp/images/youtube_hover.jpg'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/youtube.jpg'"/></a></li>
+							<li class="sep"><a href="http://odnoklassniki.ru/flyrussia"><img src="/bitrix_personal/templates/testemp/images/odnoklassniki.jpg" onmouseover="this.src='/bitrix_personal/templates/testemp/images/odnoklassniki_hover.jpg'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/odnoklassniki.jpg'"/></a></li>
+							<li class="sep"><a href="http://instagram.com/fly_russia#zzzzzz"><img style="width: 20px;padding: 0px 10px;" src="/bitrix_personal/templates/testemp/images/instagram_1.png" onmouseover="this.src='/bitrix_personal/templates/testemp/images/instagram_hover.png'"
+onmouseout="this.src='/bitrix_personal/templates/testemp/images/instagram_1.png'"/></a></li>
+						</ul>
+					</div>
+					<div class="lang">
+												<a href="http://fly-phone.com">ENG</a>
+											</div>
+						<div class="search">
+		<form id="searchform" name="searchform" method="get" action="/search_results.php">
+			<div class="fieldcontainer">
+            				<input type="text" name="q" id="s" class="searchfield" placeholder="поиск по сайту" tabindex="1">
+						<input type="submit" name="s" id="searchbtn" value="">
+			</div>
+		</form>
+	</div>
+
+				</div>
+				<script>
+$(document).ready(function(){
+    $(".menu li.flv").hover(
+      function () {
+        $(this).children('ul').show();
+      },
+      function () {
+        $(this).children('ul').hide();
+      }
+    );
+});
+</script>
+<ul id="navbar">
+	<li class="phones">
+		<a href="/devices/phones/">
+			
+Телефоны		</a>
+    </li>
+	<li class="smartphones">
+		<a href="/devices/smartphones/">
+			Смартфоны		</a>
+    </li>
+			
+		
+			
+														<li id="2" class="tornado">
+						<a href="http://tornado.fly-phone.ru/slim/">
+							Tornado						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li id="2" class="fly-store">
+						<a href="http://flystore.ru/">
+							Fly Store						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li id="2" class="where">
+						<a href="/where_to_buy/">
+							Где купить						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+					
+							<li class="aboutFly">
+					<a href="/about_fly/">
+						О компании					</a>
+					<ul id="submenu">
+			
+		
+		
+		
+		
+			
+														<li class="aboutFly separator">
+						<a href="/about_fly/">
+							О компании						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li class="aboutFly separator">
+						<a href="/notes/">
+							Почему Fly?						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li class="aboutFly separator">
+						<a href="/about_fly/press_releases/">
+							Пресс-релизы						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li class="aboutFly separator">
+						<a href="/about_fly/gallery/">
+							Галерея						</a>
+					</li>
+							
+		
+		
+		
+					</ul></li>		
+			
+														<li id="2" class="aboutFly">
+						<a href="/notes/">
+							Почему Fly						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+					
+							<li class="support">
+					<a href="/support/">
+						Поддержка					</a>
+					<ul id="submenu">
+			
+		
+		
+		
+		
+			
+														<li class="support separator">
+						<a href="https://flymobile.zendesk.com/forums">
+							Вопросы и ответы						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li class="support separator">
+						<a href="/support/service_centers/">
+							Сервисные центры						</a>
+					</li>
+							
+		
+		
+		
+		
+			
+														<li class="support separator">
+						<a href="https://flymobile.zendesk.com/categories/20096727-%D0%A4%D0%BE%D1%80%D1%83%D0%BC">
+							Форум						</a>
+					</li>
+							
+		
+		
+	
+			</ul></li>	
+</ul>
+
+			</div>
+						<!-- <script type="text/javascript" src="/devices/smartphones/testing/test.js"></script> -->
+		</div>
+	</div>
+					  <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=uF1ofxmZwIhEgBaVaBFdUox7xKkqfBQCPTn5IbSXpNQpspFDT/aDwHfI/eyd6LlKnZe1IzWg1lxhVS971JeejM7IZEOybf0wJVtzfbwuRvR11WeU1uEO6FKTCEFU89ClfGhbBEKkurPiaTc4ADQ3vyXUTg/cyTxVbsehN2r9Xcc-';</script>
+<style media="screen">
+  .wrapp_lkpopupbanner {
+    width: 1000px;
+    z-index: 99999999999;
+    margin: 0 auto;
+    display: none;
+  }
+  .lkpopupbanner {
+    background-image: url('http://fly-phone.ru/new_sliding_2/images/ad-one.jpg');
+    height: 300px;
+    width: 600px;
+    background-position: 100% 0px;
+    background-size: 600px 600px;
+    position: fixed;
+    z-index: 5555555555555;
+    margin-left: 200px;
+    margin-top: 200px;
+  }
+  .lkpopupbanner:hover {
+    background-position: 100% -300px;
+  }
+  .lkpopupbanner_close {
+      height: 30px;
+      width: 30px;
+      position: fixed;
+      z-index:99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    margin-left: 560px;
+    margin-top: 15px;
+      font-family: sans-serif;
+      color: #BABFC5;
+      font-size: 30px;
+      cursor: pointer;
+  }
+  .lkpopupbanner_close:hover {
+    color: #fff;
+  }
+  .lkpopupbanner_hide {
+    font-family: sans-serif;     
+    color: #FFFFFF;     
+    line-height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 257px;
+    color: #B3C4EF;
+    text-decoration: underline;
+    display: block;
+  }
+  .lkpopupbanner_hide:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+</style>
+<script type="text/javascript">
+
+function compare_past(time) {
+  var currentStatus = false;
+  var past = time;
+  past = past.split("/");
+  var curdate = new Date();
+  curdate = curdate.toLocaleDateString();
+  curdate = curdate.split("/");
+  //console.log(curdate);
+  if (past[2]<curdate[2]) {
+    //cur year is bigger
+    currentStatus=true;
+  }
+  if (past[1]<curdate[1]) {
+    if (past[2]==curdate[2])
+    currentStatus=true;
+    //cur month is bigger
+  }
+  if (past[0]<curdate[0]) {
+    if (past[2]==curdate[2] && past[1] == curdate[1]) currentStatus=true;
+    //cur day is bigger
+  }
+  return currentStatus;
+}
+
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname+"="+cvalue+"; "+expires+";domain=.fly-phone.ru;path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+$(document).ready(function(){
+  var saveStatus = getCookie("lkbanner_status");
+  if (saveStatus=="already") {
+    //don't show
+    $(".wrapp_lkpopupbanner").hide();
+  }
+  else {
+    setTimeout(function() {$(".wrapp_lkpopupbanner").show();}, 5000);
+  }
+  $(".lkpopupbanner_close").click(function(event){
+    event.preventDefault();
+    $(".wrapp_lkpopupbanner").hide();
+    /*var curdate = new Date();
+    curdate = curdate.toLocaleDateString();
+    curdate = curdate.split("/");
+    curdate[1]=parseInt(curdate[1])+1;
+    if (curdate[1]<10) curdate[1]="0"+curdate[1];
+    curdateSTR=curdate[0]+"/"+curdate[1]+"/"+curdate[2];*/
+    setCookie("lkbanner_status","already",1);
+    //set cookie after
+  });
+  $(".lkpopupbanner_hide").click(function(event){
+     event.preventDefault();
+     $(".wrapp_lkpopupbanner").hide();
+     setCookie("lkbanner_status","already",730);
+  })
+  //compare_past("02/02/2015");
+})
+</script>
+<div class="wrapp_lkpopupbanner" style="display:none;">
+<a href="http://lk.fly-phone.ru/login">
+  <div class="lkpopupbanner">
+      <span class="lkpopupbanner_close">X</span>
+      <span class="lkpopupbanner_hide" style="margin-top: 195px;">Спасибо, я уже с вами</span>
+      <span class="lkpopupbanner_hide">Больше не показывайте мне это сообщение</span>
+  </div>
+</a>
+</div><script type="text/javascript">
+ $(document).ready(function() {
+    $('.fancybox').fancybox();
+      $('a.playYTBvideo').fancybox({
+      padding : 0,
+      openEffect  : 'elastic',
+      width: '100%',
+      height: '100%',
+      maxHeight:'660px',
+      maxWidth:'1024px',
+      autoScale : true,
+      type:'iframe'
+      });
+})
+</script>
+<style type="text/css">
+body div#wrapper {
+    width: 100% !important;
+}
+#flashContent { width:1200px; height:600px; position: relative;}
+#flashContent a {
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+background: url();
+text-indent: -9999px;
+overflow: hidden;
+}
+#flashContent  object {
+position: relative;
+z-index: 1;
+}
+    .playYTBvideo {
+    background: url(/img/s-intro/play.png) center no-repeat;
+    margin: 0 auto 28px;
+    display: block;
+    width: 73px;
+    height: 73px;
+    opacity: .7;
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+    cursor: pointer;
+    }
+    .playYTBvideo2 {
+        background: url(/img/s-intro/play.png) center no-repeat;
+    }
+    .playYTBvideo3 {
+        background: url(/img/s-intro/play3.png) center no-repeat;
+    }
+     .playYTBvideo4 {
+        background: url(/img/s-intro/play4.png) center no-repeat;
+        width: 54px;
+        height: 54px;
+    }
+    .ytbDiv:hover .playYTBvideo {
+        opacity: 1;
+    }
+    .ytbDiv {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1;
+        float: left;
+        width: 50px;
+        margin-left: 565px !important;
+        height: 70px;
+        margin-top:200px;
+        position: absolute;
+        z-index: 5;
+        opacity: 2;
+    }
+    .container {
+        background: transparent !important;
+    }
+</style>
+<div id="wrapper wrapsl ides" style="height:100%;">
+  <div class="container slidecont">
+<div id="content-wrapper">
+    <div class="ytbDiv" style="margin-top: 610px;margin-left: 450px !important;">
+        <a class="playYTBvideo playYTBvideo4" href="//www.youtube.com/embed/-r-i8ly7HCY?autoplay=1&rel=0"></a>
+    </div>
+    <div class="ytbDiv" style="margin-top: 610px;margin-left: 575px !important;">
+        <a class="playYTBvideo playYTBvideo4" href="//www.youtube.com/embed/9mUqwVH3040?autoplay=1&rel=0"></a>
+    </div>
+    <div class="ytbDiv" style="margin-top: 610px;margin-left: 700px !important;">
+        <a class="playYTBvideo playYTBvideo4" href="//www.youtube.com/embed/9fFus0_Li48?autoplay=1&rel=0"></a>
+    </div>
+    <a href="http://tornado.fly-phone.ru/slim/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/tornado_slim_ru.jpg');"></div>
+            </div>
+    </a>
+    <style media="screen">
+      #lkbanner:hover {
+        background-position: 100% -628px !important;
+      }
+    </style>
+    <a href="http://lk.fly-phone.ru/login">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="margin-bottom: -15px;height:640px;">
+                <div id="lkbanner" data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/ad.jpg');height: 628px; 100% 0px;
+  background-size: 1200px 1257px;background-position: 0px 0px;"></div>
+            </div>
+    </a>
+    <!--<div class="ytbDiv" style="margin-top: 150px;margin-left: 800px !important;">
+            <a class="playYTBvideo playYTBvideo3" href="//www.youtube.com/embed/nziFh-me4_w?autoplay=1&rel=0"></a>
+    </div>-->
+    <a href="http://www.fly-phone.ru/devices/smartphones/evo_tech_4/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/brightColor_ru.jpg');"></div>
+            </div>
+    </a>
+    <!--<div class="ytbDiv" style="margin-top: 580px;">
+            <a class="playYTBvideo playYTBvideo2" href="//www.youtube.com/embed/Bg1HlLUPWUg?autoplay=1&rel=0"></a>
+    </div>
+    <a href="http://tornado.fly-phone.ru/slim/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/tornado_slim_ru.jpg');"></div>
+            </div>
+    </a>-->
+        <!--<a href="http://www.fly-phone.ru/devices/smartphones/egoart2/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/art2.jpg');"></div>
+            </div>
+    </a>-->
+    <!--<a href="http://www.fly-phone.ru/devices/smartphones/era_life_4/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/life4.jpg');"></div>
+            </div>
+    </a>
+    <a href="http://www.fly-phone.ru/devices/smartphones/era_style_3/">
+            <div id="page-1"  class="page" data-stellar-background-ratio="0.5" style="height:640px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/style3.jpg');"></div>
+            </div>
+    </a>
+    <a href="http://www.fly-phone.ru/devices/tablets/flylife_web_7_85_slim/">
+            <div id="page-1" class="page" data-stellar-background-ratio="0.5" style="height:625px;">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/flylife.png');"></div>
+            </div>
+    </a>
+    <a href="http://www.fly-phone.ru/devices/smartphones/evochic1/">
+            <div id="page-2" class="page" data-stellar-background-ratio="0.5" style="height:625px;background-image: url('new_sliding_2/images/pages/evochic1.png');">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/evochic1.png');"></div>
+            </div>
+    </a>-->
+    <!--<a href="http://flynow.fly-phone.ru/">
+                       <div id="page-2" class="page current-page" data-next-page="page-2">
+                <div id="as-top-slider" class="as-slider">
+                    <div class="slides">
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_2_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_2_text.png')"></div></div>
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_3_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_3_text.png')"></div></div>
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_1_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_1_text.png')"></div></div>
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_4_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_4_text.png')"></div></div>
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_4_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_5_text.png')"></div></div>
+                        <div class="slide" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_6_1920x1000.png')"><div class="slide-text" style="background-image: url('new_sliding_2/images/banner/FLY_sitebanner_6_text.png')"></div></div>
+                    </div>
+                </div>
+            </div>
+    </a>-->
+    <div class="scroll-to-btn" data-scroll-to="2" data-trackable="button_go_down"></div>
+    <a style="display:none !important;" href="http://www.fly-phone.ru/about_fly/press_releases/2_goda_garantii_ot_fly_/">
+            <div id="page-6" class="page" data-stellar-background-ratio="0.5" style="background-image: url('new_sliding_2/images/pages/page_9.png');">
+                <div data-stellar-ratio="2.3" class="flat-banner-text" style="background-image: url('new_sliding_2/images/pages/page_9_text.png');"></div>
+            </div>
+    </a>
+    </div>
+
+<!-- /.catalog-list -->
+ </div>
+
+<!-- /.content -->
+ </div>
+ 
+	<div class="centerFixed" style="display:none;">
+		<div class="contentAwadBotton">
+			<div class="awadBotton">
+				<a href="http://www.fly-phone.ru/about_fly/press_releases/sotrudnichestvo_fly_anywayanyday/"></a>
+			</div>
+		</div>
+	</div>
+
+<div style="display:none">
+</div>
+<style type="text/css">
+    div#bottom {
+    display: none !important;
+}
+</style>
+
+<div id="bottom">
+<div id="wrapper">
+<div class="footer" >
+    <div class="container">
+      <div class="copy">
+        © 2003—2015 FLY:Россия        <span><a class="country-ua" href="http://www.fly.ua/">Україна</a></span>
+        <!--<span class="country-in"><span class="hidden-link country-in" data-link="http://www.flyphone.in/">India</span></span>-->
+        <span><a class="turkey" href="http://www.fly-mobile.com.tr/">Turkey</a></span>
+        <span><a class="dubai" href="http://www.fly-mea.com/">Middle East and Africa</a></span>
+      </div>
+
+      <div class="support">
+
+        <a href="mailto:info@fly-phone.com">info@fly-phone.com</a>
+        <a href="mailto:support@fly-phone.ru">Служба поддержки</a>
+
+      </div>
+  </div>
+  <!-- /.footer -->
+
+<!--Data layer js code,social track,url params filter-->
+<script>
+var dataLayer = dataLayer || [];
+var _dl = _dl || {};
+
+_dl.trackSocial = function(opt_pageUrl, opt_trackerName) {
+  _dl.trackFacebook(opt_pageUrl, opt_trackerName);
+  _dl.trackTwitter(opt_pageUrl, opt_trackerName);
+  _dl.trackVK(opt_pageUrl, opt_trackerName);
+};
+
+_dl.trackFacebook = function(opt_pageUrl, opt_trackerName) {
+  var trackerName = _dl.buildTrackerName_(opt_trackerName);
+  try {
+    if (FB && FB.Event && FB.Event.subscribe){
+        FB.Event.subscribe('edge.create', function(targetUrl) {
+          dataLayer.push({'event' : 'track-social', 'socialNetwork':'Facebook', 'socialAction' : 'Like','socialTarget':targetUrl});
+        });
+        FB.Event.subscribe('edge.remove', function(targetUrl) {
+          dataLayer.push({'event' : 'track-social', 'socialNetwork':'Facebook', 'socialAction' : 'Unlike','socialTarget':targetUrl});
+        });
+      }
+  } catch(e){}
+};
+// vk track
+_dl.trackVK = function(opt_pageUrl, opt_trackerName, opt_targetUrl) {
+  var trackerName = _dl.buildTrackerName_(opt_trackerName);
+  try{
+        if (VK && VK.Observer && VK.Observer.subscribe) {
+            VK.Observer.subscribe('widgets.like.liked', function(targetUrl) {
+              dataLayer.push({'event' : 'track-social', 'socialNetwork':'vk.com', 'socialAction': 'Like','socialTarget':targetUrl});
+            });
+            VK.Observer.subscribe('widgets.like.unliked', function(targetUrl) {
+              dataLayer.push({'event' : 'track-social', 'socialNetwork':'vk.com', 'socialAction': 'Unlike','socialTarget':targetUrl});
+            });
+    }
+  } catch (e) {}
+};
+//track name function
+_dl.buildTrackerName_ = function(opt_trackerName) {
+  return opt_trackerName ? opt_trackerName + '.' : '';
+};
+//twitter track
+_dl.trackTwitter = function(opt_pageUrl, opt_trackerName) {
+  var trackerName = _dl.buildTrackerName_(opt_trackerName);
+  try {
+    if (twttr && twttr.events && twttr.events.bind) {
+      twttr.events.bind('tweet', function(event) {
+        if (event) {
+          var targetUrl; // Default value is undefined.
+          if (event.target && event.target.nodeName == 'IFRAME') {
+            targetUrl = _dl.extractParamFromUri_(event.target.src, 'url');
+          }
+          dataLayer.push({'event': 'track-social', 'socialNetwork':'Twitter', 'socialAction':'Tweet', 'socialTarget': targetUrl });
+        }
+
+      });
+    }
+  } catch (e) {}
+};
+//get url params
+_dl.extractParamFromUri_ = function(uri, paramName) {
+  if (!uri) {
+    return;
+  }
+  var uri = uri.split('#')[0];  // Remove anchor.
+  var parts = uri.split('?');  // Check for query params.
+  if (parts.length == 1) {
+    return;
+  }
+  var query = decodeURI(parts[1]);
+  // Find url param.
+  paramName += '=';
+  var params = query.split('&');
+  for (var i = 0, param; param = params[i]; ++i) {
+    if (param.indexOf(paramName) === 0) {
+      return unescape(param.split('=')[1]);
+    }
+  }
+  return;
+};
+    //legacy code was here, mover to footer
+    // tag #head_legacy
+</script>
+
+<!-- aidata counter
+<img src="http://advombat.ru/0.gif?pid=FLYPHONE" style="position: absolute;top:0;left:-10000px;">
+/ aidata counter -->
+
+<script type="text/javascript">
+//init varible
+  dataLayer = [];
+</script>
+
+<script type="text/javascript">
+dataLayer =[{
+  "site": "",
+  "pageType": "Main",
+  "categoryName": "",
+  "productName": '',
+  "productID": '',
+  "auth": '0'
+}];
+console.log(dataLayer);
+</script>
+<!--
+Р•СЃР»Рё РЅР°С…РѕРґРёРјСЃСЏ РІ СЂР°Р·РґРµР»Рµ СЃС‚Р°С‚РµР№:
+http://www.fly-phone.ru/about_fly/why-the-fly/
+http://www.fly-phone.ru/notes/
+-->
+<!-- CROSSDOMAIN -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52807922-2', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['tornado.fly-phone.ru' , 'flystore.ru' ] );
+  ga('send', 'pageview');
+</script>
+<!-- CROSSDOMAIN -->
+</head>
+<body>
+<!-- Google Tag Manager -->
+    
+
+<!--All JS script's-->
+<!-- import js scripts-->
+<script type="text/javascript" src="/js/fancy/source/jquery.fancybox.js?v=2.1.4"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/bitrix_personal/templates/testemp/js/main.js"></script>
+
+<!-- legacy scripts turned off -->
+<!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
+<!--Js inline code-->
+<script type="text/javascript">
+$(document).ready(function() {
+//hidden link script
+/*
+$('.hidden-link').click(function(){
+if ($(this).data('link') == 'http://flynow.fly-phone.ru') {
+window.open($(this).data('link'));
+}
+else {
+window.open($(this).data('link'),"_self");
+}
+});
+*/
+
+//fancybox settings
+$('.fancybox').fancybox();
+// Для блока Чаще всего покупают
+$('.extended_item').hover(
+  function(){
+    $(this).css({
+      'box-shadow': '0 4px 10px #E6E6E6',
+      'border': '1px solid #E9E9E9',
+      'padding': '9px'
+    });
+  },
+  function(){
+    $(this).css({
+      'box-shadow': 'none',
+      'border': 'none',
+      'padding': '10px'
+    });
+  }
+);
+
+});
+      // legacy from header
+      // tag #head_legacy
+      // $(function() {
+      // $( "#slider-range" ).slider({
+      // range: true,
+      // min: 0,
+      // max: 500,
+      // values: [ 75, 300 ],
+      // slide: function( event, ui ) {
+      // $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      // }
+      // });
+      // $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      // " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+      // });
+      //legacy end
+</script>
+<!--JS scripts /end-->
+
+
+<!--AdFox START-->
+<script type="text/javascript">
+if (typeof(pr) == 'undefined') { var pr = Math.floor(Math.random() * 1000000); }
+document.write('<img src="http://ads.adfox.ru/203892/tracePoint?p7=lrla&amp;p8=a&amp;pr=' + pr + '" width="0" height="0" border="0" alt="">');
+</script>
+<noscript>
+<img src="http://ads.adfox.ru/203892/tracePoint?p7=lrla&amp;p8=a" width="0" height="0" border="0" alt="">
+</noscript>
+
+<script type="text/javascript">
+var yaParams = {};
+</script>
+
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter25529612 = new Ya.Metrika({id:25529612,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,params:window.yaParams||{ }});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/25529612" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- eTargeter -->
+	
+	<script language="javascript">
+		var odinkod = {
+			"type": "homepage"
+		};
+		var gcb = Math.round(Math.random() * 100000);
+		document.write('<scr'+'ipt src="'+('https:' == document.location.protocol ? 'https://ssl.' : 'http://') + 'cdn.odinkod.ru/tags/1226635-bf7003.js?gcb='+ gcb +'"></scr'+'ipt>');
+	</script>
+	
+	<!-- #1 END -->
+</div>
+</div>
+</div>
+
+  <div style="display:none;" class="centerFixed">
+    <div class="contentAwadBotton">
+      <div class="awadBotton">
+        <a href="http://www.fly-phone.ru/about_fly/press_releases/sotrudnichestvo_fly_anywayanyday/"></a>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript">
+var google_tag_params = {
+ecomm_prodid: '',
+ecomm_pagetype: 'home',
+ecomm_totalvalue: '',
+};
+</script>
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCHM76"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WCHM76');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>

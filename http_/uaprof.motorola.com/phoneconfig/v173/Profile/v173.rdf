@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<!-- ===================================================================== -->
+<!--                                                                       -->
+<!-- Copyright (c) 2002                                                    -->
+<!-- COMPAL Communication Industrial Co., Ltd.                         -->
+<!--                                                                       -->
+<!-- ===================================================================== -->
+<!--                                                                       -->
+<!-- File Name:                                                            -->
+<!--     Moto_V173.xml                                                        -->
+<!-- Purpose:                                                              -->
+<!--     This file contains the User Agent Profile for the V171.           -->
+<!--     Currently at version 1.0.0.                                          -->
+<!-- History:                                                              -->
+<!--                                                                       -->
+<!--                                                                       -->
+<!-- ===================================================================== -->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#">
+     <rdf:Description rdf:ID="V173-Profile">
+<!--  ******************************************************************   --> 
+<!--  ***** Component: HardwarePlatform *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="HardwarePlatform">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+                    <prf:BitsPerPixel>12</prf:BitsPerPixel>
+                    <prf:ColorCapable>Yes</prf:ColorCapable>
+                    <prf:ImageCapable>Yes</prf:ImageCapable>
+                    <prf:InputCharSet>
+                         <rdf:Bag>               
+                              <rdf:li>UTF-8</rdf:li>
+                         </rdf:Bag>
+                    </prf:InputCharSet>
+                    <prf:Keyboard>PhoneKeypad</prf:Keyboard>
+                    <prf:Model>MOT-V173</prf:Model>
+                    <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+                    <prf:OutputCharSet>
+                         <rdf:Bag>
+                              <rdf:li>UTF-8</rdf:li>
+                         </rdf:Bag>
+                    </prf:OutputCharSet>
+                    <prf:PixelAspectRatio>1x1</prf:PixelAspectRatio>
+                    <prf:ScreenSize>98x67</prf:ScreenSize>
+                    <prf:ScreenSizeChar>11x12</prf:ScreenSizeChar>
+                    <prf:StandardFontProportional>Yes</prf:StandardFontProportional>
+                    <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+                    <prf:TextInputCapable>Yes</prf:TextInputCapable>
+                    <prf:Vendor>Motorola</prf:Vendor>
+               </rdf:Description>
+          </prf:component>
+<!--  ******************************************************************   --> 
+<!--  ***** Component: SoftwarePlatform *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="SoftwarePlatform">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform"/>
+                    <prf:CcppAccept>
+                        <rdf:Bag>
+                              <rdf:li>text/plain</rdf:li>
+                              <rdf:li>text/css</rdf:li>
+                              <rdf:li>text/x-server-parsed-html</rdf:li>
+                              <rdf:li>text/vnd.wap.wml</rdf:li>
+                              <rdf:li>image/gif</rdf:li>
+                              <rdf:li>image/png</rdf:li>
+                              <rdf:li>image/jpeg</rdf:li>
+                              <rdf:li>image/vnd.wap.wbmp</rdf:li>
+                              <rdf:li>image/x-up-wpng</rdf:li>
+                              <rdf:li>image/bmp</rdf:li>
+                              <rdf:li>image/vnd.wap.sis</rdf:li>                              
+                              <rdf:li>audio/midi</rdf:li>
+                              <rdf:li>audio/mid</rdf:li>
+                              <rdf:li>audio/sp-midi</rdf:li>                       
+                              <rdf:li>audio/imelody</rdf:li>                  
+                              <rdf:li>application/x-pmd</rdf:li>
+                              <rdf:li>application/vnd.wap.wmlc</rdf:li>
+                              <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+			      <rdf:li>application/vnd.oma.drm.message</rdf:li> 
+                  	      <rdf:li>application/vnd.oma.dd+xml</rdf:li>
+  					<rdf:li>multipart/mixed</rdf:li> 
+  					<rdf:li>multipart/alternative</rdf:li> 
+  					<rdf:li>multipart/related</rdf:li>    
+                         </rdf:Bag>
+                    </prf:CcppAccept>
+                    <prf:CcppAccept-Charset>
+                         <rdf:Bag>                                 
+  					<rdf:li>ISO-8859-1</rdf:li> 
+                              <rdf:li>UTF-8</rdf:li>
+  					<rdf:li>US-ASCII</rdf:li> 
+                         </rdf:Bag>
+                    </prf:CcppAccept-Charset>
+                    <prf:CcppAccept-Encoding>
+                         <rdf:Bag>
+			            <rdf:li>base64</rdf:li>
+                         </rdf:Bag>
+                    </prf:CcppAccept-Encoding>
+               </rdf:Description>
+          </prf:component>
+<!--  ******************************************************************   --> 
+<!--  ***** Component: NetworkCharacteristics *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="NetworkCharacteristics">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics"/>
+                    <prf:SecuritySupport>
+                         <rdf:Bag>
+                              <rdf:li>WTLS-1</rdf:li>
+                              <rdf:li>WTLS-2</rdf:li>
+                         </rdf:Bag>
+                    </prf:SecuritySupport>
+                    <prf:SupportedBearers>
+                         <rdf:Bag>
+                              <rdf:li>OneWaySMS</rdf:li>
+                              <rdf:li>CSD</rdf:li>
+                              <rdf:li>GPRS</rdf:li>
+                         </rdf:Bag>
+                    </prf:SupportedBearers>
+               </rdf:Description>
+          </prf:component>
+<!--  ******************************************************************   --> 
+<!--  ***** Component: BrowserUA *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="BrowserUA">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA"/>
+                    <prf:BrowserName>Motorola</prf:BrowserName>
+                    <prf:FramesCapable>No</prf:FramesCapable>
+                    <prf:TablesCapable>Yes</prf:TablesCapable>
+               </rdf:Description>
+          </prf:component>
+<!--  ******************************************************************   --> 
+<!--  ***** Component: WapCharacteristics *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="WapCharacteristics">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics"/>
+                    <prf:WapDeviceClass>C</prf:WapDeviceClass>
+                    <prf:WapVersion>1.2.1</prf:WapVersion>
+                    <prf:WmlDeckSize>8192</prf:WmlDeckSize>
+                    <prf:WmlScriptLibraries>
+                         <rdf:Bag>
+                              <rdf:li>Lang</rdf:li>
+                              <rdf:li>Float</rdf:li>
+                              <rdf:li>String</rdf:li>
+                              <rdf:li>URL</rdf:li>
+                              <rdf:li>WMLBrowser</rdf:li>
+                              <rdf:li>Dialogs</rdf:li>
+                         </rdf:Bag>
+                    </prf:WmlScriptLibraries>
+                    <prf:WtaiLibraries>
+     			<rdf:Bag>
+		          <rdf:li>WTA.Public.makeCall</rdf:li>
+		          <rdf:li>WTA.Public.sendDTMF</rdf:li>
+		       </rdf:Bag>
+		     </prf:WtaiLibraries>
+ 			<prf:DrmClass>
+ 				<rdf:Bag>
+  					<rdf:li>ForwardLock</rdf:li> 
+  				</rdf:Bag>
+ 			</prf:DrmClass>
+ 			<prf:OmaDownload>Yes</prf:OmaDownload> 
+               </rdf:Description>
+          </prf:component>
+<!--  ******************************************************************   --> 
+<!--  ***** Component: PushCharacteristics *****   --> 
+          <prf:component>
+               <rdf:Description rdf:ID="PushCharacteristics">
+               <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#PushCharacteristics"/>
+ 			<prf:Push-Accept>
+ 				<rdf:Bag>
+  					<rdf:li>text/vnd.wap.si</rdf:li>
+  					<rdf:li>text/vnd.wap.sl</rdf:li>  
+  					<rdf:li>text/vnd.wap.co</rdf:li> 
+  					<rdf:li>text/vnd.wap.wml</rdf:li>
+  					<rdf:li>application/vnd.wap.wmlc</rdf:li> 
+  					<rdf:li>application/vnd.wap.sic</rdf:li> 
+  					<rdf:li>application/vnd.wap.slc</rdf:li>
+  					<rdf:li>application/vnd.wap.sia</rdf:li> 
+  					<rdf:li>application/vnd.wap.coc</rdf:li>
+  					<rdf:li>application/vnd.wap.multipart.mixed</rdf:li> 
+  					<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+  				</rdf:Bag>
+  			</prf:Push-Accept>
+ 			<prf:Push-Accept-Charset>
+ 				<rdf:Bag>
+  					<rdf:li>ISO-8859-1</rdf:li> 
+  					<rdf:li>UTF-8</rdf:li> 
+  				</rdf:Bag>
+  			</prf:Push-Accept-Charset>
+ 			<prf:Push-Accept-Encoding>
+ 				<rdf:Bag>
+ 	 				<rdf:li>base64</rdf:li> 
+ 	 			</rdf:Bag>
+ 	 		</prf:Push-Accept-Encoding>
+                        <prf:Push-MsgSize>8192</prf:Push-MsgSize>
+			<prf:Push-MaxPushReq>10</prf:Push-MaxPushReq> 
+               </rdf:Description>
+          </prf:component>
+     </rdf:Description>
+</rdf:RDF>

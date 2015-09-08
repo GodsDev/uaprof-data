@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created according to http://www.gsmchoice.com/en/catalogue/fly/iq4410quadphoenix/Fly-IQ4410-Quad-Phoenix.html -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#">
+  <rdf:Description rdf:ID="MotTMOGeneric-Profile-v1">
+    <prf:component>
+      <rdf:Description rdf:ID="HardwarePlatform">
+        <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform"/>
+        <prf:BitsPerPixel>16</prf:BitsPerPixel>
+        <prf:ColorCapable>Yes</prf:ColorCapable>
+        <prf:ScreenSize>720x1280</prf:ScreenSize>        
+      </rdf:Description>
+    </prf:component>
+  </rdf:Description>
+</rdf:RDF>

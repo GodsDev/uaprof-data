@@ -1,0 +1,708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META NAME="description" CONTENT="AB Mobile Standards Alliance of India (MSAI) is the official Reporting Body of GSMA for providing Genuine IMEI numbers to GSM Devices and mobile Handsets in ...">
+<meta name="google-site-verification" content="M1B1IDnZynZQjZF56zQ3lPHM0cCTtrOg0KTGYhbzZrc" />
+<META NAME="keywords" CONTENT="msai.in, msai, gii, brands, manufacturer, sar, wap, mobile, handset, about imei, msai india, imei database, imei india, imei registration india, imei number, check imei, tac, imei registration, imei">
+<meta name="author" content="msai.in"/>
+<meta name="verify-v1" content="FRziM2yl6V0XlDR49iSBVooMaeWXsK0GU495KIDnqN8=" />
+
+<title>MSAI</title>
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
+
+
+<!--start code for banner slide show............-->
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53649238-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+
+	$(window).load(function(){
+
+		$('.slider')._TMS({
+
+			prevBu:'.prev',
+
+			nextBu:'.next',
+
+			pagNums:false,
+
+			duration:1000,
+
+			easing:'easeOutQuad',
+
+			preset:'simpleFade',
+
+			slideshow:5000,
+
+			waitBannerAnimation:false,
+
+			pagination:'.pagination',
+
+			banners:'fromLeft'
+
+		})
+
+	})
+
+</script>    
+
+<script src="js/jcarousellite_1.0.1.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+
+		$(document).ready(function() { 
+
+			$(".jCarouselLite").jCarouselLite({
+
+				  btnNext: ".next1",
+
+				  btnPrev: ".prev1",		  
+
+				  speed: 600,		  
+
+				  vertical: false,
+
+				  circular: true,
+
+				  visible: 4,
+
+				  start: 0,
+
+				  scroll: 1
+
+			 });
+
+		}); 
+
+	</script>        
+
+
+<!--close code for banner slide show............ -->
+
+<style type="text/css">
+<!--
+.style2 {color: #336699}
+-->
+</style>
+</head>
+
+<body style="margin:0px; padding:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><table width="1024" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td><table width="1024" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><script language="javascript">
+function valid()
+{
+if(document.getElementById("search").value=='')
+{
+alert("Enter the text to search something");
+document.getElementById("search").focus();
+return false;
+}}
+
+
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="285" height="90" style="padding-left:5px;"><a href="index.php"><img src="images/logo.jpg" border="0" /></a></td>
+                <td width="346">&nbsp;</td>
+                <td width="286" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="56"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="118"  height="55" nowrap="nowrap" class="connect_us">Connect With Us :</td>
+                        <td width="10">&nbsp;</td>
+                        <td width="26"><a href="http://www.facebook.com/" target="_blank"><img src="images/faqcebook_icon.jpg" width="26" height="25" border="0" /></a></td>
+                        <td width="5">&nbsp;</td>
+                        <td width="26"><a href="http://in.linkedin.com/" target="_blank"><img src="images/linked.jpg" width="26" height="25" border="0" /></a></td>
+                        <td width="5">&nbsp;</td>
+                        <td width="29"><a href="https://twitter.com/" target="_blank"><img src="images/twittre.jpg" width="26" height="25"  border="0"/></a></td>
+                     <td width="5">&nbsp;</td>
+                        <td width="29"><a href="http://www.youtube.com/" target="_blank"><img src="images/y_tube.jpg" width="26" height="25"  border="0"/></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td class="catalog">&nbsp;</td>
+                  </tr>
+                </table></td>
+                <td width="30">&nbsp;</td>
+                <td width="268" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="60" style="background:url(images/bg_search.jpg) left no-repeat;"><form action="search.php" method="get">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="129" style="padding-left:2px;">
+                          <input type="text" name="search" id="search" style="border:0px; padding-left:1px;" />                        </td>
+                        <td><input type="submit" value=""  style="background:url(images/search.jpg) no-repeat; height:22px; width:55px; border:none; border:none;" onclick="return valid();" /></td>
+                      </tr>
+                    </table></form></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="43"><a href="index.php"><img src="images/home_icon.jpg" width="27" height="29" border="0" /></a></td>
+                        <td width="10"><span class="style2">|</span></td>
+                        <td width="46" class="connect_us"><a href="login.php">Login</a></td>
+                        <td width="11"><span class="style2">|</span></td>
+                        <td width="81" class="connect_us"><a href="work_life.php">Career</a></td>
+                        <td width="8">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+  </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><style>
+body{margin:0px; padding:0px;}
+</style>
+			
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td style="position:relative; z-index:3000;">
+    
+    
+    <ul id="menu">
+    
+
+    <li><a href="company_facts.php" class="drop"><span style="text-transform:uppercase;">The Company</span></a>
+    
+        <div class="dropdown_4columns">
+        
+            
+            
+            <div class="company">
+            
+                <ul>
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="company_facts.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company Facts</a></li>
+                    <li style="height:7px;"></li>
+                  <p><img src="images/hr_line.jpg" /></p>
+                   <li style="height:7px;"></li>
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="corporate_governance.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corporate Governance</a></li>
+                    <li style="height:7px;"></li>
+                  <p><img src="images/hr_line.jpg" /></p>
+              <li style="height:7px;"></li>
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="events.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Events</a></li>
+                    <li style="height:7px;"></li>
+                     <p><img src="images/hr_line.jpg" /></p>
+                     <li style="height:7px;"></li>
+                     <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="latest_events.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest Events</a></li>
+                    <li style="height:7px;"></li>
+                     <p><img src="images/hr_line.jpg" /></p>
+                     <li style="height:7px;"></li>
+                      <li style="height:7px;"></li>
+                     <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="legal.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Legal</a></li>
+                    <li style="height:7px;"></li>
+                     <p><img src="images/hr_line.jpg" /></p>
+                     <li style="height:7px;"></li>
+                    
+                   
+                </ul>   
+                 
+            </div>
+    
+             <div class="col_imag">
+                <p><img src="images/ima3.png" width="180" height="90" /></p>
+            </div>
+        
+             
+            <div class="disc"><p align="right"><span class="strong style3">The Company</span></p>
+<p>We are India's leading telecommunication solutions and services provider, involved in developing standards for the mobile devices.</p></div>
+            
+        </div><!-- End 4 columns container -->
+    
+    </li><!-- End 4 columns Item -->
+    
+    
+    <li><a class="drop" href="quality_analysis.php"><span style="text-transform:uppercase;">Services</span></a>
+    
+        <div class="dropdown_5columns">
+       
+            
+            
+            <div class="company">
+            
+                <ul>
+                    
+<!--Brands List start.....................................   -->  
+                    
+                    
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brands</a> </li>
+                    
+                    <ol style="padding-left:35px;";>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="quality_analysis.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quality Analysis</a></li>
+               <li style="height:7px;"></li>
+             <p><img src="images/hr_line.jpg" /></p>
+               <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;" ><a href="http://bisreg.in/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BIS</a></li>
+               <li style="height:7px;"></li>
+               <p><img src="images/hr_line.jpg" /></p>
+                 <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="useragent_profile.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UAP</a></li>
+               <li style="height:7px;"></li>
+            <p><img src="images/hr_line.jpg" /></p>
+                 <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="ce.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CE</a></li>
+			 <li style="height:7px;"></li>
+            <p><img src="images/hr_line.jpg" /></p>
+                 <li style="height:7px;"></li>
+				 <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="sar.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SAR</a></li>		 
+				  <li style="height:7px;"></li>
+	     <p><img src="images/hr_line.jpg" /></p>
+                 <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="imei.php" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMEI</a></li>
+			<p><img src="images/hr_line.jpg" /></p>
+			 <li style="height:7px;"></li>
+
+		</ol>
+		
+<!--Brands List start.....................................   --> 
+ 	
+
+<!--Government Services List start..-->  	
+		<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Government Services</a></li>
+                    
+         <ol style="padding-left:35px;" class="submenu_text">
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="law_enforcement.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Law Enforcement</a></li>
+             <li style="height:7px;"></li>
+            <p><img src="images/hr_line.jpg"/></p>
+             <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="regulatory.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Regulatory Bodies</a></li>
+             <li style="height:7px;"></li>
+               <p><img src="images/hr_line.jpg" /></p>
+             <li style="height:7px;"></li>
+			<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="custom_ports.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customs Ports</a></li>
+             <li style="height:7px;"></li>
+              <p><img src="images/hr_line.jpg" /></p>
+             <li style="height:7px;"></li>
+			
+               
+		</ol>
+		
+<!--Government Services List start..-->  
+                  
+               <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="device_manager.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Device Management</a></li>
+               </ul>   
+                 
+            </div>
+            
+          
+              <div class="ser_imag">
+                                <p><img src="images/110714_korling.gif" width="180" height="90" /></p>
+            </div>
+          
+             
+            <div class="disc"><p align="right"><span class="strong style3">Services</span></p>
+<p class="disc">The Service partners have to follow the process and guideline for this program as prescribed by Department of Tele communications as advised by the security agencies.</p></div>
+            
+        </div><!-- End 4 columns container -->
+    
+    </li>
+    
+    
+    
+       <li><a href="rumor_facts.php" class="drop"><span style="text-transform:uppercase;">Consumers</span></a>
+    
+        <div class="dropdown_6columns">
+        
+            
+            <div class="company">
+            
+                <ul>
+  
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="rumor_facts.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GII Rumor and Facts</a></li>
+                     <li style="height:7px;"></li>
+                        <p><img src="images/hr_line.jpg" /></p>
+                       <li style="height:7px;"></li>
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="lost_of_imei.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reg. for lost of IMEI No.</a></li>
+                     <li style="height:7px;"></li>
+                        <p><img src="images/hr_line.jpg" /></p>
+                       <li style="height:7px;"></li>
+                    <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="check_imei.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check your IMEI Number</a></li>
+                     <li style="height:7px;"></li>
+                       <p><img src="images/hr_line.jpg" /></p>
+                       <li style="height:7px;"></li>
+                     <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="faq.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQ's</a></li>
+                      <li style="height:7px;"></li>
+                        <p><img src="images/hr_line.jpg" /></p>
+                        <li style="height:7px;"></li>
+                     <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="feedback.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback Form</a></li>
+                </ul>   
+            </div>
+          
+          
+              <div class="con_imag">
+                                <p><img src="images/guys-and-their-mobile-phones.jpg" width="170" height="100" /></p>
+            </div>
+     
+            
+            <div class="disc"><p align="right"><span class="strong style4">Consumers</span></p>
+<p>Your handset will not be usable in any network as your handset has invalid IMEI number. Spurious IMEI pose threat to National security.</p></div>
+        </div>
+        <!-- End 4 columns container -->
+    
+    </li><!-- End 4 columns Item -->
+    
+       <li><a href="solution.php"><span style="text-transform:uppercase;">Solutions</span></a><!-- Begin 3 columns Item -->
+	
+	<div class="dropdown_1column">
+        
+                <div class="solution">
+                
+                    <ul class="simple">
+                         <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="solution.php?s=1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IZEE</a></li>
+                          <li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+                          <li style="height:7px;"></li>
+                        <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="solution.php?s=2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-Flamingo</a></li>
+							<li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+							<li style="height:7px;"></li>
+							<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="solution.php?s=3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M-Rock</a></li>
+                            
+                            <li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+							<li style="height:7px;"></li>
+							<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="solution.php?s=4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIDA</a></li>
+                            
+                            <li style="height:7px;"></li>
+                             <p><img src="images/hr_line2.jpg"/></p>
+							<li style="height:7px;"></li>
+							<li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="solution.php?s=5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Genuine IMEI</a></li>
+                            <br />
+               
+                    </ul>   </div>     
+                
+                  
+                   <div class="solution_imag">
+                <p><img src="images/small_solution.jpg" width="110" height="100" align="top"/></p></div>   
+              
+            <div class="discs"><p align="right"><span class="strong style4">Solutions</span></p>
+          
+<p lass="discs">M-Flamingo- Technology is at the heart of our business. Whether we're pushing the limits of existing technology. </p></div>
+         
+                
+		</div>
+       
+    </li>
+       <!-- End 4 comsumers Item -->
+    
+    
+      <!-- <li><a href="our_clients.php"><span style="text-transform:uppercase;">Our clients</span></a></li> -->
+       <!-- End 4 columns Item -->
+  <li><a href="news_media.php"><span style="text-transform:uppercase;">News & Media</span></a><!-- Begin 3 columns Item -->
+	
+	<div class="dropdown_1column">
+        
+                <div class="contact">
+                
+                    <ul class="simple">
+                         <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="news_media.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</a></li>
+                          <li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+                          <li style="height:7px;"></li>
+                        <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="publication.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publications</a></li><br />
+
+               
+                    </ul>      </div>
+                   <div class="news_imag">
+                <p><img src="images/small_news.jpg" width="120" height="100" align="top"/></p> </div>
+            
+            <div class="discs"><p align="right"><span class="strong style4">News & Media</span></p>
+           
+<p lass="discs">The news media are those elements of the mass media that focus on delivering news to the general public or a target public.</p></div>
+               
+                
+                
+                
+		</div>
+       
+    </li>
+
+	<li><a href="contactus.php" class="drop"><span style="text-transform:uppercase;">Contact Us</span></a>
+    
+		<div class="dropdown_1column">
+        
+                <div class="contact">
+                
+                    <ul class="simple">
+                         <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="contactus.php?c=1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For IMEI</a></li>
+                          <li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+                          <li style="height:7px;"></li>
+                        <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="contactus.php?c=2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Quality Analysis</a></li>
+						<li style="height:7px;"></li>
+<p><img src="images/hr_line2.jpg"/></p>
+<li style="height:7px;"></li>
+                <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="contactus.php?c=3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For UAP</a></li>
+                          <li style="height:7px;"></li>
+                            <p><img src="images/hr_line2.jpg"/></p>
+							 <li style="height:7px;"></li>
+							 <li style="background-image:url(images/p-arww.png); background-repeat:no-repeat; background-position:left;"><a href="contactus.php?c=4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Government Services</a></li>
+                          <li style="height:7px;"></li><br />
+                            
+                    </ul>       </div>
+                   <div class="col_imag2">
+                <p><img src="images/contact.jpg" width="110" height="100" align="top"/></p>
+            </div>   
+            <div class="discc"><p align="right"><span class="strong style4">Contact us</span></p>
+          
+<p lass="discc">For more information about the msai, please read our links. Also feel free to contact us with service questions.</p></div>
+            
+                
+                
+                
+		</div>
+        
+	</li>
+
+
+
+    
+		
+        
+	
+    <!-- End 3 columns Item -->
+
+
+</ul>
+
+    
+    </td>
+    </tr>
+    </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="25" style="background:url(images/round_img_top.jpg) top no-repeat;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="background:url(images/bg_middle.jpg) top repeat-y;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="12">&nbsp;</td>
+            <td width="1000"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><!--<img src="images/banner.jpg" width="1000" height="224" />--><div class="slider-bg">
+
+                <div class="slider-border">
+
+                    <div class="slider">
+
+                      <ul class="items">
+
+                         <li><img src="banner_images/banner1.jpg" alt=""><div class="banner"><strong class="text-1">QUALITY ASSURANCE</strong><br><strong class="text-2">“Experience Quality<br>
+Quality Assurance for your Mobile Device<br>
+And experience perfection in the quality of your product”<br>
+
+<div style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; font-weight:normal;">“Get your Proposal for Quality Assurance”</div></strong></div></li>
+
+                         <li><img src="banner_images/banner2.jpg" alt=""><div class="banner"><strong class="text-1">IMEI Registration</strong><br><strong class="text-2">“To apply for TAC (IMEI) numbers, you must first register your company onto the IMEI database. <a href="pdf_file/IMEI_Registration_Form_2015_updated.pdf" target="_blank">Click here to follow all the process</a>”.</strong></div>
+                         </li>
+                         
+                          <li><img src="banner_images/banner3.jpg" alt=""><div class="banner"><strong class="text-1">User Agent Profile(UAP)</strong><br><strong class="text-2">"Let your mobile handset speak about its capabilities
+with the help of UAP SERVICES in the network
+so the applications can work effectively.
+                                <a href="#">Get your proposal here</a> “
+</strong></div>
+                          </li>
+                      </ul>
+                   </div>
+                    <div class="pagination">
+
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="20"></td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="14">&nbsp;</td>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="450"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top" height="30" class="tittle_font">Government</td>
+                              </tr>
+                              <tr>
+                                <td style="border:1px solid #d0e7f3;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="230" style="padding:5px;"><img src="images/govt.jpg" width="215" height="155" alt="Government" title="Government" /></td>
+                                    <td valign="top" class="matter">We provide support to all the regulatory bodies, Law enforcement, Security, CBEC in providing solutions to the problems which affects the Indian telecom eco system and also to benefit the consumers of the country. We support all the custom ports of the country with respect to the.....</td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="373">&nbsp;</td>
+                                    <td width="92"  height="35" class="read_more" style="background:url(images/bg_readmore.jpg) right  no-repeat;"><div align="center"><a href="law_enforcement.php">Read more..</a></div></td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                            </table></td>
+                            <td width="70">&nbsp;</td>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top" height="30" class="tittle_font">Brand</td>
+                              </tr>
+                              <tr>
+                                <td style="border:1px solid #d0e7f3;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="230" style="padding:5px;"><img src="images/brand.jpg" width="215" height="155" alt="brand" title="Brand" /></td>
+                                    <td valign="top" class="matter">We provide services to the brands with respect to their IMEI requirements, quality analysis &amp; UA Profiling of the devices. In telecommunication the Value Added Services (VAS), device recognition plays a vital role as it is very important for a mobile handset to speak about its capabilities.....</td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="373">&nbsp;</td>
+                                    <td width="92"  height="35" class="read_more" style="background:url(images/bg_readmore.jpg) right  no-repeat;"><div align="center"><a href="quality_analysis.php">Read more..</a></div></td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="450"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top" height="30" class="tittle_font">Device Management</td>
+                              </tr>
+                              <tr>
+                                <td style="border:1px solid #d0e7f3;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="230" style="padding:5px;"><img src="images/device_manager.jpg" width="215" height="155" alt="Device Management" title="Device Management" /></td>
+                                    <td valign="top" class="matter">We support Device Management companies by our services which 
+
+are operational in the Indian telecom eco system with a motive to benefit the operators in 
+
+recognizing the specific attributes of mobile device so they can provide the adequate 
+
+value added services and applications to the subscribers.....</td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="373">&nbsp;</td>
+                                    <td width="92"  height="35" class="read_more" style="background:url(images/bg_readmore.jpg) right  no-repeat;"><div align="center"><a href="device_manager.php">Read more..</a></div></td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                            </table></td>
+                            <td width="70">&nbsp;</td>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top" height="30" class="tittle_font">Solutions</td>
+                              </tr>
+                              <tr>
+                                <td style="border:1px solid #d0e7f3;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="230" style="padding:5px;"><img src="images/solution.jpg" width="215" height="155" align="solution" title="Solution" /></td>
+                                    <td valign="top" class="matter">Our success is centered on providing the appropriate expert advice to enable you to launch safe and reliable products and services. Custom made solutions for government, Device Management (DM) companies, Network operator, Brand owner and Consumer is our forte.....</td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                              <tr>
+                                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="373">&nbsp;</td>
+                                    <td width="92"  height="35" class="read_more" style="background:url(images/bg_readmore.jpg) right  no-repeat;"><div align="center"><a href="solution.php">Read more..</a></div></td>
+                                  </tr>
+                                </table></td>
+                              </tr>
+                            </table></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td height="5"></td>
+                      </tr>
+                      
+                      
+                    </table></td>
+                    <td width="14">&nbsp;</td>
+                  </tr>
+                </table></td>
+              </tr>
+              
+              <tr>
+                <td height="5"></td>
+              </tr>
+              <tr>
+                <td width="5" valign="bottom"><img src="images/gredient_line.jpg" width="1000" height="3" /></td>
+              </tr>
+            </table></td>
+            <td width="12">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="23" style="background:url(images/round_img_bottom.jpg) top no-repeat;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="12">&nbsp;</td>
+            <td height="25"><div id="footer_menu">
+        
+            <div align="center">Copyright &copy; 2009-15 AB Mobile Standards Alliance India Pvt. Ltd. All rights reserved</div>
+            </div></td>
+            <td width="12">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

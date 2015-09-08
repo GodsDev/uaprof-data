@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<!-- 
+ 
+ This RDF file describes the Motorola v323 user agent profile with 
+ Openwave Browser 6.2.x
+
+=====================================================================
+ File name URL:
+      http://motorola.handango.com/phoneconfig/v323/Profile/v323.rdf
+
+                        
+Version number : 1.1
+
+======================================================================
+
+ Author               Modification   Tracking    Descrition Of Change
+                          Date        Number
+========              ============   ==========  =====================
+ ask098               08/08/2005                 Initial Creation 
+ ask098               08/29/2005                 Modified for VIVO
+ ask098               08/12/2005                 Added Video mime types
+-->
+
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mms="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#" xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#">
+
+    <rdf:Description rdf:ID="Motorola_v323">
+  <!--   ******************************************************************   
+  --> 
+  <!--   ***** Component: HardwarePlatform *****   
+  --> 
+  <prf:component>
+  <rdf:Description rdf:ID="HardwarePlatform">
+  <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#HardwarePlatform" /> 
+
+  <prf:BitsPerPixel>16</prf:BitsPerPixel> 
+  <prf:ColorCapable>Yes</prf:ColorCapable> 
+  <prf:ImageCapable>Yes</prf:ImageCapable> 
+  <prf:CPU>ARM9</prf:CPU>
+  <prf:InputCharSet>
+  <rdf:Bag>
+  <rdf:li>utf-8</rdf:li> 
+  </rdf:Bag>
+  </prf:InputCharSet>
+  <prf:Keyboard>PhoneKeypad</prf:Keyboard> 
+  <prf:Model>v323</prf:Model> 
+  <prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+   <prf:OutputCharSet>
+  <rdf:Bag> 
+  <rdf:li>utf-8</rdf:li>  
+  </rdf:Bag>
+  </prf:OutputCharSet>
+  <prf:PixelAspectRatio>1x1</prf:PixelAspectRatio> 
+  <prf:ScreenSize>176x220</prf:ScreenSize> 
+  <prf:ScreenSizeChar>7x11</prf:ScreenSizeChar> 
+  <prf:SoundOutputCapable>Yes</prf:SoundOutputCapable> 
+  <prf:StandardFontProportional>Yes</prf:StandardFontProportional> 
+  <prf:TextInputCapable>Yes</prf:TextInputCapable> 
+  <prf:Vendor>Motorola</prf:Vendor> 
+  <prf:VoiceInputCapable>Yes</prf:VoiceInputCapable> 
+  </rdf:Description>
+  </prf:component>
+
+ <!--   ****************************************************************** 
+  --> 
+  <!--   ***** Component: SoftwarePlatform *****   
+  --> 
+ <prf:component>
+ <rdf:Description rdf:ID="SoftwarePlatform">
+  <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#SoftwarePlatform" /> 
+
+  <prf:AcceptDownloadableSoftware>No</prf:AcceptDownloadableSoftware> 
+   <prf:CcppAccept>
+  <rdf:Bag>
+       <rdf:li>text/html</rdf:li>
+       <rdf:li>text/css</rdf:li>
+       <rdf:li>text/plain</rdf:li>
+       <rdf:li>text/vnd.wap.wml</rdf:li>
+
+       <rdf:li>application/vnd.phonecom.mmc-xml</rdf:li>
+       <rdf:li>application/vnd.wap.wmlc</rdf:li>
+       <rdf:li>application/vnd.wap.wmlscriptc</rdf:li>
+       <rdf:li>application/vnd.wap.xhtml+xml</rdf:li> 
+       <rdf:li>application/xhtml+xml</rdf:li> 
+
+       <rdf:li>image/bmp</rdf:li>
+       <rdf:li>image/gif</rdf:li>
+       <rdf:li>image/jpeg</rdf:li>
+       <rdf:li>image/png</rdf:li>  
+       <rdf:li>image/vnd.wap.wbmp</rdf:li>
+       <rdf:li>image/x-up-wpng</rdf:li>
+       <rdf:li>multipart/mixed</rdf:li>
+       <rdf:li>multipart/related</rdf:li>
+
+       <rdf:li>image/ems.userdefined.picture</rdf:li>
+       <rdf:li>image/ems.userdefined.animation</rdf:li>
+       <rdf:li>image/ems.predefined.animation</rdf:li>
+
+       <rdf:li>video/mp4</rdf:li>
+       <rdf:li>video/3gpp</rdf:li>
+       <rdf:li>video/pmd</rdf:li>
+            
+       <rdf:li>audio/imelody</rdf:li>
+       <rdf:li>audio/mid</rdf:li>
+       <rdf:li>audio/midi</rdf:li>
+       <rdf:li>audio/x-midi</rdf:li>
+       <rdf:li>audio/mp3</rdf:li>
+       <rdf:li>audio/mpeg</rdf:li>
+       <rdf:li>audio/mpeg3</rdf:li>
+       <rdf:li>audio/mpg</rdf:li>
+       <rdf:li>audio/x-mp3</rdf:li>
+       <rdf:li>audio/x-mpeg</rdf:li>
+       <rdf:li>audio/x-mpeg3</rdf:li>
+       <rdf:li>audio/x-mpg</rdf:li>
+       <rdf:li>audio/aac</rdf:li>
+       <rdf:li>audio/amr</rdf:li>
+       <rdf:li>audio/qcelp</rdf:li>
+       <rdf:li>video/mp4</rdf:li>
+       <rdf:li>video/3gpp</rdf:li>
+       <rdf:li>video/3gpp2</rdf:li>
+       <rdf:li>video/pmd</rdf:li>
+       <rdf:li>application/mtf</rdf:li>
+       <rdf:li>application/octet-stream</rdf:li>
+       <rdf:li>application/motorola-mmstemplate</rdf:li>
+       <rdf:li>application/vnd.oma.dd+xml</rdf:li>
+       <rdf:li>application/vnd.oma.drm.rights+xml</rdf:li>
+       <rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li>
+
+  </rdf:Bag>
+  </prf:CcppAccept>
+
+  <prf:CcppAccept-Charset>
+  <rdf:Bag>
+  <rdf:li>utf-8</rdf:li> 
+  </rdf:Bag>
+  </prf:CcppAccept-Charset>
+
+  <prf:CcppAccept-Language>
+  <rdf:Seq>
+  <rdf:li>en</rdf:li>
+  <rdf:li>es-ve</rdf:li>
+  <rdf:li>pt-br</rdf:li>
+  <rdf:li>fr-ca</rdf:li>
+  </rdf:Seq>
+  </prf:CcppAccept-Language>
+  <prf:RecipientAppAgent>browser</prf:RecipientAppAgent>
+  <prf:SoftwareNumber>R9-0_X_04.17.00R</prf:SoftwareNumber> 
+  </rdf:Description>
+  </prf:component>
+  
+<!--   ******************************************************************  
+  --> 
+  <!--    ***** Component: NetworkCharacteristics *****   
+  --> 
+  
+  <prf:component>
+  <rdf:Description rdf:ID="NetworkCharacteristics">
+  <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#NetworkCharacteristics" /> 
+ 
+  <prf:CurrentBearerService>CSD</prf:CurrentBearerService> 
+  <prf:SecuritySupport>
+  <rdf:Bag>
+  <rdf:li>TLS1.0</rdf:li> 
+  </rdf:Bag>
+  </prf:SecuritySupport>
+  <prf:SupportedBearers>
+  <rdf:Bag>
+  <rdf:li>CSD</rdf:li> 
+  <rdf:li>SMS</rdf:li> 
+  </rdf:Bag>
+  </prf:SupportedBearers>
+  </rdf:Description>
+  </prf:component> 
+
+ <!--   ******************************************************************   
+  --> 
+  <!--   ***** Component: BrowserUA *****   
+  --> 
+
+  <prf:component>
+  <rdf:Description rdf:ID="BrowserUA">
+   <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#BrowserUA" /> 
+
+  <prf:BrowserName>Openwave</prf:BrowserName> 
+  <prf:BrowserVersion>6.2.3.4</prf:BrowserVersion>
+  <prf:FramesCapable>Yes</prf:FramesCapable> 
+  <prf:HtmlVersion>4.0</prf:HtmlVersion> 
+  <prf:JavaAppletEnabled>No</prf:JavaAppletEnabled> 
+  <prf:JavaScriptEnabled>No</prf:JavaScriptEnabled> 
+  <prf:JavaScriptVersion>No</prf:JavaScriptVersion> 
+  <prf:PreferenceForFrames>No</prf:PreferenceForFrames> 
+  <prf:TablesCapable>Yes</prf:TablesCapable> 
+  <prf:XhtmlVersion>1.1</prf:XhtmlVersion> 
+  <prf:XhtmlModules>
+  <rdf:Bag>
+  <rdf:li>XHTML-struct</rdf:li> 
+  <rdf:li>XHTML-text</rdf:li> 
+  <rdf:li>XHTML-hypertext</rdf:li> 
+  <rdf:li>XHTML-list</rdf:li> 
+  <rdf:li>XHTML-basicforms</rdf:li> 
+  <rdf:li>XHTML-basictables</rdf:li> 
+  <rdf:li>XHTML-image</rdf:li> 
+  <rdf:li>XHTML-metainformation</rdf:li> 
+  <rdf:li>XHTML-link</rdf:li> 
+  <rdf:li>XHTML-base</rdf:li> 
+  <rdf:li>XHTML-forms</rdf:li> 
+  <rdf:li>XHTML-presentation</rdf:li> 
+  <rdf:li>XHTML-stylesheet</rdf:li> 
+  </rdf:Bag>
+  </prf:XhtmlModules>
+  </rdf:Description>
+  </prf:component>
+
+ <!--   ******************************************************************   
+  --> 
+  <!--   ***** Component: WapCharacteristics *****   
+  --> 
+  <prf:component>
+
+  <rdf:Description rdf:ID="WapCharacteristics">
+ <rdf:type rdf:resource="http://www.wapforum.org/profiles/UAPROF/ccppschema-20020710#WapCharacteristics" /> 
+  <prf:SupportedPictogramSet>
+  <rdf:Bag>
+  <rdf:li>core</rdf:li>
+  </rdf:Bag>
+  </prf:SupportedPictogramSet>
+  <prf:WapDeviceClass>C</prf:WapDeviceClass>
+  <prf:WapVersion>2.0</prf:WapVersion>
+  
+  <prf:WmlVersion>
+   <rdf:Bag>
+   <rdf:li>1.1</rdf:li>
+   <rdf:li>1.2</rdf:li>
+   <rdf:li>1.3</rdf:li>
+   </rdf:Bag>
+   </prf:WmlVersion>
+  <prf:WmlDeckSize>3000</prf:WmlDeckSize>
+  <prf:WtaiLibraries>
+  <rdf:Bag>
+    <rdf:li>WTA.Public</rdf:li> 
+    </rdf:Bag>
+  </prf:WtaiLibraries>
+  <prf:WmlScriptLibraries>
+  <rdf:Bag>
+  <rdf:li>Lang</rdf:li>
+  <rdf:li>Float</rdf:li>
+  <rdf:li>String</rdf:li>
+  <rdf:li>URL</rdf:li>
+  <rdf:li>WMLBrowser</rdf:li>
+  <rdf:li>Dialogs</rdf:li>
+  </rdf:Bag> 
+ </prf:WmlScriptLibraries>  
+
+  <prf:OmaDownload>No</prf:OmaDownload> 
+  </rdf:Description> 
+  </prf:component> 
+
+<!--   ******************************************************************   
+  --> 
+  <!--   ***** Component: PushCharacteristics *****   
+  --> 
+
+ 
+  <prf:component>
+  <rdf:Description rdf:ID="PushCharacteristics">
+  <rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20030226#PushCharacteristics" /> 
+
+  <prf:Push-Accept> 
+  <rdf:Bag>
+  <rdf:li>text/xml</rdf:li> 
+  <rdf:li>text/wml</rdf:li> 
+  </rdf:Bag>
+  </prf:Push-Accept>
+
+  <prf:Push-Accept-Charset> 
+  <rdf:Bag>
+  <rdf:li>iso-8859-1</rdf:li> 
+  <rdf:li>utf-8</rdf:li> 
+  <rdf:li>us-ascii</rdf:li> 
+  </rdf:Bag>
+  </prf:Push-Accept-Charset>
+
+  <prf:Push-Accept-Encoding> 
+  <rdf:Bag>
+  <rdf:li>base64</rdf:li>
+  </rdf:Bag>
+  </prf:Push-Accept-Encoding>
+
+  <prf:Push-Accept-Language>
+  <rdf:Seq>
+   <rdf:li>en</rdf:li>
+   <rdf:li>es-ve</rdf:li>
+   <rdf:li>pt-br</rdf:li>
+   <rdf:li>fr-ca</rdf:li>
+   </rdf:Seq> 
+   </prf:Push-Accept-Language>
+  <prf:Push-Accept-AppID>
+  <rdf:Bag>
+  <rdf:li>w4</rdf:li> 
+  </rdf:Bag>
+  </prf:Push-Accept-AppID>
+
+  <prf:Push-MsgSize>1400</prf:Push-MsgSize> 
+  <prf:Push-MaxPushReq>1</prf:Push-MaxPushReq> 
+  </rdf:Description>
+  </prf:component>
+
+
+<!--   ******************************************************************   
+  --> 
+  <!--   ***** Component: MMSCharacteristics *****   
+  --> 
+
+    <prf:component>
+    <rdf:Description rdf:ID="MMSCharacteristics">
+    <rdf:type rdf:resource="http://www.wapforum.org/profiles/MMS/ccppschema-20010111#MmsCharacteristics" /> 
+   <mms:MmsMaxMessageSize>358400</mms:MmsMaxMessageSize>
+      <mms:MmsMaxImageResolution>640x480</mms:MmsMaxImageResolution> 
+      <mms:MmsCcppAccept>
+       <rdf:Bag>
+
+         <rdf:li>application/vnd.wap.multipart.related</rdf:li>
+         <rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+         <rdf:li>application/smil</rdf:li>
+         <rdf:li>application/vnd.oma.drm.message</rdf:li> 
+         <rdf:li>application/motorola-mmstemplate</rdf:li> 
+         
+         <rdf:li>image/gif</rdf:li>
+         <rdf:li>image/jpeg</rdf:li>
+         <rdf:li>image/jpg</rdf:li>
+         <rdf:li>image/png</rdf:li>
+         <rdf:li>image/bmp</rdf:li>
+         <rdf:li>image/x-bmp</rdf:li> 
+         <rdf:li>image/vnd.wap.wbmp</rdf:li> 
+
+         <rdf:li>audio/imelody</rdf:li> 
+         <rdf:li>audio/x-imelody</rdf:li>
+         <rdf:li>audio/evrc</rdf:li> 
+         <rdf:li>audio/mp4</rdf:li> 
+         <rdf:li>audio/mpeg3</rdf:li>
+         <rdf:li>audio/x-mpeg3</rdf:li>
+         <rdf:li>audio/mpeg</rdf:li> 
+         <rdf:li>audio/mp3</rdf:li>
+         <rdf:li>audio/x-mp3</rdf:li>
+         <rdf:li>audio/imy</rdf:li>
+         <rdf:li>audio/x-amr</rdf:li>
+         <rdf:li>audio/amr</rdf:li>
+         <rdf:li>audio/mid</rdf:li> 
+         <rdf:li>audio/midi</rdf:li>
+         <rdf:li>audio/x-mid</rdf:li>
+         <rdf:li>audio/sp-midi</rdf:li>   
+         <rdf:li>audio/qcelp</rdf:li>
+         <rdf:li>audio/vnd.qcelp</rdf:li>
+         <rdf:li>audio/wav</rdf:li>
+         <rdf:li>audio/x-wav</rdf:li>
+         <rdf:li>audio/aac</rdf:li>
+         <rdf:li>audio/x-midi</rdf:li>
+       
+         <rdf:li>video/3gpp</rdf:li>
+         <rdf:li>video/3gpp2</rdf:li>
+         <rdf:li>video/mp4</rdf:li> 
+
+         <rdf:li>text/plain</rdf:li>
+
+         </rdf:Bag>
+      </mms:MmsCcppAccept>
+      <mms:MmsCcppAcceptCharSet>
+       <rdf:Bag>
+        <rdf:li>UTF-8</rdf:li> 
+        <rdf:li>UTF-16</rdf:li> 
+        <rdf:li>ISO-8859-1</rdf:li> 
+        <rdf:li>US-ASCII</rdf:li> 
+        <rdf:li>ISO-10646-UCS-2</rdf:li> 
+      </rdf:Bag>
+     </mms:MmsCcppAcceptCharSet>
+     <mms:MmsCcppAcceptLanguage>
+     <rdf:Bag>
+     <rdf:li>en</rdf:li>
+     </rdf:Bag>
+     </mms:MmsCcppAcceptLanguage>
+     <mms:MmsCcppAcceptEncoding>
+      <rdf:Bag>
+       <rdf:li></rdf:li>
+      </rdf:Bag>
+     </mms:MmsCcppAcceptEncoding>
+     <mms:MmsVersion>
+     <rdf:Bag>
+     <rdf:li>1.0</rdf:li>
+     </rdf:Bag>
+     </mms:MmsVersion> 
+   </rdf:Description>
+  </prf:component>
+</rdf:Description>
+</rdf:RDF>

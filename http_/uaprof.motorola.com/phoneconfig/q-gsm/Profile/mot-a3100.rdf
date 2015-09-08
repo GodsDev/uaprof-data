@@ -1,0 +1,615 @@
+<?xml version="1.0" ?> 
+<!-- This RDF describes the Motorola A3100
+===========================================================================
+Version number : A3100/RDF/V1.1
+===========================================================================
+Revision History:
+V1.0: 04-Oct-2008 - Creation based on Q-UMTS
+--> 
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+		xmlns:prf="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#"
+		xmlns:pss5="http://www.3gpp.org/profiles/PSS/ccppschema-PSS5#"
+		xmlns:mms="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#">
+	<rdf:Description rdf:ID="Profile">
+	
+	<!-- HW information -->
+	<prf:component>
+	<rdf:Description rdf:ID="HardwarePlatform">
+		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#HardwarePlatform" /> 
+		<prf:BluetoothProfile>
+			<rdf:Bag>
+				<rdf:li>General Access Profile</rdf:li>
+				<rdf:li>General Object Exchange Profile</rdf:li>
+        		<rdf:li>Serial Port Profile</rdf:li>        		
+        		<rdf:li>Handsfree Profile</rdf:li>
+        		<rdf:li>Headset Profile</rdf:li>
+        		<rdf:li>Human Input Device Profile</rdf:li>
+        		<rdf:li>Object Push Profile</rdf:li>
+        		<rdf:li>Personal Area Networking Profile</rdf:li>
+        		<rdf:li>ActiveSync-Over-Bluetooth Profile</rdf:li>
+        		<rdf:li>Advanced Audio Distribution Profile</rdf:li>
+        		<rdf:li>Audio/Video Remote Control Profile</rdf:li>
+        		<rdf:li>Bluetooth Phone Book Access Profile</rdf:li>
+        		<rdf:li>File Transfer Profile</rdf:li>        		
+			</rdf:Bag>
+		</prf:BluetoothProfile>
+		<prf:BitsPerPixel>18</prf:BitsPerPixel>
+		<prf:ColorCapable>Yes</prf:ColorCapable>
+		<prf:CPU>ARM11 MSM7201A</prf:CPU>
+		<prf:ImageCapable>Yes</prf:ImageCapable>
+		<prf:InputCharSet>
+			<rdf:Bag>
+            	<rdf:li>US-ASCII</rdf:li>
+            	<rdf:li>UTF-8</rdf:li>
+	           	<rdf:li>UTF-16</rdf:li>
+            	<rdf:li>ISO-10646-UCS-2</rdf:li>
+          	</rdf:Bag>
+		</prf:InputCharSet>
+		<!-- No keyboard
+		<prf:Keyboard></prf:Keyboard> -->
+		<prf:Model>A3100</prf:Model>
+		<prf:NumberOfSoftKeys>2</prf:NumberOfSoftKeys>
+		<prf:OutputCharSet>
+			<rdf:Bag>
+            	<rdf:li>US-ASCII</rdf:li>
+            	<rdf:li>UTF-8</rdf:li>
+	           	<rdf:li>UTF-16</rdf:li>
+            	<rdf:li>ISO-10646-UCS-2</rdf:li>
+          	</rdf:Bag>
+		</prf:OutputCharSet>
+		<prf:PixelAspectRatio>1x1</prf:PixelAspectRatio> 
+		<prf:ScreenSize>240x320</prf:ScreenSize>	
+		<prf:ScreenSizeChar>20x22</prf:ScreenSizeChar>	
+		<prf:StandardFontProportional>Yes</prf:StandardFontProportional> 
+		<prf:SoundOutputCapable>Yes</prf:SoundOutputCapable>
+		<prf:TextInputCapable>Yes</prf:TextInputCapable>		
+		<prf:Vendor>Motorola</prf:Vendor>
+		<prf:VoiceInputCapable>Yes</prf:VoiceInputCapable> 
+	</rdf:Description>
+	</prf:component>
+	
+	<!-- SW information -->
+	<prf:component>
+	<rdf:Description rdf:ID="SoftwarePlatform">
+		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#SoftwarePlatform" /> 
+	<prf:AcceptDownloadableSoftware>Yes</prf:AcceptDownloadableSoftware>
+	<prf:AudioInputEncoder>
+		<rdf:Bag>
+			<rdf:li>AMR</rdf:li>
+			<rdf:li>iMelody</rdf:li>
+		</rdf:Bag>
+    </prf:AudioInputEncoder>
+    <prf:CcppAccept>
+		<rdf:Bag>
+			<!--  Browser Mime Types --> 
+			<rdf:li>text/plain</rdf:li>
+			<rdf:li>text/html</rdf:li>
+			<rdf:li>text/xml</rdf:li>
+			<rdf:li>application/xml</rdf:li>
+			<rdf:li>text/css</rdf:li>
+			<rdf:li>application/x-javascript</rdf:li>
+			<rdf:li>text/wml</rdf:li>
+			<rdf:li>text/vnd.wap.wml</rdf:li>
+			<rdf:li>application/vnd.wap.wmlc</rdf:li>
+			<rdf:li>application/vnd.wap.wml+xml</rdf:li>
+			<rdf:li>application/xhtml+xml</rdf:li>
+			<rdf:li>text/xhtml</rdf:li>
+			<rdf:li>application/vnd.wap.xhtml+xml</rdf:li>
+			<rdf:li>application/vnd.wap.wbxml</rdf:li>
+			<rdf:li>multipart/mixed</rdf:li>
+			<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>
+			<!--  Java Mime Types -->
+			<rdf:li>application/java-archive</rdf:li> 
+			<rdf:li>application/java</rdf:li> 
+			<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li> 
+			<!--  Audio Mime Types  --> 
+			<rdf:li>audio/aac</rdf:li>
+			<rdf:li>audio/aif</rdf:li>
+			<rdf:li>audio/aiff</rdf:li>
+			<rdf:li>audio/amr</rdf:li>
+			<rdf:li>audio/amr-wb</rdf:li>
+			<rdf:li>audio/au</rdf:li>
+			<rdf:li>audio/basic</rdf:li>
+			<rdf:li>audio/evrc</rdf:li>
+			<rdf:li>audio/evrc-qcp</rdf:li>
+			<rdf:li>audio/imelody</rdf:li>
+			<rdf:li>audio/m4a</rdf:li>
+			<rdf:li>audio/mid</rdf:li>
+			<rdf:li>audio/midi</rdf:li>
+			<rdf:li>audio/mobile-xmf</rdf:li>
+			<rdf:li>audio/mp3</rdf:li>
+			<rdf:li>audio/mp4</rdf:li>
+			<rdf:li>audio/mp5</rdf:li>
+			<rdf:li>audio/mp6</rdf:li>
+			<rdf:li>audio/mpeg</rdf:li>
+			<rdf:li>audio/mpeg3</rdf:li>
+			<rdf:li>audio/mpg</rdf:li>
+			<rdf:li>audio/qcelp</rdf:li>
+			<rdf:li>audio/ringing-tones</rdf:li>
+			<rdf:li>audio/rmf</rdf:li>
+			<rdf:li>audio/rttl</rdf:li>
+			<rdf:li>audio/rtx</rdf:li>
+			<rdf:li>audio/sdf</rdf:li>
+			<rdf:li>audio/sdp</rdf:li>
+			<rdf:li>audio/sms</rdf:li>
+			<rdf:li>audio/sp-midi</rdf:li>
+			<rdf:li>audio/vnd.qcelp</rdf:li>
+			<rdf:li>audio/wav</rdf:li>
+			<rdf:li>audio/x-aac</rdf:li>
+			<rdf:li>audio/x-aiff</rdf:li>
+			<rdf:li>audio/x-meg3</rdf:li>
+			<rdf:li>audio/xmf</rdf:li>
+			<rdf:li>audio/xmf0</rdf:li>
+			<rdf:li>audio/xmf1</rdf:li>  
+			<rdf:li>audio/x-mid</rdf:li>
+			<rdf:li>audio/x-mp3</rdf:li>
+			<rdf:li>audio/x-mpeg</rdf:li>
+			<rdf:li>audio/x-mpeg3</rdf:li>
+			<rdf:li>audio/x-mpg</rdf:li>
+			<rdf:li>audio/x-ms-wax</rdf:li>
+			<rdf:li>audio/x-ms-wma</rdf:li>
+			<rdf:li>audio/x-wav</rdf:li>
+			<!--  Image Mime Types  --> 
+			<rdf:li>image/bmp</rdf:li>
+			<rdf:li>image/bmp\Bits</rdf:li>
+			<rdf:li>image/gif</rdf:li>
+			<rdf:li>image/gif\Bits</rdf:li>
+			<rdf:li>image/jpeg</rdf:li>
+			<rdf:li>image/jpeg\Bits</rdf:li>
+			<rdf:li>image/jpg</rdf:li>
+			<rdf:li>image/pjpeg</rdf:li>
+			<rdf:li>image/pjpeg\Bits</rdf:li>
+			<rdf:li>image/png</rdf:li>
+			<rdf:li>image/xbm</rdf:li>
+			<rdf:li>image/x-bmp</rdf:li>
+			<rdf:li>image/x-icon</rdf:li>
+			<rdf:li>image/x-png</rdf:li>
+			<rdf:li>image/x-xbitmap</rdf:li>
+			<!--  Video Mime Types  --> 
+			<rdf:li>video/3gpp</rdf:li>
+			<rdf:li>video/3gpp2</rdf:li>
+			<rdf:li>video/avi</rdf:li>
+			<rdf:li>video/mp4</rdf:li>
+			<rdf:li>video/mpeg4</rdf:li>
+			<rdf:li>video/msvideo</rdf:li>
+			<rdf:li>video/pvx</rdf:li>
+			<rdf:li>video/sdp</rdf:li>
+			<rdf:li>video/wav</rdf:li>
+			<rdf:li>video/x-ms-asf</rdf:li>
+			<rdf:li>video/x-ms-asx</rdf:li>
+			<rdf:li>video/x-ms-nsc</rdf:li>
+			<rdf:li>video/x-msvideo</rdf:li>
+			<rdf:li>video/x-ms-wm</rdf:li>
+			<rdf:li>video/x-ms-wmp</rdf:li>
+			<rdf:li>video/x-ms-wmv</rdf:li>
+			<rdf:li>video/x-ms-wmx</rdf:li>
+			<rdf:li>video/x-ms-wvx</rdf:li>
+			<rdf:li>video/H264</rdf:li>
+			<!--  VObjects Mime Types --> 
+			<rdf:li>text/x-vcard</rdf:li> 
+			<rdf:li>text/x-vcalendar</rdf:li> 
+			<rdf:li>text/uri-list</rdf:li> 
+			<!--  Themes Mime Types  --> 
+			<rdf:li>application/mtf</rdf:li> 
+			<!--  DRM Mime Types   --> 
+			<rdf:li>application/vnd.oma.drm.content</rdf:li> 
+			<rdf:li>application/vnd.oma.drm.message</rdf:li> 
+			<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li> 
+			<rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li> 
+			<!--  Download Mime Types  --> 
+			<rdf:li>application/vnd.oma.dd+xml</rdf:li> 
+			<rdf:li>application/vnd.smaf</rdf:li> 
+			<rdf:li>application/x-smaf</rdf:li>
+			<!--  MMS Mime Types   --> 
+			<rdf:li>application/vnd.wap.mms-message</rdf:li> 
+		</rdf:Bag>
+    </prf:CcppAccept>
+    <prf:CcppAccept-Charset>
+		<rdf:Bag>			
+			<rdf:li>US-ASCII</rdf:li>			
+      		<rdf:li>ISO-10646-UCS-2</rdf:li>
+            <rdf:li>ISO-8859-1</rdf:li>
+      		<rdf:li>ISO-8859-2</rdf:li>
+      		<rdf:li>ISO-8859-4</rdf:li>
+      		<rdf:li>ISO-8859-5</rdf:li>
+      		<rdf:li>ISO-8859-7</rdf:li>
+      		<rdf:li>ISO-8859-9</rdf:li>
+      		<rdf:li>Windows-1250</rdf:li>
+      		<rdf:li>Windows-1252</rdf:li>
+      		<rdf:li>Windows-1253</rdf:li>
+      		<rdf:li>Windows-1254</rdf:li>
+      		<rdf:li>UTF-16</rdf:li>
+      		<rdf:li>UTF-16be</rdf:li>
+      		<rdf:li>UTF-16le</rdf:li>
+      		<rdf:li>UTF-7</rdf:li>
+            <rdf:li>UTF-8</rdf:li>
+      		<rdf:li>KOI8-R</rdf:li>
+      		<rdf:li>csKOI8R</rdf:li>
+		</rdf:Bag>
+	</prf:CcppAccept-Charset>
+    <prf:CcppAccept-Encoding>
+		<rdf:Bag>
+			<rdf:li>base64</rdf:li>
+		</rdf:Bag>
+    </prf:CcppAccept-Encoding>
+    <prf:DownloadableSoftwareSupport>
+		<rdf:Bag>
+			<rdf:li>None</rdf:li> 
+		</rdf:Bag>
+    </prf:DownloadableSoftwareSupport>
+    <prf:JavaEnabled>Yes</prf:JavaEnabled> 
+	<prf:JavaPlatform>
+		<rdf:Bag>
+			<rdf:li>MIDP-2.0</rdf:li> 
+			<rdf:li>CLDC-1.1</rdf:li> 
+		</rdf:Bag>
+	</prf:JavaPlatform>
+	<prf:JVMVersion>
+		<rdf:Bag>
+			<rdf:li>JBlend</rdf:li>
+		</rdf:Bag>
+	</prf:JVMVersion>
+    <prf:MexeClassmarks>
+		<rdf:Bag>
+			<rdf:li>1</rdf:li> 
+		</rdf:Bag>
+    </prf:MexeClassmarks>
+    <prf:MexeSpec>None</prf:MexeSpec> 
+    <prf:MexeSecureDomains>No</prf:MexeSecureDomains> 
+    <prf:OSName>Windows Mobile</prf:OSName> 
+    <prf:OSVersion>6.1</prf:OSVersion> 
+    <prf:OSVendor>Microsoft</prf:OSVendor> 
+    <prf:RecipientAppAgent>BrowserUA</prf:RecipientAppAgent> 
+    <prf:SoftwareNumber>None</prf:SoftwareNumber> 
+    <prf:VideoInputEncoder>
+		<rdf:Bag>
+			<rdf:li>MPEG-4</rdf:li> 
+			<rdf:li>H.263</rdf:li> 
+		</rdf:Bag>
+    </prf:VideoInputEncoder>
+    <prf:Email-URI-Schemes>
+		<rdf:Bag>
+			<rdf:li>POP3</rdf:li>
+			<rdf:li>SMTP</rdf:li>
+			<rdf:li>IMAP4</rdf:li>
+		</rdf:Bag>
+    </prf:Email-URI-Schemes>
+    <prf:JavaPackage>
+		<rdf:Bag>
+			<rdf:li>java/io</rdf:li> 
+			<rdf:li>java/lang</rdf:li> 
+			<rdf:li>java/util</rdf:li>
+			<rdf:li>javax/obex</rdf:li> 
+			<rdf:li>javax/bluetooth</rdf:li>
+			<rdf:li>javax/wireless/messaging</rdf:li>
+			<rdf:li>javax/microedition/io</rdf:li> 
+			<rdf:li>javax/microedition/lcdui</rdf:li> 
+			<rdf:li>javax/microedition/lcdui/game</rdf:li> 
+			<rdf:li>javax/microedition/media</rdf:li> 
+			<rdf:li>javax/microedition/media/control</rdf:li> 
+			<rdf:li>javax/microedition/media/protocol</rdf:li> 
+			<rdf:li>javax/microedition/midlet</rdf:li> 
+			<rdf:li>javax/microedition/pki</rdf:li> 
+			<rdf:li>javax/microedition/rms</rdf:li>
+			<rdf:li>javax/microedition/pim</rdf:li>
+			<rdf:li>javax/microedition/io/file</rdf:li>
+			<rdf:li>javax/microedition/m3g</rdf:li>
+		</rdf:Bag>
+    </prf:JavaPackage>
+    <prf:JavaProtocol>
+		<rdf:Bag>
+			<rdf:li>Profile/MIDP-2.0</rdf:li> 
+			<rdf:li>Configuration/CLDC-1.1</rdf:li> 
+		</rdf:Bag>
+    </prf:JavaProtocol>
+    <prf:CLIPlatform>
+		<rdf:Bag>
+			<rdf:li>None</rdf:li> 
+		</rdf:Bag>
+    </prf:CLIPlatform>
+   	</rdf:Description>
+  	</prf:component>
+  	
+ 	<!-- Network information -->
+  	<prf:component>
+   	<rdf:Description rdf:ID="NetworkCharacteristics">
+   		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#NetworkCharacteristics" /> 
+    <prf:SecuritySupport>
+    	<rdf:Bag>
+    		<rdf:li>WTLS-1</rdf:li> 
+    		<rdf:li>WTLS-2</rdf:li>
+    		<rdf:li>SSL</rdf:li>
+    		<rdf:li>TLS</rdf:li> 
+     	</rdf:Bag>
+    </prf:SecuritySupport>
+    <prf:SupportedBearers>
+    	<rdf:Bag>
+	    	<rdf:li>SMS</rdf:li> 
+		   	<rdf:li>CSD</rdf:li>
+		   	<rdf:li>USSD</rdf:li>
+		   	<rdf:li>GSM_GPRS_IPV4</rdf:li>
+		   	<rdf:li>3GPP_WCDMA_IPV4</rdf:li>
+		   	<rdf:li>Desktop Passthrough</rdf:li>
+     	</rdf:Bag>
+    </prf:SupportedBearers>
+    <prf:CurrentBearerService>TwoWayPacket</prf:CurrentBearerService> 
+    <prf:SupportedBluetoothVersion>2.0+EDR</prf:SupportedBluetoothVersion> 
+	</rdf:Description>
+	</prf:component>
+
+  <prf:component>
+	<rdf:Description rdf:ID="Streaming">
+	<rdf:type rdf:resource="http://www.3gpp.org/profiles/PSS/ccppschema-PSS5#Streaming" />
+		<pss5:AdaptationSupport>Yes</pss5:AdaptationSupport>
+		<pss5:ExtendedRtcpReports>Yes</pss5:ExtendedRtcpReports>
+		<pss5:MediaAlternatives>Yes</pss5:MediaAlternatives>
+		<pss5:RtpRetransmission>No</pss5:RtpRetransmission>
+		<pss5:PSSIntegrity>No</pss5:PSSIntegrity>
+		<pss5:RtpProfiles>
+			<rdf:Bag>
+				<rdf:li>RTP/AVP</rdf:li>
+			</rdf:Bag>
+		</pss5:RtpProfiles>
+		<pss5:VideoPreDecoderBufferSize>30720</pss5:VideoPreDecoderBufferSize>
+		<pss5:VideoInitialPostDecoderBufferingPeriod>0</pss5:VideoInitialPostDecoderBufferingPeriod>
+		<pss5:VideoDecodingByteRate>16000</pss5:VideoDecodingByteRate>
+		<pss5:StreamingAccept>
+		<rdf:Bag>
+			<rdf:li>audio/AMR</rdf:li>
+			<rdf:li>audio/AMR-WB</rdf:li>
+			<rdf:li>audio/MP4A-LATM</rdf:li>
+			<rdf:li>audio/mpeg4-generic</rdf:li>
+			<rdf:li>video/H263</rdf:li>
+			<rdf:li>video/H263-1998</rdf:li>
+			<rdf:li>video/H263-2000</rdf:li>
+			<rdf:li>video/MP4V-ES</rdf:li>
+			<rdf:li>video/H264</rdf:li>
+			<rdf:li>video/mpeg4-generic</rdf:li>
+			<rdf:li>x-asf-pf</rdf:li>
+		</rdf:Bag>
+		</pss5:StreamingAccept>
+	</rdf:Description>
+</prf:component> 
+
+  
+  	<!-- Browser information -->
+  	<prf:component>
+   	<rdf:Description rdf:ID="BrowserUA_pIE">
+   		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA" /> 
+    <prf:BrowserName>Internet Explorer Mobile</prf:BrowserName> 
+    <prf:BrowserVersion>6</prf:BrowserVersion>
+    <prf:FramesCapable>Yes</prf:FramesCapable> 
+    <prf:HtmlVersion>4.01</prf:HtmlVersion>
+    <prf:JavaAppletEnabled>No</prf:JavaAppletEnabled> 
+    <prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled> 	    
+    <prf:JavaScriptVersion>5.5</prf:JavaScriptVersion>
+    <prf:PreferenceForFrames>Yes</prf:PreferenceForFrames> 
+    <prf:TablesCapable>Yes</prf:TablesCapable>
+    <prf:XhtmlVersion>1.1</prf:XhtmlVersion> 
+    <prf:XhtmlModules>
+		<rdf:Bag>
+			<rdf:li>Structure Module</rdf:li> 
+			<rdf:li>Text Module</rdf:li> 
+			<rdf:li>Hypertext Module</rdf:li> 
+			<rdf:li>List Module</rdf:li> 
+			<rdf:li>Basic Forms Module</rdf:li> 
+			<rdf:li>Basic Tables Module</rdf:li> 
+			<rdf:li>Image Module</rdf:li> 
+			<rdf:li>Base Module</rdf:li> 
+			<rdf:li>Object Module</rdf:li> 
+			<rdf:li>Forms Module</rdf:li> 
+			<rdf:li>Metainformation Module</rdf:li> 
+			<rdf:li>Style Attribute Module</rdf:li> 
+			<rdf:li>Style Sheet Module</rdf:li> 
+			<rdf:li>Link Module</rdf:li> 
+			<rdf:li>Presentation Module</rdf:li>
+			<rdf:li>XHTML Intrinsic Events Module</rdf:li>
+			<rdf:li>XHTML Scripting Module</rdf:li> 
+		</rdf:Bag>
+	</prf:XhtmlModules>
+	</rdf:Description>
+	</prf:component>
+	
+	<prf:component>
+	<rdf:Description rdf:ID="BrowserUA_Opera">
+		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#BrowserUA" />
+	<prf:BrowserName>Opera</prf:BrowserName> 
+	<prf:BrowserVersion>9.5</prf:BrowserVersion> 
+	<prf:FramesCapable>Yes</prf:FramesCapable> 
+	<prf:TablesCapable>Yes</prf:TablesCapable> 
+	<prf:JavaAppletEnabled>No</prf:JavaAppletEnabled> 
+	<prf:JavaScriptEnabled>Yes</prf:JavaScriptEnabled> 
+	<prf:DownloadableBrowserApps>
+		<rdf:Bag>
+			<rdf:li>application/java-archive</rdf:li> 
+			<rdf:li>text/vnd.sun.j2me.app-descriptor</rdf:li> 
+		</rdf:Bag>
+	</prf:DownloadableBrowserApps>
+	<prf:HtmlVersion>4.01</prf:HtmlVersion>
+	<prf:JavaScriptVersion>1.5</prf:JavaScriptVersion>
+	<prf:PreferenceForFrames>Yes</prf:PreferenceForFrames> 
+	<prf:XhtmlVersion>1.1</prf:XhtmlVersion> 
+	<prf:XhtmlModules>
+		<rdf:Bag>
+			<rdf:li>Structure Module</rdf:li> 
+			<rdf:li>Text Module</rdf:li> 
+			<rdf:li>Hypertext Module</rdf:li> 
+			<rdf:li>List Module</rdf:li> 
+			<rdf:li>Basic Forms Module</rdf:li> 
+			<rdf:li>Basic Tables Module</rdf:li> 
+			<rdf:li>Image Module</rdf:li> 
+			<rdf:li>Base Module</rdf:li> 
+			<rdf:li>Object Module</rdf:li> 
+			<rdf:li>Forms Module</rdf:li> 
+			<rdf:li>Metainformation Module</rdf:li> 
+			<rdf:li>Style Attribute Module</rdf:li> 
+			<rdf:li>Style Sheet Module</rdf:li> 
+			<rdf:li>Link Module</rdf:li> 
+			<rdf:li>Presentation Module</rdf:li>
+			<rdf:li>XHTML Intrinsic Events Module</rdf:li>
+			<rdf:li>XHTML Scripting Module</rdf:li> 
+		</rdf:Bag>
+	</prf:XhtmlModules>
+  	</rdf:Description>
+    </prf:component>
+
+	<!-- Wap information -->
+  	<prf:component>
+   	<rdf:Description rdf:ID="WapCharacteristics">
+   		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#WapCharacteristics" /> 
+    <prf:WapDeviceClass>C</prf:WapDeviceClass> 
+    <prf:WapVersion>2.0</prf:WapVersion> 
+    <prf:WmlVersion>
+		<rdf:Bag>
+			<rdf:li>1.1</rdf:li> 
+			<rdf:li>1.2.1</rdf:li>
+		</rdf:Bag>
+    </prf:WmlVersion>
+    <prf:WmlDeckSize>3000</prf:WmlDeckSize> 
+    <prf:WmlScriptVersion>
+		<rdf:Bag>
+			<rdf:li>1.1</rdf:li> 
+			<rdf:li>1.2.1</rdf:li> 
+		</rdf:Bag>
+    </prf:WmlScriptVersion>
+    <prf:WmlScriptLibraries>
+		<rdf:Bag>
+			<rdf:li>Lang</rdf:li> 
+			<rdf:li>Float</rdf:li> 
+			<rdf:li>String</rdf:li> 
+			<rdf:li>URL</rdf:li> 
+			<rdf:li>WMLBrowser</rdf:li> 
+			<rdf:li>Dialog</rdf:li> 
+		</rdf:Bag>
+    </prf:WmlScriptLibraries>
+    <prf:WtaiLibraries>
+		<rdf:Bag>
+			<rdf:li>WTA.Public.makeCall</rdf:li>
+            <rdf:li>WTA.Public.sendDTMF</rdf:li>
+            <rdf:li>WTA.Public.addPBEntry</rdf:li>
+		</rdf:Bag>
+    </prf:WtaiLibraries>
+    <prf:WtaVersion>1.1</prf:WtaVersion>
+    <prf:DrmClass>
+		<rdf:Bag>
+			<rdf:li>ForwardLock</rdf:li> 
+			<rdf:li>CombinedDelivery</rdf:li>
+			<rdf:li>SeparateDelivery</rdf:li> 
+		</rdf:Bag>
+    </prf:DrmClass>
+    <prf:DrmConstraints>
+		<rdf:Bag>
+			<rdf:li>count</rdf:li>
+			<rdf:li>datetime</rdf:li> 
+			<rdf:li>interval</rdf:li> 
+		</rdf:Bag>
+    </prf:DrmConstraints>
+    <prf:OmaDownload>Yes</prf:OmaDownload> 
+	</rdf:Description>
+	</prf:component>
+
+	<!-- Push information -->
+	<prf:component>
+	<rdf:Description rdf:ID="PushCharacteristics">
+		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/UAPROF/ccppschema-20021212#PushCharacteristics"/>
+	<prf:Push-Accept>
+	<rdf:Bag>
+		<rdf:li>application/vnd.wap.sic</rdf:li>
+		<rdf:li>application/vnd.wap.slc</rdf:li>
+		<rdf:li>application/vnd.connectivity-wbxml</rdf:li>
+		<rdf:li>application/vnd.wap.coc</rdf:li>
+		<rdf:li>application/vnd.syncml.notification</rdf:li>
+		<rdf:li>application/vnd.oma.drm.rights+xml</rdf:li>
+		<rdf:li>application/vnd.oma.drm.rights+wbxml</rdf:li>
+		<rdf:li>application/vnd.wap.wbxml</rdf:li>
+	</rdf:Bag>
+    </prf:Push-Accept>
+    <prf:Push-Accept-Charset>
+		<rdf:Bag>
+			<rdf:li>US-ASCII</rdf:li> 
+		 	<rdf:li>UTF-8</rdf:li>
+		 	<rdf:li>UTF-16</rdf:li>
+		 	<rdf:li>ISO-10646-UCS-2</rdf:li> 
+		 	<rdf:li>ISO-8859-1</rdf:li>
+		</rdf:Bag>
+    </prf:Push-Accept-Charset>
+    <prf:Push-Accept-Encoding>
+		<rdf:Bag>
+			<rdf:li>None</rdf:li>
+		</rdf:Bag>
+    </prf:Push-Accept-Encoding>
+    <prf:Push-Accept-AppID>
+		<rdf:Bag>
+			<rdf:li>x-wap-application:wml.ua</rdf:li>
+			<rdf:li>x-wap-application:mms.ua</rdf:li>
+			<rdf:li>x-wap-application:syncml.dm</rdf:li>
+			<rdf:li>x-wap-application:drm.ua</rdf:li>
+			<rdf:li>x-wap-application:push.sia</rdf:li>
+		</rdf:Bag>
+    </prf:Push-Accept-AppID>
+   	</rdf:Description>
+  	</prf:component>
+  
+	<!-- MMS information -->
+ 	<prf:component>
+ 	<rdf:Description rdf:ID="MMSCharacteristics">
+  		<rdf:type rdf:resource="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2#MmsCharacteristics" /> 
+  	<mms:MmsMaxMessageSize>307200</mms:MmsMaxMessageSize> 
+  	<mms:MmsMaxImageResolution>1600x1600</mms:MmsMaxImageResolution> 
+ 	<mms:MmsCcppAccept>
+ 		<rdf:Bag>
+		  	<rdf:li>text/plain</rdf:li>
+			<rdf:li>text/x-vCalendar</rdf:li> 
+			<rdf:li>text/x-vCard</rdf:li> 
+			<rdf:li>application/vnd.wap.mms-message</rdf:li>
+			<rdf:li>application/smil</rdf:li>
+			<rdf:li>application/vnd.wap.multipart.related</rdf:li>
+			<rdf:li>application/vnd.wap.multipart.mixed</rdf:li>                   
+			<rdf:li>application/vnd.oma.drm.message</rdf:li>
+			<rdf:li>application/vnd.oma.drm.content</rdf:li>
+			<rdf:li>image/jpeg</rdf:li> 
+			<rdf:li>image/jpg</rdf:li> 
+			<rdf:li>image/gif</rdf:li> 
+			<rdf:li>image/png</rdf:li> 
+			<rdf:li>image/bmp</rdf:li> 
+			<rdf:li>image/x-bmp</rdf:li> 
+			<rdf:li>image/x-ms-bmp</rdf:li> 
+			<rdf:li>audio/x-wav</rdf:li>
+			<rdf:li>audio/wav</rdf:li>
+			<rdf:li>audio/aac</rdf:li>
+			<rdf:li>audio/amr</rdf:li> 
+			<rdf:li>audio/x-amr</rdf:li> 
+			<rdf:li>audio/mid</rdf:li> 
+			<rdf:li>audio/x-mid</rdf:li> 
+			<rdf:li>audio/midi</rdf:li> 
+			<rdf:li>audio/x-midi</rdf:li> 
+			<rdf:li>audio/sp-midi</rdf:li> 
+			<rdf:li>audio/3gpp</rdf:li>
+			<rdf:li>audio/mp3</rdf:li> 
+			<rdf:li>audio/mp4</rdf:li>
+			<rdf:li>audio/x-ms-wma</rdf:li> 
+			<rdf:li>video/3gp</rdf:li> 
+			<rdf:li>video/3gpp</rdf:li> 
+			<rdf:li>video/mp4</rdf:li>
+			<rdf:li>video/x-ms-wmv</rdf:li>
+		</rdf:Bag>
+	</mms:MmsCcppAccept>
+	<mms:MmsCcppAcceptCharSet>
+		<rdf:Bag>
+			<rdf:li>US-ASCII</rdf:li> 
+			<rdf:li>UTF-8</rdf:li>
+			<rdf:li>UTF-16</rdf:li>
+			<rdf:li>ISO-10646-UCS-2</rdf:li> 
+			<rdf:li>ISO-8859-1</rdf:li>
+		</rdf:Bag>
+	</mms:MmsCcppAcceptCharSet>
+	<mms:MmsVersion>
+		<rdf:Bag>
+			<rdf:li>1.2</rdf:li> 
+		</rdf:Bag>
+	</mms:MmsVersion>
+	</rdf:Description>
+	</prf:component>
+
+	</rdf:Description>
+</rdf:RDF>
